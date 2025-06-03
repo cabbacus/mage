@@ -1,0 +1,303 @@
+{
+  "slug": "home",
+  "link": "http://api.magemonkeys.loc/",
+  "status": "publish",
+  "type": "page",
+  "title": {
+    "rendered": "Mage monkeys"
+  },
+  "content": {
+    "rendered": "",
+    "protected": false
+  },
+  "acf": {
+    "heading_title": "Anything and <br>Everything <span>Magento</span>",
+    "sub_title": "One Stop eCommerce Solution Provider",
+    "cta_button": "Talk to us today",
+    "left_image": "/data/images/home/certificate_new.png",
+    "slider_repeater": [
+      {
+        "image": "/data/images/home/h3-2.jpg"
+      },
+      {
+        "image": "/data/images/home/h2-2.jpg"
+      },
+      {
+        "image": "/data/images/home/h4-2.jpg"
+      },
+      {
+        "image": "/data/images/home/h5-2.jpg"
+      }
+    ],
+    "middle_center_title": "What can we help you with?",
+    "work_repater": [
+      {
+        "title": "Magento Support & Maintenance",
+        "description": "<p>Here at Mage Monkeys, our team will test your business website for issues to ensure it is error-free, bug-free and glitch-free. Our team will update your eCommerce store regularly to ensure its efficiency and…</p>\n",
+        "image": "/data/images/home/new-stock-1.png",
+        "cta_link_button": {
+          "button_label": "Know more",
+          "button_link": "button_external_link",
+          "button_internal_link": null,
+          "button_external_link": "http://api.magemonkeys.loc/24-7-magento-critical-general-support/"
+        }
+      },
+      {
+        "title": "Magento Upgrade Service",
+        "description": "<p>Our team will regularly check for new version updates from Magento and include the same into your eCommerce store. This will help to improve the speed of your website and decrease the page load…</p>\n",
+        "image": "/data/images/home/Magento-upgrade.png",
+        "cta_link_button": {
+          "button_label": "Know more",
+          "button_link": "button_external_link",
+          "button_internal_link": null,
+          "button_external_link": "http://api.magemonkeys.loc/magento-upgrade-service/"
+        }
+      },
+      {
+        "title": "Conversion Optimisation",
+        "description": "<p>Our experts will work towards improving the conversion rate at your store by making enhancements in homepage, navigation, checkout page, and product pages. This will help to reduce cart abandonment rates to a greater…</p>\n",
+        "image": "/data/images/home/conversion-optimization.png",
+        "cta_link_button": {
+          "button_label": "Know more",
+          "button_link": "button_external_link",
+          "button_internal_link": null,
+          "button_external_link": "http://api.magemonkeys.loc/magento-performance-speed-optimization-services/"
+        }
+      },
+      {
+        "title": "New Store Development",
+        "description": "<p>Our experts will build highly responsive and user-friendly eCommerce stores that resonates well with your business idea. Right from consultation to planning, development to testing, our experts will take care of everything.</p>\n",
+        "image": "/data/images/home/magento_support.png",
+        "cta_link_button": {
+          "button_label": "Know more",
+          "button_link": "button_external_link",
+          "button_internal_link": null,
+          "button_external_link": "http://api.magemonkeys.loc/magento-ecommerce-store-development-service/"
+        }
+      }
+    ],
+    "title": "Why Mage Monkeys ?",
+    "inner_sub_title": "Cut down on complexity and get the job done simply.",
+    "job_process": [
+      {
+        "icon": "/data/images/home/experience.png",
+        "title": "Experience",
+        "sub_title": "<p>The experience of experts at Mage Monkeys who have put in their years of efforts to build varying eCommerce solutions for clients belonging to different industry niches is a plus point.</p>\n"
+      },
+      {
+        "icon": "/data/images/home/expertise.png",
+        "title": "Expertise",
+        "sub_title": "<p>Apart from the expertise gained from formal education, the passion of our experts to go for an extra mile to complete Magento development projects of varying nature is our bigger plus.</p>\n"
+      },
+      {
+        "icon": "/data/images/home/enterprise.png",
+        "title": "Enterprise",
+        "sub_title": "<p>Showing initiative, enterprise, and enthusiasm to find creative and innovative eCommerce solutions by exploring the scope of Magento is our biggest plus.</p>\n"
+      }
+    ],
+    "testimonials_title": "Video Testimonials",
+    "testimonials": [
+      {
+        "name": "Ime",
+        "image": "/data/images/home/Ime.png",
+        "video": "/data/images/home/WhatsApp-Video-2024-03-19-at-01.28.39_654407fc.mp4"
+      },
+      {
+        "name": "Greg",
+        "image": "/data/images/home/Video.jpg",
+        "video": "/data/images/home/WhatsApp-Video-2024-02-26-at-00.01.31_30de39b2.mp4"
+      },
+      {
+        "name": "Roberto",
+        "image": "/data/images/home/WhatsApp-Video-2024-02-16-at-19.37.18_725e3959.png",
+        "video": "/data/images/home/11WhatsApp-Video-2024-02-16-at-19.37.18_725e3959.mp4"
+      },
+      {
+        "name": "Josh simmons",
+        "image": "/data/images/home/Layer-1220.png",
+        "video": "/data/images/home/Josh-simmons.mp4"
+      },
+      {
+        "name": "Lauren",
+        "image": "/data/images/home/jpeg-optimizer_Screenshot-from-2023-04-19-19-46-17.png",
+        "video": "/data/images/home/wauren.mp4"
+      },
+      {
+        "name": "Fridrik",
+        "image": "/data/images/home/Fridrik-1.webp",
+        "video": "/data/images/home/video2.mp4"
+      },
+      {
+        "name": "jacques",
+        "image": "/data/images/home/ali.jpg",
+        "video": "/data/images/home/video3.mp4"
+      },
+      {
+        "name": "Ali Abbas",
+        "image": "/data/images/home/Jacques.webp",
+        "video": "/data/images/home/video1.mp4"
+      }
+    ]
+  },
+  "aioseo_notices": [],
+  "aioseo_head": "\n\t\t<!-- All in One SEO Pro 4.6.2 - aioseo.com -->\n\t\t<meta name=\"description\" content=\"Quality Magento development services. Our team of experts can help you with Magento eCommerce website development that&#039;s perfect for e-commerce Business\" />\n\t\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t\t<link rel=\"canonical\" href=\"http://api.magemonkeys.loc/\" />\n\t\t<meta name=\"generator\" content=\"All in One SEO Pro (AIOSEO) 4.6.2\" />\n\t\t<meta property=\"og:locale\" content=\"en_US\" />\n\t\t<meta property=\"og:site_name\" content=\"magemonkeys -\" />\n\t\t<meta property=\"og:type\" content=\"website\" />\n\t\t<meta property=\"og:title\" content=\"Magento eCommerce Website Development Services | Mage Monkeys\" />\n\t\t<meta property=\"og:description\" content=\"Quality Magento development services. Our team of experts can help you with Magento eCommerce website development that&#039;s perfect for e-commerce Business\" />\n\t\t<meta property=\"og:url\" content=\"http://api.magemonkeys.loc/\" />\n\t\t<meta name=\"twitter:card\" content=\"summary_large_image\" />\n\t\t<meta name=\"twitter:title\" content=\"Magento eCommerce Website Development Services | Mage Monkeys\" />\n\t\t<meta name=\"twitter:description\" content=\"Quality Magento development services. Our team of experts can help you with Magento eCommerce website development that&#039;s perfect for e-commerce Business\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#listItem\",\"position\":1,\"name\":\"Home\"}]},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#organization\",\"name\":\"magemonkeys\",\"url\":\"http:\\/\\/api.magemonkeys.loc\\/\"},{\"@type\":\"WebPage\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#webpage\",\"url\":\"http:\\/\\/api.magemonkeys.loc\\/\",\"name\":\"Magento eCommerce Website Development Services | Mage Monkeys\",\"description\":\"Quality Magento development services. Our team of experts can help you with Magento eCommerce website development that's perfect for e-commerce Business\",\"inLanguage\":\"en-US\",\"isPartOf\":{\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#website\"},\"breadcrumb\":{\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#breadcrumblist\"},\"datePublished\":\"2023-07-31T08:23:45+00:00\",\"dateModified\":\"2024-11-14T10:58:14+00:00\"},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#website\",\"url\":\"http:\\/\\/api.magemonkeys.loc\\/\",\"name\":\"magemonkeys\",\"inLanguage\":\"en-US\",\"publisher\":{\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#organization\"},\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"http:\\/\\/api.magemonkeys.loc\\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO Pro -->\r\n\t\t<title>Magento eCommerce Website Development Services | Mage Monkeys</title>\n\n",
+  "aioseo_head_json": {
+    "title": "Magento eCommerce Website Development Services | Mage Monkeys",
+    "description": "Quality Magento development services. Our team of experts can help you with Magento eCommerce website development that's perfect for e-commerce Business",
+    "canonical_url": "http://api.magemonkeys.loc/",
+    "robots": "max-image-preview:large",
+    "keywords": "",
+    "webmasterTools": {
+      "miscellaneous": ""
+    },
+    "og:locale": "en_US",
+    "og:site_name": "magemonkeys -",
+    "og:type": "website",
+    "og:title": "Magento eCommerce Website Development Services | Mage Monkeys",
+    "og:description": "Quality Magento development services. Our team of experts can help you with Magento eCommerce website development that's perfect for e-commerce Business",
+    "og:url": "http://api.magemonkeys.loc/",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Magento eCommerce Website Development Services | Mage Monkeys",
+    "twitter:description": "Quality Magento development services. Our team of experts can help you with Magento eCommerce website development that's perfect for e-commerce Business",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "http://api.magemonkeys.loc/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "http://api.magemonkeys.loc/#listItem",
+              "position": 1,
+              "name": "Home"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "http://api.magemonkeys.loc/#organization",
+          "name": "magemonkeys",
+          "url": "http://api.magemonkeys.loc/"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "http://api.magemonkeys.loc/#webpage",
+          "url": "http://api.magemonkeys.loc/",
+          "name": "Magento eCommerce Website Development Services | Mage Monkeys",
+          "description": "Quality Magento development services. Our team of experts can help you with Magento eCommerce website development that's perfect for e-commerce Business",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@id": "http://api.magemonkeys.loc/#website"
+          },
+          "breadcrumb": {
+            "@id": "http://api.magemonkeys.loc/#breadcrumblist"
+          },
+          "datePublished": "2023-07-31T08:23:45+00:00",
+          "dateModified": "2024-11-14T10:58:14+00:00"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "http://api.magemonkeys.loc/#website",
+          "url": "http://api.magemonkeys.loc/",
+          "name": "magemonkeys",
+          "inLanguage": "en-US",
+          "publisher": {
+            "@id": "http://api.magemonkeys.loc/#organization"
+          },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "http://api.magemonkeys.loc/?s={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        }
+      ]
+    }
+  },
+  "aioseo_meta_data": {
+    "post_id": "6",
+    "title": "Magento eCommerce Website Development Services | Mage Monkeys",
+    "description": "Quality Magento development services. Our team of experts can help you with Magento eCommerce website development that's perfect for e-commerce Business",
+    "keywords": "[]",
+    "keyphrases": "{\"focus\":{\"keyphrase\":\"\",\"score\":0,\"analysis\":{\"keyphraseInTitle\":{\"score\":0,\"maxScore\":9,\"error\":1}}},\"additional\":[]}",
+    "primary_term": null,
+    "canonical_url": null,
+    "og_title": null,
+    "og_description": null,
+    "og_object_type": "website",
+    "og_image_type": "default",
+    "og_image_url": null,
+    "og_image_width": null,
+    "og_image_height": null,
+    "og_image_custom_url": null,
+    "og_image_custom_fields": null,
+    "og_video": "",
+    "og_custom_url": null,
+    "og_article_section": null,
+    "og_article_tags": "[]",
+    "twitter_use_og": false,
+    "twitter_card": "default",
+    "twitter_image_type": "default",
+    "twitter_image_url": null,
+    "twitter_image_custom_url": null,
+    "twitter_image_custom_fields": null,
+    "twitter_title": null,
+    "twitter_description": null,
+    "schema": {
+      "blockGraphs": [],
+      "customGraphs": [],
+      "default": {
+        "data": {
+          "Article": [],
+          "Course": [],
+          "Dataset": [],
+          "FAQPage": [],
+          "Movie": [],
+          "Person": [],
+          "Product": [],
+          "Recipe": [],
+          "Service": [],
+          "SoftwareApplication": [],
+          "WebPage": []
+        },
+        "graphName": "WebPage",
+        "isEnabled": true
+      },
+      "graphs": []
+    },
+    "schema_type": "default",
+    "schema_type_options": null,
+    "pillar_content": false,
+    "robots_default": true,
+    "robots_noindex": false,
+    "robots_noarchive": false,
+    "robots_nosnippet": false,
+    "robots_nofollow": false,
+    "robots_noimageindex": false,
+    "robots_noodp": false,
+    "robots_notranslate": false,
+    "robots_max_snippet": "-1",
+    "robots_max_videopreview": "-1",
+    "robots_max_imagepreview": "large",
+    "priority": null,
+    "frequency": "default",
+    "local_seo": null,
+    "limit_modified_date": false,
+    "created": "2023-08-01 06:22:03",
+    "updated": "2024-11-14 11:03:26"
+  },
+  "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t<a href=\"http://api.magemonkeys.loc\" title=\"Home\">Home</a>\n</span><span class=\"aioseo-breadcrumb-separator\">&raquo;</span><span class=\"aioseo-breadcrumb\">\n\tMage monkeys\n</span></div>",
+  "aioseo_breadcrumb_json": [
+    {
+      "label": "Home",
+      "link": "http://api.magemonkeys.loc"
+    },
+    {
+      "label": "Mage monkeys",
+      "link": "http://api.magemonkeys.loc/"
+    }
+  ]
+}

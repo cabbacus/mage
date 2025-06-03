@@ -1,0 +1,32 @@
+.about-us {padding-bottom: 0px;}
+.get_started {padding: 50px 0px;}
+.get_started .get_started_desktopshow > h4 {font-size: 40px;line-height: 60px;font-weight: 700;color: #000000;margin-bottom: 0;text-align: center;}
+.get_started .get_started_desktopshow .worl-calc-main {background: #FF7232;display: grid;grid-template-columns: repeat(2,1fr);padding: 50px;border-radius: 40px;color: #fff;text-align: center;}
+.get_started .get_started_desktopshow .worl-calc-main li {position: relative;}
+.get_started .get_started_desktopshow .worl-calc-main li:not(:last-child, :nth-last-of-type(2)) {margin-bottom: 20px;padding-bottom: 20px;border-bottom: 1px solid rgba(255, 255, 255, 0.2);}
+.get_started .get_started_desktopshow .worl-calc-main li:nth-child(odd):after {position: absolute;content: "";right: 0;left: auto;height: 80%;width: 1px;color: #fff;background: #fff;top: 10%;opacity: 0.2;}
+.get_started .get_started_desktopshow .worl-calc-main img {max-height: 50px;height: 100%;width: auto;display: block;margin: 0 auto;}
+.get_started .get_started_desktopshow .worl-calc-main p {font-size: 16px;line-height: 50px;color: #fff;margin: 0;position: relative;font-family: 'Merriweather';}
+.get_started .get_started_desktopshow .worl-calc-main .numbers {font-size: 40px;font-weight: 700;line-height: 1;text-align: center;margin-bottom: 0;color: #fff;}
+
+.get_started .get-started-right .get-start-title {margin-bottom: 30px;}
+.get_started .get-started-right .get-start-title h4 {font-size: 40px;line-height: 60px;font-weight: 700;text-align: center;color: #000000;margin-bottom: 0px;}
+.get_started .get-started-right .get-start-title .form-tagline {font-family: 'Fira Sans';font-size: 16px;line-height: 24px;text-align: center;color: #FF0000;margin-bottom: 0px;}
+.get_started .get-started-right .get-start-title .form-tagline span {display: block;}
+.get_started .get-started-right .get-start-title h6 {padding-top: 20px;font-size: 18px;line-height: 36px;font-weight: 700;text-align: center;color: #424242;margin-bottom: 15px;}
+.get_started .get-started-right .get-start-title .mail-link p {font-family: 'Fira Sans';font-size: 24px;line-height: 50px;text-align: center;color: #FF8A00;margin-bottom: 0px;}
+.get_started .get-started-right .get-start-title .mail-link p a {color: #FF8A00;}
+.get_started .get-started-right .footer-form .row > div:not(:nth-last-of-type(1)) {margin-bottom: 40px;}
+.get_started .get-started-right .footer-form .form-control {border: 1px solid #00000065;color: #000;font-weight: 400;font-family: 'Fira Sans';font-size: 18px;padding: 15px 20px;width: 100%;border-radius: 4px;resize: none;}
+.get_started .get-started-right .footer-form .form-control::placeholder{color:rgba(0, 0, 0, 0.3);}
+.get_started .get-started-right .footer-form .form-control:not(textarea) {height: 60px;}
+.get_started .get-started-right .footer-form .row > div:last-child {display: flex;justify-content: center;}
+.get_started .get-started-right .footer-form .row > div:last-child button:hover {background-color: #000000;color: #FFFFFF;border-color: #000000;}
+.get_started .get-started-right .footer-form .row > div .phone-input-container input {padding-left: 40px;}
+.get_started .get-started-right .footer-form .row > div .phone-input-container .flag-dropdown {background: #FFFFFF;margin: 1px;border: none;}
+
+.get-startd-contact {padding: 50px 0;}
+.get-startd-contact .country-logo {margin-top: 20px;}
+.get-startd-contact .country-logo h5 {color: #FF8A00;margin-bottom: 50px;font-size: 30px;font-weight: 700;line-height: 45px;text-align: center;}
+.get-startd-contact .country-logo ul.logo_image {display: flex;flex-wrap: wrap;justify-content: center;}
+.get-startd-contact .country-logo ul.logo_image li {width: 147px;height: 147px;margin: 0 15px 20px;display: flex;align-items: center;justify-content: center;min-height: 60px;padding: 0 12px;border-radius: 220px;box-shadow: 0 1px 5px #d0d0d0;position: relative;}

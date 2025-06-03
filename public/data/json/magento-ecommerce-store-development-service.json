@@ -1,0 +1,263 @@
+{
+  "slug": "magento-ecommerce-store-development-service",
+  "link": "http://api.magemonkeys.loc/magento-ecommerce-store-development-service/",
+  "status": "publish",
+  "type": "page",
+  "title": {
+    "rendered": "New Store <span>Development</span>"
+  },
+  "content": {
+    "rendered": "",
+    "protected": false
+  },
+  "acf": {
+    "top_image": "/data/images/magento-ecommerce-store-development-service/certificate_new.png",
+    "service_repeater": [
+      {
+        "title": "Template/Theme Selection",
+        "description": "<p>Mage Monkeys brings a curated list of high-quality and professional Magento store themes that are completely in sync with your business needs and preferences. Our theme development &amp; customization service is handled by creative designers only.</p>\n"
+      },
+      {
+        "title": "Magento Implementation",
+        "description": "<p>We customize and implement Magento platform based on your business workflow. We work on the minutest detail to ensure excellent customer experience is guaranteed with our Magento UI/UX design, development, integration, and quality assurance.</p>\n"
+      },
+      {
+        "title": "Store Catalog Population",
+        "description": "<p>We help you populate product catalog easily. We help you upload product images, product details, size / attributes, etc.</p>\n"
+      },
+      {
+        "title": "Payment Gateway Integration",
+        "description": "<p>With Magento’s Payment Gateway Integration, your customers can make a payment for your products. We make it easy, quick and highly secure to help your customers stay loyal to your business.</p>\n"
+      },
+      {
+        "title": "Shipping Configuration",
+        "description": "<p>The right shipping options doubles the customer satisfaction ratio and drive more sales. With Magento, we bring you the ease to connect with your preferred shipping carriers and to showcase various shipping options with delivery dates based on your customers’ convenience.</p>\n"
+      },
+      {
+        "title": "Test and Go-live",
+        "description": "<p>Once the above steps are completed, we, along with you, test digital store from a technical and business point of view. Once we both agree, you go-live quickly.</p>\n"
+      },
+      {
+        "title": "Customize Your Catalogues & Drive More Business",
+        "description": "<p>With customized catalogues, cross-selling becomes a quick job for your eCommerce store that helps you boost your sales. In B2B, restricted catalog access is one the must have feature. We make it quite simple for you to add, modify and delete the catalogues as per your buyers’ needs and buying decisions.</p>\n"
+      },
+      {
+        "title": "Scalable & Robust System Integrations",
+        "description": "<p>Your digital commerce store needs integrations to ensure your products are saved appropriately and in a highly secured network. We integrate your B2B eCommerce solution with the secured &amp; reliable databases and other features that boost the digital experience of your customers.</p>\n"
+      }
+    ],
+    "content": "<p class=\"b2c mng_srv_abt\">Our experts will build highly responsive and user-friendly eCommerce stores that resonates well with your business idea. Right from consultation to planning, development to testing, our experts will take care of everything.</p>\n",
+    "case_studies_title": "Case Studies",
+    "case_studies": [
+      {
+        "title": "Vobe Interiors",
+        "description": "<p>Vobe Interiors offers an extensive range of stylish furniture and decor, catering to all areas of your home, including living, dining, bedroom, and outdoor spaces. They feature top brands and provide nationwide delivery. Their collections include sofas, tables, lighting, rugs, and more, with frequent sales and discounts. Visit their store in Carrick-on-Shannon or shop online for high-quality home furnishings that blend functionality and aesthetics.</p>\n",
+        "image": "/data/images/magento-ecommerce-store-development-service/vobe-Interiors.png"
+      },
+      {
+        "title": "Pacific Packaging",
+        "description": "<p>Pacific Packaging Australia is a leading supplier of industrial packaging solutions, including woven polypropylene bags, bulk bags, and garden waste bags. They offer a wide range of high-quality products designed to meet diverse industry needs. As an ISO 9001:2015 certified company, they ensure top-notch quality and competitive prices, backed by a price beat guarantee. With fast, nationwide shipping and a family-owned approach, Pacific Packaging Australia delivers reliable and efficient packaging solutions.</p>\n",
+        "image": "/data/images/magento-ecommerce-store-development-service/pacific_packaging.png"
+      },
+      {
+        "title": "Parts4cells",
+        "description": "<p>Parts4Cells.com is a reliable and trusted B2B online source for a wide range of high-quality cell phone replacement parts and accessories. They offer an extensive selection of parts for various cell phone models, including LCD screens, batteries, charging ports, and more. Their products are carefully selected and tested to ensure their quality and compatibility, and they provide fast and affordable shipping.</p>\n",
+        "image": "/data/images/magento-ecommerce-store-development-service/parts4cells.jpg"
+      },
+      {
+        "title": "Thiings",
+        "description": "<p>Thiings is a UK-based home décor store selling antique to contemporary styled products. They have a wide product range that combines of furniture, rugs, paintings, photographs, mirrors, ceramics, decorative items, and patio furniture. The store was launched by a dealer for makers and other dealers out there in the market. The store was launched with the aim to support independent and local businesses. It made it easy for the choosy shoppers to find what they are looking for with ease.</p>\n",
+        "image": "/data/images/magento-ecommerce-store-development-service/things.jpg"
+      },
+      {
+        "title": "EPCO",
+        "description": "<p>Since its establishment in 1994, EPCO has become a major provider of high-quality PVC &amp; ABS thermoplastic piping. EPCO wanted to increase their reach to the market and decided to revamp their ecommerce website, EPCO approached us to revamp ecommerce portal that facilitate them to make a reach of their product.</p>\n",
+        "image": "/data/images/magento-ecommerce-store-development-service/epco.jpg"
+      },
+      {
+        "title": "Karoe",
+        "description": "<p>Karoe.nl is a leading on stop shop for the hunter, angler and outdoorsman to buy stylish outdoor clothing, articles and shoes. Karoe.nl is a dealer of the quality brands like Härkila, Seeland, Sasta, Swedteam and Deerhunter. Karoe.nl sale products physically through their branches and with partners in the Netherlands, Belgium, Germany and Scandinavia. Karoe.nl wants to extend their customer reach through the digitally and decided to sell their products online. Karoe.nl having an idea of their need, which wasn’t that big of a deal for our team. We started understanding the loopholes. After having a deep understanding and analysis of the same, the team started exploring the future scope. Once the team had challenges handy, time was to find and implement the solution. We have successfully managed to achieve a full-functional ecommerce site with flawless coding &amp; beautiful theme and delivered as expected by the client. A few key considerations included building a mobile centric design, adding stars to responsiveness and custom work performed for homepage, product categorisation, product listing page, product detail page, single checkout page to enhanced customer experience and dashboard page for getting quick view of the site.</p>\n",
+        "image": "/data/images/magento-ecommerce-store-development-service/karoe.jpg"
+      },
+      {
+        "title": "Surplus Industrial Supply",
+        "description": "<p>Surplus Industrial Supply has been serving customers for over 25 years. Our goal is to provide customers with quality used equipment, dependable service, and competitive prices. Over the years, we have proven to be a valuable resource to businesses, both large and small, to help liquidate surplus inventories of equipment for cash, as well as to offer a cost-effective source for purchasing electrical, industrial, and material handling supplies and equipment.Our 40,000 sq.ft. the warehouse offers a hugely diversified inventory…from small electrical components to larger manufacturing machinery and industrial equipment.</p>\n",
+        "image": "/data/images/magento-ecommerce-store-development-service/surplus.jpg"
+      },
+      {
+        "title": "Imedicale",
+        "description": "<p>iMedicale Store was created to become one of the most important online distributors of professional medical products and medical equipment in Romania. Our company takes into account the needs of our clients and aims to offer them complete services of the best quality: Distribution of medical supplies, disinfectants and medical equipment for medical offices, medical clinics, hospitals and individuals. Specialized technical assistance and advice for all commercialized products. Providing a very wide range of products for each category.</p>\n",
+        "image": "/data/images/magento-ecommerce-store-development-service/imedicale.jpg"
+      },
+      {
+        "title": "IMWW.nl",
+        "description": "<p>IMWW.nl, a leading distributor of industrial equipment, sought to revamp its online presence with a new website to enhance user experience and boost sales. Mage Monkeys stepped in with their expertise in Magento development, crafting a robust e-commerce platform tailored to IMWW.nl&#8217;s needs. Implementing Huva, a sophisticated theme, Mage Monkeys ensured seamless navigation and aesthetic appeal. The result: a 30% increase in online orders within the first quarter, improved customer engagement, and streamlined backend operations. IMWW.nl now stands as a testament to Mage Monkeys&#8217; prowess in elevating e-commerce solutions for industrial sectors.</p>\n",
+        "image": "/data/images/magento-ecommerce-store-development-service/imww.png"
+      }
+    ]
+  },
+  "aioseo_notices": [],
+  "aioseo_head": "\n\t\t<!-- All in One SEO Pro 4.6.2 - aioseo.com -->\n\t\t<meta name=\"description\" content=\"The best Magento new eCommerce Store Development Company. Offering Customized Magento Themes for your online business store\" />\n\t\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t\t<link rel=\"canonical\" href=\"http://api.magemonkeys.loc/magento-ecommerce-store-development-service/\" />\n\t\t<meta name=\"generator\" content=\"All in One SEO Pro (AIOSEO) 4.6.2\" />\n\t\t<meta property=\"og:locale\" content=\"en_US\" />\n\t\t<meta property=\"og:site_name\" content=\"magemonkeys -\" />\n\t\t<meta property=\"og:type\" content=\"article\" />\n\t\t<meta property=\"og:title\" content=\"Magento New eCommerce Store Development Service\" />\n\t\t<meta property=\"og:description\" content=\"The best Magento new eCommerce Store Development Company. Offering Customized Magento Themes for your online business store\" />\n\t\t<meta property=\"og:url\" content=\"http://api.magemonkeys.loc/magento-ecommerce-store-development-service/\" />\n\t\t<meta property=\"article:published_time\" content=\"2023-08-04T10:32:29+00:00\" />\n\t\t<meta property=\"article:modified_time\" content=\"2024-11-14T11:06:46+00:00\" />\n\t\t<meta name=\"twitter:card\" content=\"summary_large_image\" />\n\t\t<meta name=\"twitter:title\" content=\"Magento New eCommerce Store Development Service\" />\n\t\t<meta name=\"twitter:description\" content=\"The best Magento new eCommerce Store Development Company. Offering Customized Magento Themes for your online business store\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-ecommerce-store-development-service\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"http:\\/\\/api.magemonkeys.loc\\/\",\"nextItem\":\"http:\\/\\/api.magemonkeys.loc\\/magento-ecommerce-store-development-service\\/#listItem\"},{\"@type\":\"ListItem\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-ecommerce-store-development-service\\/#listItem\",\"position\":2,\"name\":\"New Store Development\",\"previousItem\":\"http:\\/\\/api.magemonkeys.loc\\/#listItem\"}]},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#organization\",\"name\":\"magemonkeys\",\"url\":\"http:\\/\\/api.magemonkeys.loc\\/\"},{\"@type\":\"WebPage\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-ecommerce-store-development-service\\/#webpage\",\"url\":\"http:\\/\\/api.magemonkeys.loc\\/magento-ecommerce-store-development-service\\/\",\"name\":\"Magento New eCommerce Store Development Service\",\"description\":\"The best Magento new eCommerce Store Development Company. Offering Customized Magento Themes for your online business store\",\"inLanguage\":\"en-US\",\"isPartOf\":{\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#website\"},\"breadcrumb\":{\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-ecommerce-store-development-service\\/#breadcrumblist\"},\"datePublished\":\"2023-08-04T10:32:29+00:00\",\"dateModified\":\"2024-11-14T11:06:46+00:00\"},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#website\",\"url\":\"http:\\/\\/api.magemonkeys.loc\\/\",\"name\":\"magemonkeys\",\"inLanguage\":\"en-US\",\"publisher\":{\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO Pro -->\r\n\t\t<title>Magento New eCommerce Store Development Service</title>\n\n",
+  "aioseo_head_json": {
+    "title": "Magento New eCommerce Store Development Service",
+    "description": "The best Magento new eCommerce Store Development Company. Offering Customized Magento Themes for your online business store",
+    "canonical_url": "http://api.magemonkeys.loc/magento-ecommerce-store-development-service/",
+    "robots": "max-image-preview:large",
+    "keywords": "",
+    "webmasterTools": {
+      "miscellaneous": ""
+    },
+    "og:locale": "en_US",
+    "og:site_name": "magemonkeys -",
+    "og:type": "article",
+    "og:title": "Magento New eCommerce Store Development Service",
+    "og:description": "The best Magento new eCommerce Store Development Company. Offering Customized Magento Themes for your online business store",
+    "og:url": "http://api.magemonkeys.loc/magento-ecommerce-store-development-service/",
+    "article:published_time": "2023-08-04T10:32:29+00:00",
+    "article:modified_time": "2024-11-14T11:06:46+00:00",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Magento New eCommerce Store Development Service",
+    "twitter:description": "The best Magento new eCommerce Store Development Company. Offering Customized Magento Themes for your online business store",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "http://api.magemonkeys.loc/magento-ecommerce-store-development-service/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "http://api.magemonkeys.loc/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "http://api.magemonkeys.loc/",
+              "nextItem": "http://api.magemonkeys.loc/magento-ecommerce-store-development-service/#listItem"
+            },
+            {
+              "@type": "ListItem",
+              "@id": "http://api.magemonkeys.loc/magento-ecommerce-store-development-service/#listItem",
+              "position": 2,
+              "name": "New Store Development",
+              "previousItem": "http://api.magemonkeys.loc/#listItem"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "http://api.magemonkeys.loc/#organization",
+          "name": "magemonkeys",
+          "url": "http://api.magemonkeys.loc/"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "http://api.magemonkeys.loc/magento-ecommerce-store-development-service/#webpage",
+          "url": "http://api.magemonkeys.loc/magento-ecommerce-store-development-service/",
+          "name": "Magento New eCommerce Store Development Service",
+          "description": "The best Magento new eCommerce Store Development Company. Offering Customized Magento Themes for your online business store",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@id": "http://api.magemonkeys.loc/#website"
+          },
+          "breadcrumb": {
+            "@id": "http://api.magemonkeys.loc/magento-ecommerce-store-development-service/#breadcrumblist"
+          },
+          "datePublished": "2023-08-04T10:32:29+00:00",
+          "dateModified": "2024-11-14T11:06:46+00:00"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "http://api.magemonkeys.loc/#website",
+          "url": "http://api.magemonkeys.loc/",
+          "name": "magemonkeys",
+          "inLanguage": "en-US",
+          "publisher": {
+            "@id": "http://api.magemonkeys.loc/#organization"
+          }
+        }
+      ]
+    }
+  },
+  "aioseo_meta_data": {
+    "post_id": "204",
+    "title": "Magento New eCommerce Store Development Service",
+    "description": "The best Magento new eCommerce Store Development Company. Offering Customized Magento Themes for your online business store",
+    "keywords": "[]",
+    "keyphrases": "{\"focus\":{\"keyphrase\":\"\",\"score\":0,\"analysis\":{\"keyphraseInTitle\":{\"score\":0,\"maxScore\":9,\"error\":1}}},\"additional\":[]}",
+    "primary_term": null,
+    "canonical_url": null,
+    "og_title": null,
+    "og_description": null,
+    "og_object_type": "default",
+    "og_image_type": "default",
+    "og_image_url": null,
+    "og_image_width": null,
+    "og_image_height": null,
+    "og_image_custom_url": null,
+    "og_image_custom_fields": null,
+    "og_video": "",
+    "og_custom_url": null,
+    "og_article_section": null,
+    "og_article_tags": "[]",
+    "twitter_use_og": false,
+    "twitter_card": "default",
+    "twitter_image_type": "default",
+    "twitter_image_url": null,
+    "twitter_image_custom_url": null,
+    "twitter_image_custom_fields": null,
+    "twitter_title": null,
+    "twitter_description": null,
+    "schema": {
+      "blockGraphs": [],
+      "customGraphs": [],
+      "default": {
+        "data": {
+          "Article": [],
+          "Course": [],
+          "Dataset": [],
+          "FAQPage": [],
+          "Movie": [],
+          "Person": [],
+          "Product": [],
+          "Recipe": [],
+          "Service": [],
+          "SoftwareApplication": [],
+          "WebPage": []
+        },
+        "graphName": "WebPage",
+        "isEnabled": true
+      },
+      "graphs": []
+    },
+    "schema_type": "default",
+    "schema_type_options": null,
+    "pillar_content": false,
+    "robots_default": true,
+    "robots_noindex": false,
+    "robots_noarchive": false,
+    "robots_nosnippet": false,
+    "robots_nofollow": false,
+    "robots_noimageindex": false,
+    "robots_noodp": false,
+    "robots_notranslate": false,
+    "robots_max_snippet": "-1",
+    "robots_max_videopreview": "-1",
+    "robots_max_imagepreview": "large",
+    "priority": null,
+    "frequency": "default",
+    "local_seo": null,
+    "limit_modified_date": false,
+    "created": "2023-08-04 10:32:29",
+    "updated": "2024-11-14 11:19:32"
+  },
+  "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t<a href=\"http://api.magemonkeys.loc\" title=\"Home\">Home</a>\n</span><span class=\"aioseo-breadcrumb-separator\">&raquo;</span><span class=\"aioseo-breadcrumb\">\n\t&lt;a href=&quot;http://api.magemonkeys.loc/magento-ecommerce-store-development-service/&quot; title=&quot;New Store <span>Development</span>\"&gt;New Store <span>Development</span>\n</span></div>",
+  "aioseo_breadcrumb_json": [
+    {
+      "label": "Home",
+      "link": "http://api.magemonkeys.loc"
+    },
+    {
+      "label": "New Store <span>Development</span>",
+      "link": "http://api.magemonkeys.loc/magento-ecommerce-store-development-service/"
+    }
+  ]
+}

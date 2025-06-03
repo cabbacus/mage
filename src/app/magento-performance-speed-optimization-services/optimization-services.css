@@ -1,0 +1,21 @@
+.about-us {padding-bottom: 0px;}
+
+.optimization-services {padding: 65px 0 70px;background-color: #FAFAFA;}
+.optimization-services .optimization-services-desc {max-width: 1334px;width: 100%;margin: 0 auto;}
+.optimization-services .optimization-services-desc p {margin-block: 50px 0px;font-family: 'Merriweather';font-size: 24px;line-height: 50px;color: #000000;}
+.optimization-services .b2c {margin: 60px 0px;font-size: 40px;line-height: 60px;text-align: center;font-weight: 700;}
+.optimization-services .list-style ul li {font-size: 24px;font-family: 'Fira Sans'; line-height: 50px;color: #000000;position: relative;padding-left: 30px;flex-wrap: wrap;align-items: baseline;background: transparent;}
+.optimization-services .list-style ul li:before {content: "";border: 3px solid #FF6600;width: 11px;height: 11px;position: absolute;z-index: 9;transform: rotate(45deg);border-left: none;border-bottom: none;left: -5px;top: 20px;}
+
+.services-sec {padding: 60px 0px 50px 0px;}
+.services-sec .container {max-width: 1394px;width: 100%;margin: 0 auto;}
+.services-sec .partition-column .managed_upgrade_content {background-color: #FAFAFA;padding: 50px 40px 47px;margin-bottom: 20px;}
+.services-sec .partition-column .managed_upgrade_content h4 {color: #FF6600;margin-bottom: 30px;font-size: 40px;line-height: 60px;font-weight: 700;}
+.services-sec .partition-column .managed_upgrade_content ul {padding-left: 20px;margin-bottom: 20px;}
+.services-sec .partition-column .managed_upgrade_content ul li {position: relative;display: flex;align-items: center;}
+.services-sec .partition-column .managed_upgrade_content ul li {list-style: none;font-family: 'Fira Sans';line-height: 36px;font-size: 20px;color: #666;margin-bottom: 10px;}
+.services-sec .partition-column .managed_upgrade_content ul li:before {content: "";width: 5px;height: 5px;background-color: #f60;display: inline-block;align-items: center;border-radius: 18px;position: absolute;left: -20px;top: 16px;}
+
+.tag-line {max-width: 1118px;margin: 0 auto;padding: 20px 0 30px;}
+.tag-content {background-color: #313131;padding: 33px 50px;}
+.tag-content p {max-width: 890px;margin: 0 auto;font-family: 'Merriweather';font-weight: 700;text-align: center;line-height: 30px;font-size: 20px;color: #FFFFFF;}

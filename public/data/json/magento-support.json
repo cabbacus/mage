@@ -1,0 +1,279 @@
+{
+  "slug": "magento-support",
+  "link": "http://api.magemonkeys.loc/magento-support/",
+  "status": "publish",
+  "type": "page",
+  "title": {
+    "rendered": "Magento Support"
+  },
+  "content": {
+    "rendered": "",
+    "protected": false
+  },
+  "acf": {
+    "page_title": "Magento <span>Support</span>",
+    "top_image": "/data/images/magento-support/mage_certificates.png",
+    "top_description": "<p>Mage Monkeys is a leading Magento development company offering reliable support and maintenance services to help business clients keep their eCommerce stores performing at their best. Right from version updates, to adding a new feature or an extension, resolving bugs to releasing new security patches, our team of Magento experts will cover everything for you. We follow best practices and make use of the right tools to get better insights for eCommerce site improvements.</p>\n",
+    "support_title": "Now manage your eCommerce store with our Magento <br><span> support services</span>",
+    "services": [
+      {
+        "title": "Magento Optimization Services",
+        "description": "<p>When it comes to auditing your Magento store, Magento performance optimization has an essential role to play. Our team of certified experts makes sure to deliver the best results for…</p>\n",
+        "image": "/data/images/magento-support/support_ser1-1.png",
+        "know_more_cta_button": {
+          "button_label": "Know more",
+          "button_link": "button_internal_link",
+          "button_internal_link": "http://api.magemonkeys.loc/magento-performance-speed-optimization-services/",
+          "button_external_link": ""
+        },
+        "lets_connect_label": "Let's Discuss"
+      },
+      {
+        "title": "Magento API Integration Services",
+        "description": "<p>Magento Rest API is a part of Magento Enterprise and Community edition which helps to integrate business applications and make them reliable and secure. Mage Monkeys can undertake Magento REST API Integration with your business seamlessly and get you the desired results&#8230;</p>\n",
+        "image": "/data/images/magento-support/support_ser2.png",
+        "know_more_cta_button": {
+          "button_label": "Know more",
+          "button_link": "button_internal_link",
+          "button_internal_link": "http://api.magemonkeys.loc/magento-performance-speed-optimization-services/",
+          "button_external_link": ""
+        },
+        "lets_connect_label": "Let's Discuss"
+      },
+      {
+        "title": "Migrate Enterprise To Community",
+        "description": "<p>Unlike upgradation, downgrading is not smooth, rather it is complex. You require technical expertise and experience to carry out the downgrading process. Mage Monkeys ensures that the downgrading process is…</p>\n",
+        "image": "/data/images/magento-support/support_ser3.png",
+        "know_more_cta_button": {
+          "button_label": "Know more",
+          "button_link": "button_internal_link",
+          "button_internal_link": "http://api.magemonkeys.loc/magento-performance-speed-optimization-services/",
+          "button_external_link": ""
+        },
+        "lets_connect_label": "Let's Discuss"
+      },
+      {
+        "title": "Magento Debugging Service - Magento Troubleshooting Services",
+        "description": "<p>Errors and issues are always there, you need an expert to fix those and ensure that they do not arise again. Is your Magento store facing a slow down issue?…</p>\n",
+        "image": "/data/images/magento-support/support_ser4.png",
+        "know_more_cta_button": {
+          "button_label": "Know more",
+          "button_link": "button_internal_link",
+          "button_internal_link": "http://api.magemonkeys.loc/magento-performance-speed-optimization-services/",
+          "button_external_link": ""
+        },
+        "lets_connect_label": "Let's Discuss"
+      }
+    ],
+    "plan_title": "Support plans",
+    "plan_sub_title": "From just a few hours per month, to more comprehensive plans, we have plans that will work for you! Contact one of our experts today and let us help determine which program is right for you.",
+    "hourly_plan": [
+      {
+        "title": "<b>40</b> hrs p/m",
+        "cta_button": "GET STARTED"
+      },
+      {
+        "title": "<b>80</b>hrs p/m",
+        "cta_button": "GET STARTED"
+      },
+      {
+        "title": "<b>160</b> hrs p/m",
+        "cta_button": "GET STARTED"
+      }
+    ],
+    "key_benefits_title": "Key benefits of choosing a plan with us",
+    "benifits_list": [
+      {
+        "title": "Emergency Suport"
+      },
+      {
+        "title": "Rapid Issue Response"
+      },
+      {
+        "title": "Issue & Project Tracking System"
+      },
+      {
+        "title": "Support for M1 and M2"
+      },
+      {
+        "title": "24/7 hardware and software monitoring"
+      },
+      {
+        "title": "Event-triggered alerts and notifications"
+      },
+      {
+        "title": "Support Requests"
+      },
+      {
+        "title": "Dedicated Project Manager"
+      },
+      {
+        "title": "QA team"
+      }
+    ]
+  },
+  "aioseo_notices": [],
+  "aioseo_head": "\n\t\t<!-- All in One SEO Pro 4.6.2 - aioseo.com -->\n\t\t<meta name=\"description\" content=\"Mage Monkeys provides the best Magento support and maintenance services. We offer continuous excellence in delivering top-quality work. Check our Magento Support Packages.\" />\n\t\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t\t<link rel=\"canonical\" href=\"http://api.magemonkeys.loc/magento-support/\" />\n\t\t<meta name=\"generator\" content=\"All in One SEO Pro (AIOSEO) 4.6.2\" />\n\t\t<meta property=\"og:locale\" content=\"en_US\" />\n\t\t<meta property=\"og:site_name\" content=\"magemonkeys -\" />\n\t\t<meta property=\"og:type\" content=\"article\" />\n\t\t<meta property=\"og:title\" content=\"Magento Support Service | Magento Maintenance Service for Website\" />\n\t\t<meta property=\"og:description\" content=\"Mage Monkeys provides the best Magento support and maintenance services. We offer continuous excellence in delivering top-quality work. Check our Magento Support Packages.\" />\n\t\t<meta property=\"og:url\" content=\"http://api.magemonkeys.loc/magento-support/\" />\n\t\t<meta property=\"article:published_time\" content=\"2023-08-08T13:04:59+00:00\" />\n\t\t<meta property=\"article:modified_time\" content=\"2023-09-05T07:58:20+00:00\" />\n\t\t<meta name=\"twitter:card\" content=\"summary_large_image\" />\n\t\t<meta name=\"twitter:title\" content=\"Magento Support Service | Magento Maintenance Service for Website\" />\n\t\t<meta name=\"twitter:description\" content=\"Mage Monkeys provides the best Magento support and maintenance services. We offer continuous excellence in delivering top-quality work. Check our Magento Support Packages.\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-support\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"http:\\/\\/api.magemonkeys.loc\\/\",\"nextItem\":\"http:\\/\\/api.magemonkeys.loc\\/magento-support\\/#listItem\"},{\"@type\":\"ListItem\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-support\\/#listItem\",\"position\":2,\"name\":\"Magento Support\",\"previousItem\":\"http:\\/\\/api.magemonkeys.loc\\/#listItem\"}]},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#organization\",\"name\":\"magemonkeys\",\"url\":\"http:\\/\\/api.magemonkeys.loc\\/\"},{\"@type\":\"WebPage\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-support\\/#webpage\",\"url\":\"http:\\/\\/api.magemonkeys.loc\\/magento-support\\/\",\"name\":\"Magento Support Service | Magento Maintenance Service for Website\",\"description\":\"Mage Monkeys provides the best Magento support and maintenance services. We offer continuous excellence in delivering top-quality work. Check our Magento Support Packages.\",\"inLanguage\":\"en-US\",\"isPartOf\":{\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#website\"},\"breadcrumb\":{\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-support\\/#breadcrumblist\"},\"datePublished\":\"2023-08-08T13:04:59+00:00\",\"dateModified\":\"2023-09-05T07:58:20+00:00\"},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#website\",\"url\":\"http:\\/\\/api.magemonkeys.loc\\/\",\"name\":\"magemonkeys\",\"inLanguage\":\"en-US\",\"publisher\":{\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO Pro -->\r\n\t\t<title>Magento Support Service | Magento Maintenance Service for Website</title>\n\n",
+  "aioseo_head_json": {
+    "title": "Magento Support Service | Magento Maintenance Service for Website",
+    "description": "Mage Monkeys provides the best Magento support and maintenance services. We offer continuous excellence in delivering top-quality work. Check our Magento Support Packages.",
+    "canonical_url": "http://api.magemonkeys.loc/magento-support/",
+    "robots": "max-image-preview:large",
+    "keywords": "",
+    "webmasterTools": {
+      "miscellaneous": ""
+    },
+    "og:locale": "en_US",
+    "og:site_name": "magemonkeys -",
+    "og:type": "article",
+    "og:title": "Magento Support Service | Magento Maintenance Service for Website",
+    "og:description": "Mage Monkeys provides the best Magento support and maintenance services. We offer continuous excellence in delivering top-quality work. Check our Magento Support Packages.",
+    "og:url": "http://api.magemonkeys.loc/magento-support/",
+    "article:published_time": "2023-08-08T13:04:59+00:00",
+    "article:modified_time": "2023-09-05T07:58:20+00:00",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Magento Support Service | Magento Maintenance Service for Website",
+    "twitter:description": "Mage Monkeys provides the best Magento support and maintenance services. We offer continuous excellence in delivering top-quality work. Check our Magento Support Packages.",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "http://api.magemonkeys.loc/magento-support/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "http://api.magemonkeys.loc/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "http://api.magemonkeys.loc/",
+              "nextItem": "http://api.magemonkeys.loc/magento-support/#listItem"
+            },
+            {
+              "@type": "ListItem",
+              "@id": "http://api.magemonkeys.loc/magento-support/#listItem",
+              "position": 2,
+              "name": "Magento Support",
+              "previousItem": "http://api.magemonkeys.loc/#listItem"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "http://api.magemonkeys.loc/#organization",
+          "name": "magemonkeys",
+          "url": "http://api.magemonkeys.loc/"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "http://api.magemonkeys.loc/magento-support/#webpage",
+          "url": "http://api.magemonkeys.loc/magento-support/",
+          "name": "Magento Support Service | Magento Maintenance Service for Website",
+          "description": "Mage Monkeys provides the best Magento support and maintenance services. We offer continuous excellence in delivering top-quality work. Check our Magento Support Packages.",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@id": "http://api.magemonkeys.loc/#website"
+          },
+          "breadcrumb": {
+            "@id": "http://api.magemonkeys.loc/magento-support/#breadcrumblist"
+          },
+          "datePublished": "2023-08-08T13:04:59+00:00",
+          "dateModified": "2023-09-05T07:58:20+00:00"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "http://api.magemonkeys.loc/#website",
+          "url": "http://api.magemonkeys.loc/",
+          "name": "magemonkeys",
+          "inLanguage": "en-US",
+          "publisher": {
+            "@id": "http://api.magemonkeys.loc/#organization"
+          }
+        }
+      ]
+    }
+  },
+  "aioseo_meta_data": {
+    "post_id": "506",
+    "title": "Magento Support Service | Magento Maintenance Service for Website",
+    "description": "Mage Monkeys provides the best Magento support and maintenance services. We offer continuous excellence in delivering top-quality work. Check our Magento Support Packages.",
+    "keywords": "[]",
+    "keyphrases": "{\"focus\":{\"keyphrase\":\"\",\"score\":0,\"analysis\":{\"keyphraseInTitle\":{\"score\":0,\"maxScore\":9,\"error\":1}}},\"additional\":[]}",
+    "primary_term": null,
+    "canonical_url": null,
+    "og_title": null,
+    "og_description": null,
+    "og_object_type": "default",
+    "og_image_type": "default",
+    "og_image_url": null,
+    "og_image_width": null,
+    "og_image_height": null,
+    "og_image_custom_url": null,
+    "og_image_custom_fields": null,
+    "og_video": "",
+    "og_custom_url": null,
+    "og_article_section": null,
+    "og_article_tags": "[]",
+    "twitter_use_og": false,
+    "twitter_card": "default",
+    "twitter_image_type": "default",
+    "twitter_image_url": null,
+    "twitter_image_custom_url": null,
+    "twitter_image_custom_fields": null,
+    "twitter_title": null,
+    "twitter_description": null,
+    "schema": {
+      "blockGraphs": [],
+      "customGraphs": [],
+      "default": {
+        "data": {
+          "Article": [],
+          "Course": [],
+          "Dataset": [],
+          "FAQPage": [],
+          "Movie": [],
+          "Person": [],
+          "Product": [],
+          "Recipe": [],
+          "Service": [],
+          "SoftwareApplication": [],
+          "WebPage": []
+        },
+        "graphName": "WebPage",
+        "isEnabled": true
+      },
+      "graphs": []
+    },
+    "schema_type": "default",
+    "schema_type_options": null,
+    "pillar_content": false,
+    "robots_default": true,
+    "robots_noindex": false,
+    "robots_noarchive": false,
+    "robots_nosnippet": false,
+    "robots_nofollow": false,
+    "robots_noimageindex": false,
+    "robots_noodp": false,
+    "robots_notranslate": false,
+    "robots_max_snippet": "-1",
+    "robots_max_videopreview": "-1",
+    "robots_max_imagepreview": "large",
+    "priority": null,
+    "frequency": "default",
+    "local_seo": null,
+    "limit_modified_date": false,
+    "created": "2023-08-08 13:04:59",
+    "updated": "2023-09-05 07:58:25"
+  },
+  "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t<a href=\"http://api.magemonkeys.loc\" title=\"Home\">Home</a>\n</span><span class=\"aioseo-breadcrumb-separator\">&raquo;</span><span class=\"aioseo-breadcrumb\">\n\tMagento Support\n</span></div>",
+  "aioseo_breadcrumb_json": [
+    {
+      "label": "Home",
+      "link": "http://api.magemonkeys.loc"
+    },
+    {
+      "label": "Magento Support",
+      "link": "http://api.magemonkeys.loc/magento-support/"
+    }
+  ]
+}

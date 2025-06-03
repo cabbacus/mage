@@ -1,0 +1,21 @@
+.migrate-to-magento {margin: 174px 0px 130px 0px;padding: 0px 0px;}
+.highlights-steps h4 {font-size: 40px;font-weight: 700;text-align: center;line-height: 60px;margin-bottom: 30px;}
+.upgrade_process {padding-left: 25px;margin-bottom: 75px;}
+.upgrade_process li {font-family: 'Fira Sans';font-size: 24px;list-style: disc;text-align: left;margin-bottom: 10px;display: list-item;padding-left: 0;}
+
+.head-title p {font-family: 'Fira Sans';font-size: 24px;line-height: 50px;text-align: center;color: #000;}
+.migrate-to-magento .head-title {max-width: 1370px;margin-bottom: 84px;}
+.migrate-to-magento .time-line {margin-top: 0px;}
+
+.time-line .time-line-process {grid-template-columns: 100px 53% auto;grid-column-gap: 40px;padding-bottom: 166px;}
+
+.perform-it {max-width: 1088px;margin: 0 auto;}
+.banner-sect {background-color: #313131;padding: 45px 50px;display: grid;grid-template-columns: 90px auto;margin-bottom: 120px;}
+.banner-sect p {font-family: 'Merriweather';font-size: 20px;line-height: 30px;color: #FFFFFF;margin-bottom: 0px;}
+
+.perform-it-head h4 {font-size: 40px;line-height: 60px;font-weight: 700;text-align: center;margin-bottom: 30px;}
+.perform-it-head p {font-family: 'Fira Sans';font-size: 24px;line-height: 50px;color: #000000;text-align: center;}
+
+.perform-it-inner {}
+.perform-it-left-right {display: grid;grid-template-columns: 102px auto;grid-column-gap: 50px;margin-top: 98px;}
+.perform-it-left-right p {font-family: 'Fira Sans';font-size: 24px;line-height: 50px;color: #000000;}

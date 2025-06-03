@@ -1,0 +1,11 @@
+.about-us .banner-img {margin-bottom: 0px;}
+.migratetech {padding: 120px 0 107px;background-color: #FAFAFA;}
+.migratetech .container {max-width: 1394px;}
+.migratetech .head-title {max-width: 1025px;margin: 0 auto 55px;}
+.migratetech .head-title h4 {font-size: 40px;line-height: 60px;text-align: center;font-weight: 900;margin-bottom: 15px;color: #000000;letter-spacing: 0.1px;}
+.migratetech .head-title h4 span {color: #FF8A00;}
+.migratetech .migratetech-box {display: flex;flex-wrap: wrap;justify-content: center;align-items: center;margin-top: 60px;grid-row-gap: 60px;}
+.migratetech .migratetech-box .box {width: calc((100% - 0px)/ 6);}
+.migratetech .migratetech-box .box .tech-box-img {display: flex;align-items: center;justify-content: center;margin-bottom: 10px;min-height: 90px;}
+.migratetech .migratetech-box .box .tech-box-img img {max-width: 95px;max-height: 90px;height: 100%;width: auto;}
+.migratetech .migratetech-box .box p {font-family: 'Fira Sans';font-size: 24px;line-height: 50px;text-align: center;color: #000000;min-height: 70px;}

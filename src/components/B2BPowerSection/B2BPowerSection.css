@@ -1,0 +1,9 @@
+.b2b-power {padding-top: 200px;margin-bottom: 190px;position: relative;}
+.b2b-power .container {max-width: 1394px;}
+.b2b-power .background-image {position: absolute;top: 0;left: 0;width: 100%;height: auto;padding-bottom: 31.4961%;}
+.b2b-power .background-image img {position: absolute;top: 0px;left: 0px;max-height: 600px;width: 100%;height: 100%;object-fit: cover;object-position: top;}
+.b2b-power .b2b-power-content {background-color: #fff;padding: 70px 36px 67px 50px;box-shadow: 0 30px 40px #00000029;border-radius: 4px;margin-bottom: -70px;position: relative;z-index: 1;}
+.b2b-power .b2b-power-content h4 {text-align: center;margin-bottom: 51px;font-size: 40px;line-height: 60px;font-weight: 900;letter-spacing: 0.1px;}
+.b2b-power .b2b-power-content p {font-family: 'Fira Sans';text-align: center;font-size: 24px;line-height: 50px;color: #000;}
+.b2b-power .b2b-power-content ul li {font-family: 'Fira Sans';font-size: 24px;line-height: 50px;position: relative;padding-left: 30px;align-items: baseline;background: transparent;color: #000000;}
+.b2b-power .b2b-power-content ul li:before {content: "";border: 3px solid #f60;width: 11px;height: 11px;position: absolute;z-index: 9;transform: rotate(45deg);border-left: none;border-bottom: none;left: -5px;top: 20px;}

@@ -1,0 +1,19 @@
+.general-support-get-start {padding: 90px 0 104px;background-color: #FAFAFA;}
+.general-support-get-start .get-start-title {margin-bottom: 30px;}
+.general-support-get-start .get-start-title h4 {font-size: 40px;line-height: 60px;font-weight: 700;text-align: center;color: #000;max-width: 850px;margin-left: auto;margin-right: auto;}
+.general-support-get-start .get-start-title p {font-family: 'Fira Sans';font-size: 24px;line-height: 50px;text-align: center;margin-bottom: 0;color: #000;}
+.general-support-get-start .get-start-title p a {padding-left: 10px;color: #FF8A00;}
+.general-support-get-start .footer-form {max-width: 1088px;margin: 0 auto;}
+.general-support-get-start .footer-form .form-control {border: 1px solid #00000065;color: #000;font-weight: 400;font-family: "Fira Sans",sans-serif;font-size: 18px;padding: 15px 20px;width: 100%;border-radius: 0px;margin-bottom: 20px;height: 60px;}
+.general-support-get-start .footer-form textarea.form-control {height: 120px;resize: none;}
+.general-support-get-start .footer-form .form-control::placeholder{color:rgba(0,0,0,.3)!important;font-weight:400}
+.general-support-get-start .footer-form .form-control:focus{border-color:#000}
+.general-support-get-start .footer-form .common-btn {background-color:#FF6600;color:#FFFFFF;border: none;font-family:'Merriweather';display: block;margin: 10px auto 0px auto;padding: 20px;}
+.general-support-get-start .footer-form .common-btn:hover{background-color:#000000;color:#FFFFFF;}
+.general-support-get-start .footer-form .phone-input-container .form-control {padding-left: 45px;}
+.general-support-get-start .footer-form .phone-input-container .flag-dropdown {border: none;margin: 1px;background: none;}
+.general-support-get-start .footer-form .phone-input-container .flag-dropdown .selected-flag:hover {background: #0000000D;}
+
+.tag-line-box .tag-line {padding: 0 0 100px;max-width: 1118px;margin: 0 auto;}
+.tag-line-box .tag-content {padding: 61px 0;background-color: #313131;}
+.tag-line-box .tag-content p {text-align: center;color: #fff;max-width: 890px;margin: 0 auto;font-family: 'Merriweather';font-size: 20px;font-weight: 400;line-height: 30px;letter-spacing: -0.4px;}

@@ -1,0 +1,259 @@
+{
+  "slug": "magento-ecommerce-solutions",
+  "link": "http://api.magemonkeys.loc/magento-ecommerce-solutions/",
+  "status": "publish",
+  "type": "page",
+  "title": {
+    "rendered": "Magento Ecommerce Solutions"
+  },
+  "content": {
+    "rendered": "",
+    "protected": false
+  },
+  "acf": {
+    "top_image": "/data/images/magento-ecommerce-solutions/banner-img.png",
+    "small_title": "At Mage Monkeys, we understand the immense potential of Magento as an ecommerce platform. Our mission is to help businesses harness the full power of Magento, ensuring they succeed in the highly competitive world of online retail. Our dedicated team of experts is here to provide you with a comprehensive suite of Magento Ecommerce Solutions tailored to your unique needs.",
+    "heading_title": "",
+    "white_label_services": false,
+    "white_label_partner_title": "",
+    "partner_repeater": false,
+    "services": [
+      {
+        "title": "Magento Store Development",
+        "description": "<p>The cornerstone of your online presence is your ecommerce store. We specialize in developing robust and scalable Magento stores that not only captivate your audience but also drive conversions. From intuitive navigation to seamless checkout processes, we create a shopping experience your customers will love.</p>\n"
+      },
+      {
+        "title": "Custom Module Development",
+        "description": "<p>Your business is unique, and so should be your Magento store. We design and develop custom modules to meet your specific requirements. Whether you need personalized functionalities, integrations, or enhancements, our experts have you covered.</p>\n"
+      },
+      {
+        "title": "Magento Theme Design",
+        "description": "<p>First impressions matter. Our talented designers craft visually stunning Magento themes that align with your brand identity. We ensure that your website not only looks great but also provides a user-friendly interface that keeps customers engaged.</p>\n"
+      },
+      {
+        "title": "Migration to Magento",
+        "description": "<p>Thinking about migrating to Magento? Our skilled team can manage the entire process, including data migration, SEO preservation, and a seamless transition. We ensure minimal downtime and a hassle-free migration experience.</p>\n"
+      },
+      {
+        "title": "Performance Optimization",
+        "description": "<p>Slow-loading websites can be detrimental to your business. We optimize your Magento store for maximum performance, resulting in faster page load times and improved user experiences. This, in turn, leads to higher customer satisfaction and better search engine rankings.</p>\n"
+      },
+      {
+        "title": "Payment Gateway Integration",
+        "description": "<p>Secure and efficient payment processing is crucial for online businesses. We integrate a wide range of payment gateways, making it convenient for your customers to complete transactions while ensuring their data remains secure.</p>\n"
+      },
+      {
+        "title": "Maintenance and Support",
+        "description": "<p>To keep your Magento store running smoothly, it requires regular updates and maintenance. Our team offers ongoing support to ensure your website remains secure, up-to-date, and free from technical glitches.</p>\n"
+      },
+      {
+        "title": "Magento 2 Upgrades",
+        "description": "<p>If you&#8217;re currently on Magento 1, it&#8217;s vital to upgrade to Magento 2 due to end-of-life support. We provide seamless migration services, ensuring you don&#8217;t miss out on essential features and security updates.</p>\n"
+      }
+    ],
+    "happy_clients_title": "Some words from our happy clients",
+    "testimonials": [
+      {
+        "client_experience_description": "\"Mage Monkeys transformed our online store with their Magento services. Our sales have skyrocketed, and we've received rave reviews from customers about our new user-friendly site. The team at Mage Monkeys is second to none.\"",
+        "client_name": "John Doe, CEO of EcomTech Solutions"
+      },
+      {
+        "client_experience_description": "\"Migrating to Magento was a big step for our business, and Mage Monkeys made it seamless. They preserved our SEO rankings, and our new Magento store has given us the flexibility to expand our product lines. Highly recommended!\"",
+        "client_name": "Jane Smith, Owner of FashionHub"
+      },
+      {
+        "client_experience_description": "\"Mage Monkeys' performance optimization service drastically improved our site speed. Our bounce rates have decreased, and our organic traffic is on the rise. Their team has been instrumental in our online success.\"",
+        "client_name": "Mark Johnson, CTO of TechTrends"
+      },
+      {
+        "client_experience_description": "\"The Mage Monkeys team provided exceptional support and maintenance for our Magento store. Their prompt responses and proactive approach to site security have given us peace of mind, allowing us to focus on growing our business.\"",
+        "client_name": "Sarah White, Marketing Manager at GreenGoods"
+      }
+    ],
+    "faq_title": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "title": "How long does it take to develop a Magento store with Mage Monkeys?",
+        "description": "The timeline for developing a Magento store varies depending on the complexity of your project. A simple store can be completed in a matter of weeks, while more complex, custom projects may take several months. Our team will provide a detailed project timeline during the initial consultation."
+      },
+      {
+        "title": "Is it possible to migrate my existing ecommerce platform to Magento?",
+        "description": "Yes, it is. We have extensive experience in migrating online stores from various platforms to Magento. Whether you're currently using another ecommerce platform or Magento 1, we can help you smoothly transition to Magento while preserving your data and SEO ranking."
+      },
+      {
+        "title": "Can you provide ongoing maintenance and support for my Magento store?",
+        "description": "Absolutely. We offer comprehensive maintenance and support services to keep your Magento store running smoothly. This includes regular updates, security monitoring, troubleshooting, and technical support to ensure your online business remains efficient and secure."
+      },
+      {
+        "title": " How much do your Magento services cost?",
+        "description": "The cost of our Magento services depends on the specific requirements of your project. We provide competitive pricing and offer personalized quotes based on your needs. Our aim is to provide high-quality solutions that fit within your budget."
+      }
+    ],
+    "service_label_title": "Our Comprehensive Range of Magento Solutions",
+    "left_image": "/data/images/magento-ecommerce-solutions/b2b-way.png",
+    "mage_monkeys_way_title": "Get Started with Mage Monkeys",
+    "mage_monkeys_way_description": "<p>Ready to take your ecommerce business to the next level with our Magento Ecommerce Solutions? Contact us today to discuss your project, and let&#8217;s work together to turn your online store into a powerhouse of success. At Mage Monkeys, we&#8217;re dedicated to helping you achieve your ecommerce goals with Magento. Join the ranks of our satisfied clients who have seen significant growth and success with our Magento solutions.</p>\n",
+    "hideshow_block": true
+  },
+  "aioseo_notices": [],
+  "aioseo_head": "\n\t\t<!-- All in One SEO Pro 4.6.2 - aioseo.com -->\n\t\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t\t<link rel=\"canonical\" href=\"http://api.magemonkeys.loc/magento-ecommerce-solutions/\" />\n\t\t<meta name=\"generator\" content=\"All in One SEO Pro (AIOSEO) 4.6.2\" />\n\t\t<meta property=\"og:locale\" content=\"en_US\" />\n\t\t<meta property=\"og:site_name\" content=\"magemonkeys -\" />\n\t\t<meta property=\"og:type\" content=\"article\" />\n\t\t<meta property=\"og:title\" content=\"Magento eCommerce Solutions | Magento Solutions | Magento 1 &amp; 2\" />\n\t\t<meta property=\"og:url\" content=\"http://api.magemonkeys.loc/magento-ecommerce-solutions/\" />\n\t\t<meta property=\"article:published_time\" content=\"2023-10-13T10:23:28+00:00\" />\n\t\t<meta property=\"article:modified_time\" content=\"2023-10-16T11:15:27+00:00\" />\n\t\t<meta name=\"twitter:card\" content=\"summary_large_image\" />\n\t\t<meta name=\"twitter:title\" content=\"Magento eCommerce Solutions | Magento Solutions | Magento 1 &amp; 2\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-ecommerce-solutions\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"http:\\/\\/api.magemonkeys.loc\\/\",\"nextItem\":\"http:\\/\\/api.magemonkeys.loc\\/magento-ecommerce-solutions\\/#listItem\"},{\"@type\":\"ListItem\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-ecommerce-solutions\\/#listItem\",\"position\":2,\"name\":\"Magento Ecommerce Solutions\",\"previousItem\":\"http:\\/\\/api.magemonkeys.loc\\/#listItem\"}]},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#organization\",\"name\":\"magemonkeys\",\"url\":\"http:\\/\\/api.magemonkeys.loc\\/\"},{\"@type\":\"WebPage\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-ecommerce-solutions\\/#webpage\",\"url\":\"http:\\/\\/api.magemonkeys.loc\\/magento-ecommerce-solutions\\/\",\"name\":\"Magento eCommerce Solutions | Magento Solutions | Magento 1 & 2\",\"inLanguage\":\"en-US\",\"isPartOf\":{\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#website\"},\"breadcrumb\":{\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-ecommerce-solutions\\/#breadcrumblist\"},\"datePublished\":\"2023-10-13T10:23:28+00:00\",\"dateModified\":\"2023-10-16T11:15:27+00:00\"},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#website\",\"url\":\"http:\\/\\/api.magemonkeys.loc\\/\",\"name\":\"magemonkeys\",\"inLanguage\":\"en-US\",\"publisher\":{\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO Pro -->\r\n\t\t<title>Magento eCommerce Solutions | Magento Solutions | Magento 1 &amp; 2</title>\n\n",
+  "aioseo_head_json": {
+    "title": "Magento eCommerce Solutions | Magento Solutions | Magento 1 & 2",
+    "description": "",
+    "canonical_url": "http://api.magemonkeys.loc/magento-ecommerce-solutions/",
+    "robots": "max-image-preview:large",
+    "keywords": "",
+    "webmasterTools": {
+      "miscellaneous": ""
+    },
+    "og:locale": "en_US",
+    "og:site_name": "magemonkeys -",
+    "og:type": "article",
+    "og:title": "Magento eCommerce Solutions | Magento Solutions | Magento 1 &amp; 2",
+    "og:url": "http://api.magemonkeys.loc/magento-ecommerce-solutions/",
+    "article:published_time": "2023-10-13T10:23:28+00:00",
+    "article:modified_time": "2023-10-16T11:15:27+00:00",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Magento eCommerce Solutions | Magento Solutions | Magento 1 &amp; 2",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "http://api.magemonkeys.loc/magento-ecommerce-solutions/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "http://api.magemonkeys.loc/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "http://api.magemonkeys.loc/",
+              "nextItem": "http://api.magemonkeys.loc/magento-ecommerce-solutions/#listItem"
+            },
+            {
+              "@type": "ListItem",
+              "@id": "http://api.magemonkeys.loc/magento-ecommerce-solutions/#listItem",
+              "position": 2,
+              "name": "Magento Ecommerce Solutions",
+              "previousItem": "http://api.magemonkeys.loc/#listItem"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "http://api.magemonkeys.loc/#organization",
+          "name": "magemonkeys",
+          "url": "http://api.magemonkeys.loc/"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "http://api.magemonkeys.loc/magento-ecommerce-solutions/#webpage",
+          "url": "http://api.magemonkeys.loc/magento-ecommerce-solutions/",
+          "name": "Magento eCommerce Solutions | Magento Solutions | Magento 1 & 2",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@id": "http://api.magemonkeys.loc/#website"
+          },
+          "breadcrumb": {
+            "@id": "http://api.magemonkeys.loc/magento-ecommerce-solutions/#breadcrumblist"
+          },
+          "datePublished": "2023-10-13T10:23:28+00:00",
+          "dateModified": "2023-10-16T11:15:27+00:00"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "http://api.magemonkeys.loc/#website",
+          "url": "http://api.magemonkeys.loc/",
+          "name": "magemonkeys",
+          "inLanguage": "en-US",
+          "publisher": {
+            "@id": "http://api.magemonkeys.loc/#organization"
+          }
+        }
+      ]
+    }
+  },
+  "aioseo_meta_data": {
+    "post_id": "2524",
+    "title": "Magento eCommerce Solutions | Magento Solutions | Magento 1 &amp; 2",
+    "description": null,
+    "keywords": "[]",
+    "keyphrases": "{\"focus\":{\"keyphrase\":\"\",\"score\":0,\"analysis\":{\"keyphraseInTitle\":{\"score\":0,\"maxScore\":9,\"error\":1}}},\"additional\":[]}",
+    "primary_term": null,
+    "canonical_url": null,
+    "og_title": null,
+    "og_description": null,
+    "og_object_type": "default",
+    "og_image_type": "default",
+    "og_image_url": null,
+    "og_image_width": null,
+    "og_image_height": null,
+    "og_image_custom_url": null,
+    "og_image_custom_fields": null,
+    "og_video": "",
+    "og_custom_url": null,
+    "og_article_section": null,
+    "og_article_tags": "[]",
+    "twitter_use_og": false,
+    "twitter_card": "default",
+    "twitter_image_type": "default",
+    "twitter_image_url": null,
+    "twitter_image_custom_url": null,
+    "twitter_image_custom_fields": null,
+    "twitter_title": null,
+    "twitter_description": null,
+    "schema": {
+      "blockGraphs": [],
+      "customGraphs": [],
+      "default": {
+        "data": {
+          "Article": [],
+          "Course": [],
+          "Dataset": [],
+          "FAQPage": [],
+          "Movie": [],
+          "Person": [],
+          "Product": [],
+          "Recipe": [],
+          "Service": [],
+          "SoftwareApplication": [],
+          "WebPage": []
+        },
+        "graphName": "WebPage",
+        "isEnabled": true
+      },
+      "graphs": []
+    },
+    "schema_type": "default",
+    "schema_type_options": null,
+    "pillar_content": false,
+    "robots_default": true,
+    "robots_noindex": false,
+    "robots_noarchive": false,
+    "robots_nosnippet": false,
+    "robots_nofollow": false,
+    "robots_noimageindex": false,
+    "robots_noodp": false,
+    "robots_notranslate": false,
+    "robots_max_snippet": "-1",
+    "robots_max_videopreview": "-1",
+    "robots_max_imagepreview": "large",
+    "priority": null,
+    "frequency": "default",
+    "local_seo": null,
+    "limit_modified_date": false,
+    "created": "2023-10-13 10:23:31",
+    "updated": "2023-10-16 11:27:02"
+  },
+  "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t<a href=\"http://api.magemonkeys.loc\" title=\"Home\">Home</a>\n</span><span class=\"aioseo-breadcrumb-separator\">&raquo;</span><span class=\"aioseo-breadcrumb\">\n\tMagento Ecommerce Solutions\n</span></div>",
+  "aioseo_breadcrumb_json": [
+    {
+      "label": "Home",
+      "link": "http://api.magemonkeys.loc"
+    },
+    {
+      "label": "Magento Ecommerce Solutions",
+      "link": "http://api.magemonkeys.loc/magento-ecommerce-solutions/"
+    }
+  ]
+}

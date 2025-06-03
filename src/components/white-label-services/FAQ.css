@@ -1,0 +1,7 @@
+.faq-section {padding: 70px 0 130px;}
+.faq-section .container {max-width: 1394px;}
+.faq-section .faq-title h4 {font-size: 40px;line-height: 60px;margin-bottom: 50px;text-align: center;font-weight: 900;letter-spacing: 0.1px;}
+.faq-section .faq-items .faq-item button {border: none;border-bottom: 2px solid #0000001f;padding: 23px 30px;width: 100%;background: transparent;text-align: left;font-weight: 600;margin-bottom: 0px;color: #000;display: flex;align-items: center;justify-content: space-between;font-size: 24px;line-height: 50px;font-family: 'Fira Sans';}
+.faq-section .faq-items .faq-item button::after {content: "";width: 17px;height: 40px;display: block;transition: 0.3s ease;background: url(/images/icons/faq-arrow-down.png) center no-repeat;background-size: contain;}
+.faq-section .faq-items .faq-item button.active::after {transform: scaleY(-1);}
+.faq-section .faq-items .faq-item .faq-answer {padding: 15px 30px;font-size: 24px;line-height: 50px;color: #999999;margin-bottom: 0px;}

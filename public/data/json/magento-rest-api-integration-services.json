@@ -1,0 +1,209 @@
+{
+  "slug": "magento-rest-api-integration-services",
+  "link": "http://api.magemonkeys.loc/magento-rest-api-integration-services/",
+  "status": "publish",
+  "type": "page",
+  "title": {
+    "rendered": "Magento Rest API Integration Services"
+  },
+  "content": {
+    "rendered": "",
+    "protected": false
+  },
+  "acf": {
+    "title": "Magento <span>Rest API</span> Integration <br> Services",
+    "top_image": "/data/images/magento-rest-api-integration-services/banner-img-e1691473822976.png",
+    "new_store_service_title": "Let’s talk about some vital features of <br> <span>Magento API</span>",
+    "service_list": [
+      {
+        "title": "Clients",
+        "details": "Options to create, delete and update customer information along with the list fetching functionality of customers "
+      },
+      {
+        "title": "Catalogue",
+        "details": "To fetch the list of stock account and to upload the stock via list."
+      },
+      {
+        "title": "Products",
+        "details": "Create, update and delete information about products."
+      },
+      {
+        "title": "Categories Of Products ",
+        "details": "Get the list of categories assigned to your products, and you can also unassigned them as per your requirement."
+      },
+      {
+        "title": "Order For Sales",
+        "details": "List of sales order along with specific order information "
+      },
+      {
+        "title": "Order Items, Comments And Address ",
+        "details": "You can fetch the order items for a specified order and the address. You can also get the billing order along with shipment details. Comments for the specified order can also be obtained with the help of the list."
+      }
+    ],
+    "tag_line": "Magento Rest API is a part of Magento Enterprise and Community edition which helps to integrate business applications and make them reliable and secure. Mage Monkeys can undertake Magento REST API Integration with your business seamlessly and get you the desired results. With the help of REST and SOAP API the interaction between the business applications becomes easier and secure. The experts at Mage Monkeys have the experience of XML-RC, SOAP, or REST. "
+  },
+  "aioseo_notices": [],
+  "aioseo_head": "\n\t\t<!-- All in One SEO Pro 4.6.2 - aioseo.com -->\n\t\t<meta name=\"description\" content=\"Are you looking for Magento integration Services? Mage Monkeys is a Magento Certified development company that provides Magento 2 API integration services.\" />\n\t\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t\t<link rel=\"canonical\" href=\"http://api.magemonkeys.loc/magento-rest-api-integration-services/\" />\n\t\t<meta name=\"generator\" content=\"All in One SEO Pro (AIOSEO) 4.6.2\" />\n\t\t<meta property=\"og:locale\" content=\"en_US\" />\n\t\t<meta property=\"og:site_name\" content=\"magemonkeys -\" />\n\t\t<meta property=\"og:type\" content=\"article\" />\n\t\t<meta property=\"og:title\" content=\"Magento Integration Services | Magento 2 API Integration Services\" />\n\t\t<meta property=\"og:description\" content=\"Are you looking for Magento integration Services? Mage Monkeys is a Magento Certified development company that provides Magento 2 API integration services.\" />\n\t\t<meta property=\"og:url\" content=\"http://api.magemonkeys.loc/magento-rest-api-integration-services/\" />\n\t\t<meta property=\"article:published_time\" content=\"2023-08-07T13:09:58+00:00\" />\n\t\t<meta property=\"article:modified_time\" content=\"2023-09-05T07:59:38+00:00\" />\n\t\t<meta name=\"twitter:card\" content=\"summary_large_image\" />\n\t\t<meta name=\"twitter:title\" content=\"Magento Integration Services | Magento 2 API Integration Services\" />\n\t\t<meta name=\"twitter:description\" content=\"Are you looking for Magento integration Services? Mage Monkeys is a Magento Certified development company that provides Magento 2 API integration services.\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-rest-api-integration-services\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"http:\\/\\/api.magemonkeys.loc\\/\",\"nextItem\":\"http:\\/\\/api.magemonkeys.loc\\/magento-rest-api-integration-services\\/#listItem\"},{\"@type\":\"ListItem\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-rest-api-integration-services\\/#listItem\",\"position\":2,\"name\":\"Magento Rest API Integration Services\",\"previousItem\":\"http:\\/\\/api.magemonkeys.loc\\/#listItem\"}]},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#organization\",\"name\":\"magemonkeys\",\"url\":\"http:\\/\\/api.magemonkeys.loc\\/\"},{\"@type\":\"WebPage\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-rest-api-integration-services\\/#webpage\",\"url\":\"http:\\/\\/api.magemonkeys.loc\\/magento-rest-api-integration-services\\/\",\"name\":\"Magento Integration Services | Magento 2 API Integration Services\",\"description\":\"Are you looking for Magento integration Services? Mage Monkeys is a Magento Certified development company that provides Magento 2 API integration services.\",\"inLanguage\":\"en-US\",\"isPartOf\":{\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#website\"},\"breadcrumb\":{\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-rest-api-integration-services\\/#breadcrumblist\"},\"datePublished\":\"2023-08-07T13:09:58+00:00\",\"dateModified\":\"2023-09-05T07:59:38+00:00\"},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#website\",\"url\":\"http:\\/\\/api.magemonkeys.loc\\/\",\"name\":\"magemonkeys\",\"inLanguage\":\"en-US\",\"publisher\":{\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO Pro -->\r\n\t\t<title>Magento Integration Services | Magento 2 API Integration Services</title>\n\n",
+  "aioseo_head_json": {
+    "title": "Magento Integration Services | Magento 2 API Integration Services",
+    "description": "Are you looking for Magento integration Services? Mage Monkeys is a Magento Certified development company that provides Magento 2 API integration services.",
+    "canonical_url": "http://api.magemonkeys.loc/magento-rest-api-integration-services/",
+    "robots": "max-image-preview:large",
+    "keywords": "",
+    "webmasterTools": {
+      "miscellaneous": ""
+    },
+    "og:locale": "en_US",
+    "og:site_name": "magemonkeys -",
+    "og:type": "article",
+    "og:title": "Magento Integration Services | Magento 2 API Integration Services",
+    "og:description": "Are you looking for Magento integration Services? Mage Monkeys is a Magento Certified development company that provides Magento 2 API integration services.",
+    "og:url": "http://api.magemonkeys.loc/magento-rest-api-integration-services/",
+    "article:published_time": "2023-08-07T13:09:58+00:00",
+    "article:modified_time": "2023-09-05T07:59:38+00:00",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Magento Integration Services | Magento 2 API Integration Services",
+    "twitter:description": "Are you looking for Magento integration Services? Mage Monkeys is a Magento Certified development company that provides Magento 2 API integration services.",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "http://api.magemonkeys.loc/magento-rest-api-integration-services/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "http://api.magemonkeys.loc/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "http://api.magemonkeys.loc/",
+              "nextItem": "http://api.magemonkeys.loc/magento-rest-api-integration-services/#listItem"
+            },
+            {
+              "@type": "ListItem",
+              "@id": "http://api.magemonkeys.loc/magento-rest-api-integration-services/#listItem",
+              "position": 2,
+              "name": "Magento Rest API Integration Services",
+              "previousItem": "http://api.magemonkeys.loc/#listItem"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "http://api.magemonkeys.loc/#organization",
+          "name": "magemonkeys",
+          "url": "http://api.magemonkeys.loc/"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "http://api.magemonkeys.loc/magento-rest-api-integration-services/#webpage",
+          "url": "http://api.magemonkeys.loc/magento-rest-api-integration-services/",
+          "name": "Magento Integration Services | Magento 2 API Integration Services",
+          "description": "Are you looking for Magento integration Services? Mage Monkeys is a Magento Certified development company that provides Magento 2 API integration services.",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@id": "http://api.magemonkeys.loc/#website"
+          },
+          "breadcrumb": {
+            "@id": "http://api.magemonkeys.loc/magento-rest-api-integration-services/#breadcrumblist"
+          },
+          "datePublished": "2023-08-07T13:09:58+00:00",
+          "dateModified": "2023-09-05T07:59:38+00:00"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "http://api.magemonkeys.loc/#website",
+          "url": "http://api.magemonkeys.loc/",
+          "name": "magemonkeys",
+          "inLanguage": "en-US",
+          "publisher": {
+            "@id": "http://api.magemonkeys.loc/#organization"
+          }
+        }
+      ]
+    }
+  },
+  "aioseo_meta_data": {
+    "post_id": "359",
+    "title": "Magento Integration Services | Magento 2 API Integration Services",
+    "description": "Are you looking for Magento integration Services? Mage Monkeys is a Magento Certified development company that provides Magento 2 API integration services.",
+    "keywords": "[]",
+    "keyphrases": "{\"focus\":{\"keyphrase\":\"\",\"score\":0,\"analysis\":{\"keyphraseInTitle\":{\"score\":0,\"maxScore\":9,\"error\":1}}},\"additional\":[]}",
+    "primary_term": null,
+    "canonical_url": null,
+    "og_title": null,
+    "og_description": null,
+    "og_object_type": "default",
+    "og_image_type": "default",
+    "og_image_url": null,
+    "og_image_width": null,
+    "og_image_height": null,
+    "og_image_custom_url": null,
+    "og_image_custom_fields": null,
+    "og_video": "",
+    "og_custom_url": null,
+    "og_article_section": null,
+    "og_article_tags": "[]",
+    "twitter_use_og": false,
+    "twitter_card": "default",
+    "twitter_image_type": "default",
+    "twitter_image_url": null,
+    "twitter_image_custom_url": null,
+    "twitter_image_custom_fields": null,
+    "twitter_title": null,
+    "twitter_description": null,
+    "schema": {
+      "blockGraphs": [],
+      "customGraphs": [],
+      "default": {
+        "data": {
+          "Article": [],
+          "Course": [],
+          "Dataset": [],
+          "FAQPage": [],
+          "Movie": [],
+          "Person": [],
+          "Product": [],
+          "Recipe": [],
+          "Service": [],
+          "SoftwareApplication": [],
+          "WebPage": []
+        },
+        "graphName": "WebPage",
+        "isEnabled": true
+      },
+      "graphs": []
+    },
+    "schema_type": "default",
+    "schema_type_options": null,
+    "pillar_content": false,
+    "robots_default": true,
+    "robots_noindex": false,
+    "robots_noarchive": false,
+    "robots_nosnippet": false,
+    "robots_nofollow": false,
+    "robots_noimageindex": false,
+    "robots_noodp": false,
+    "robots_notranslate": false,
+    "robots_max_snippet": "-1",
+    "robots_max_videopreview": "-1",
+    "robots_max_imagepreview": "large",
+    "priority": null,
+    "frequency": "default",
+    "local_seo": null,
+    "limit_modified_date": false,
+    "created": "2023-08-07 13:09:58",
+    "updated": "2023-09-05 08:00:25"
+  },
+  "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t<a href=\"http://api.magemonkeys.loc\" title=\"Home\">Home</a>\n</span><span class=\"aioseo-breadcrumb-separator\">&raquo;</span><span class=\"aioseo-breadcrumb\">\n\tMagento Rest API Integration Services\n</span></div>",
+  "aioseo_breadcrumb_json": [
+    {
+      "label": "Home",
+      "link": "http://api.magemonkeys.loc"
+    },
+    {
+      "label": "Magento Rest API Integration Services",
+      "link": "http://api.magemonkeys.loc/magento-rest-api-integration-services/"
+    }
+  ]
+}

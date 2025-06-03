@@ -1,0 +1,304 @@
+{
+  "slug": "magento-marketplace",
+  "link": "http://api.magemonkeys.loc/magento-marketplace/",
+  "status": "publish",
+  "type": "page",
+  "title": {
+    "rendered": "Magento <span>Marketplace</span>"
+  },
+  "content": {
+    "rendered": "<p>Mage Monkeys are leading Service Provider for Magento Marketplace development<br />\nacross the globe. We offer services that help our clients to transform their Magento<br />\nstore into a successful online marketplace just like Amazon.</p>\n",
+    "protected": false
+  },
+  "acf": {
+    "top_image": "/data/images/magento-marketplace/certificate_new.png",
+    "pwa_block": false,
+    "title": "",
+    "description": "",
+    "image": false,
+    "cta_button": {
+      "button_label": "",
+      "button_link": "button_internal_link",
+      "button_internal_link": "",
+      "button_external_link": ""
+    },
+    "bg_image": false,
+    "heading_title": "Why to choose Mage Monkeys for<br>Magento Marketplace Development?",
+    "magento_mobile_application_block": false,
+    "services_repeater": [
+      {
+        "title": "Dashboard",
+        "description": "<p>Enriched Dashboard to provide ultimate Magento user experience</p>\n"
+      },
+      {
+        "title": "Registration Page for Vendor",
+        "description": "<p>With the help of Vendor Registration page seller can easily register their business.</p>\n"
+      },
+      {
+        "title": "Verification of Vendor",
+        "description": "<p>Hassle-free collection of scanned documents from vendor at the time of registration form.</p>\n"
+      },
+      {
+        "title": "Listing Page for Vendor",
+        "description": "<p>On the basis of product categories listing of vendors/suppliers is available.</p>\n"
+      },
+      {
+        "title": "Multiple Vendors",
+        "description": "<p>Same product will be listed under multiple vendors when user searched for the product.</p>\n"
+      },
+      {
+        "title": "Shipping",
+        "description": "<p>Individual shipping charges can be maintained as per products.</p>\n"
+      },
+      {
+        "title": "Vacation Mode",
+        "description": "<p>When any of the sellers is not available then they can use the ‘Seller Vacation mode’ to notify the customers.</p>\n"
+      },
+      {
+        "title": "Supports all types of Products",
+        "description": "<p>Simple and configurable products can be created by supplier that are being supported by Magento</p>\n"
+      },
+      {
+        "title": "Product Approval",
+        "description": "<p>Approval of products can be done in both ways, either manually or automatically.</p>\n"
+      },
+      {
+        "title": "Enabling/ Disabling of products",
+        "description": "<p>Products which vendor fells no more to continue can easily disable them and when the products are back in stock can enable them.</p>\n"
+      },
+      {
+        "title": "Real Time Product Statistics",
+        "description": "<p>Whenever Vendors are disabled/deleted, products automatically gets deleted or de-activated.</p>\n"
+      },
+      {
+        "title": "Import and Export of Bulk Product",
+        "description": "<p>With the help of CSV file Vendor can easily import and export products.</p>\n"
+      },
+      {
+        "title": "Checkout once with Multiple products",
+        "description": "<p>Customers can easily purchase multiple products from Sellers or Vendors at once.</p>\n"
+      },
+      {
+        "title": "Approval Notifications",
+        "description": "<p>Admin can manage notifications related to order. Vendor or product anytime by enabling or disabling them.</p>\n"
+      },
+      {
+        "title": "Templates for Email",
+        "description": "<p>Email Templates will help in receiving product sold notification email which includes product details.</p>\n"
+      },
+      {
+        "title": "Order and Invoice Management",
+        "description": "<p>A separate section is available for management of Vendors which includes their avatars, commissions, transactions etc.</p>\n"
+      },
+      {
+        "title": "Commission",
+        "description": "<p>As per multiple vendors, commission rates can be decided as per Vendors.</p>\n"
+      },
+      {
+        "title": "Commission Management",
+        "description": "<p>You can set different commission rates for different vendors</p>\n"
+      },
+      {
+        "title": "Payment Report",
+        "description": "<p>As per individual vendor reports are available with details of credit and debit transactions.</p>\n"
+      },
+      {
+        "title": "Transactions supported Offline",
+        "description": "<p>Offline transactions for each vendor can be recorded by Admin</p>\n"
+      },
+      {
+        "title": "Communication between Vendor-Customer",
+        "description": "<p>With the help of this feature, vendor can reach out to customer easily.</p>\n"
+      },
+      {
+        "title": "Reviews Management of Seller/Vendor",
+        "description": "<p>When any customer provide feedback related to products then the review of the vendor is being created automatically.</p>\n<p>Easy to customize and open source.</p>\n<p>As source code is open, crafting as per individual requirement can be managed easily.</p>\n"
+      },
+      {
+        "title": "Compatible with Magento 1 & 2 ",
+        "description": "<p>Our Marketplace is compatible with Magento 1,x and 2.x version</p>\n"
+      },
+      {
+        "title": "Other Additional Features",
+        "description": "<p>Updates related to valuable features with our marketplace development.</p>\n"
+      }
+    ],
+    "background_image": "/data/images/magento-marketplace/ecommerce-port-scaled.jpg",
+    "content_details": [
+      {
+        "title": "10+ successfully developed Magento marketplace projects. "
+      },
+      {
+        "title": "Crafting custom marketplace that suits your complex requirements of project goals. "
+      },
+      {
+        "title": "Only Magento certified Developers to work on your projects."
+      }
+    ],
+    "top_title": "Features of <span> Magento Marketplace </span>  <br> Developed at <span> Mage Monkeys </span>"
+  },
+  "aioseo_notices": [],
+  "aioseo_head": "\n\t\t<!-- All in One SEO Pro 4.6.2 - aioseo.com -->\n\t\t<meta name=\"description\" content=\"Mage Monkeys is the best Magento Marketplace development company that transforms your online store into a thriving Magneto 2 multi-vendor marketplace.\" />\n\t\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t\t<link rel=\"canonical\" href=\"http://api.magemonkeys.loc/magento-marketplace/\" />\n\t\t<meta name=\"generator\" content=\"All in One SEO Pro (AIOSEO) 4.6.2\" />\n\t\t<meta property=\"og:locale\" content=\"en_US\" />\n\t\t<meta property=\"og:site_name\" content=\"magemonkeys -\" />\n\t\t<meta property=\"og:type\" content=\"article\" />\n\t\t<meta property=\"og:title\" content=\"Magento Marketplace Development | Magento 2 multi-vendor marketplace\" />\n\t\t<meta property=\"og:description\" content=\"Mage Monkeys is the best Magento Marketplace development company that transforms your online store into a thriving Magneto 2 multi-vendor marketplace.\" />\n\t\t<meta property=\"og:url\" content=\"http://api.magemonkeys.loc/magento-marketplace/\" />\n\t\t<meta property=\"article:published_time\" content=\"2023-08-07T09:18:23+00:00\" />\n\t\t<meta property=\"article:modified_time\" content=\"2024-11-14T11:09:57+00:00\" />\n\t\t<meta name=\"twitter:card\" content=\"summary_large_image\" />\n\t\t<meta name=\"twitter:title\" content=\"Magento Marketplace Development | Magento 2 multi-vendor marketplace\" />\n\t\t<meta name=\"twitter:description\" content=\"Mage Monkeys is the best Magento Marketplace development company that transforms your online store into a thriving Magneto 2 multi-vendor marketplace.\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-marketplace\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"http:\\/\\/api.magemonkeys.loc\\/\",\"nextItem\":\"http:\\/\\/api.magemonkeys.loc\\/magento-marketplace\\/#listItem\"},{\"@type\":\"ListItem\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-marketplace\\/#listItem\",\"position\":2,\"name\":\"Magento Marketplace\",\"previousItem\":\"http:\\/\\/api.magemonkeys.loc\\/#listItem\"}]},{\"@type\":\"Organization\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#organization\",\"name\":\"magemonkeys\",\"url\":\"http:\\/\\/api.magemonkeys.loc\\/\"},{\"@type\":\"WebPage\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-marketplace\\/#webpage\",\"url\":\"http:\\/\\/api.magemonkeys.loc\\/magento-marketplace\\/\",\"name\":\"Magento Marketplace Development | Magento 2 multi-vendor marketplace\",\"description\":\"Mage Monkeys is the best Magento Marketplace development company that transforms your online store into a thriving Magneto 2 multi-vendor marketplace.\",\"inLanguage\":\"en-US\",\"isPartOf\":{\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#website\"},\"breadcrumb\":{\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/magento-marketplace\\/#breadcrumblist\"},\"datePublished\":\"2023-08-07T09:18:23+00:00\",\"dateModified\":\"2024-11-14T11:09:57+00:00\"},{\"@type\":\"WebSite\",\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#website\",\"url\":\"http:\\/\\/api.magemonkeys.loc\\/\",\"name\":\"magemonkeys\",\"inLanguage\":\"en-US\",\"publisher\":{\"@id\":\"http:\\/\\/api.magemonkeys.loc\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO Pro -->\r\n\t\t<title>Magento Marketplace Development | Magento 2 multi-vendor marketplace</title>\n\n",
+  "aioseo_head_json": {
+    "title": "Magento Marketplace Development | Magento 2 multi-vendor marketplace",
+    "description": "Mage Monkeys is the best Magento Marketplace development company that transforms your online store into a thriving Magneto 2 multi-vendor marketplace.",
+    "canonical_url": "http://api.magemonkeys.loc/magento-marketplace/",
+    "robots": "max-image-preview:large",
+    "keywords": "",
+    "webmasterTools": {
+      "miscellaneous": ""
+    },
+    "og:locale": "en_US",
+    "og:site_name": "magemonkeys -",
+    "og:type": "article",
+    "og:title": "Magento Marketplace Development | Magento 2 multi-vendor marketplace",
+    "og:description": "Mage Monkeys is the best Magento Marketplace development company that transforms your online store into a thriving Magneto 2 multi-vendor marketplace.",
+    "og:url": "http://api.magemonkeys.loc/magento-marketplace/",
+    "article:published_time": "2023-08-07T09:18:23+00:00",
+    "article:modified_time": "2024-11-14T11:09:57+00:00",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Magento Marketplace Development | Magento 2 multi-vendor marketplace",
+    "twitter:description": "Mage Monkeys is the best Magento Marketplace development company that transforms your online store into a thriving Magneto 2 multi-vendor marketplace.",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "http://api.magemonkeys.loc/magento-marketplace/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "http://api.magemonkeys.loc/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "http://api.magemonkeys.loc/",
+              "nextItem": "http://api.magemonkeys.loc/magento-marketplace/#listItem"
+            },
+            {
+              "@type": "ListItem",
+              "@id": "http://api.magemonkeys.loc/magento-marketplace/#listItem",
+              "position": 2,
+              "name": "Magento Marketplace",
+              "previousItem": "http://api.magemonkeys.loc/#listItem"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "http://api.magemonkeys.loc/#organization",
+          "name": "magemonkeys",
+          "url": "http://api.magemonkeys.loc/"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "http://api.magemonkeys.loc/magento-marketplace/#webpage",
+          "url": "http://api.magemonkeys.loc/magento-marketplace/",
+          "name": "Magento Marketplace Development | Magento 2 multi-vendor marketplace",
+          "description": "Mage Monkeys is the best Magento Marketplace development company that transforms your online store into a thriving Magneto 2 multi-vendor marketplace.",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@id": "http://api.magemonkeys.loc/#website"
+          },
+          "breadcrumb": {
+            "@id": "http://api.magemonkeys.loc/magento-marketplace/#breadcrumblist"
+          },
+          "datePublished": "2023-08-07T09:18:23+00:00",
+          "dateModified": "2024-11-14T11:09:57+00:00"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "http://api.magemonkeys.loc/#website",
+          "url": "http://api.magemonkeys.loc/",
+          "name": "magemonkeys",
+          "inLanguage": "en-US",
+          "publisher": {
+            "@id": "http://api.magemonkeys.loc/#organization"
+          }
+        }
+      ]
+    }
+  },
+  "aioseo_meta_data": {
+    "post_id": "292",
+    "title": "Magento Marketplace Development | Magento 2 multi-vendor marketplace",
+    "description": "Mage Monkeys is the best Magento Marketplace development company that transforms your online store into a thriving Magneto 2 multi-vendor marketplace.",
+    "keywords": "[]",
+    "keyphrases": "{\"focus\":{\"keyphrase\":\"\",\"score\":0,\"analysis\":{\"keyphraseInTitle\":{\"score\":0,\"maxScore\":9,\"error\":1}}},\"additional\":[]}",
+    "primary_term": null,
+    "canonical_url": null,
+    "og_title": null,
+    "og_description": null,
+    "og_object_type": "default",
+    "og_image_type": "default",
+    "og_image_url": null,
+    "og_image_width": null,
+    "og_image_height": null,
+    "og_image_custom_url": null,
+    "og_image_custom_fields": null,
+    "og_video": "",
+    "og_custom_url": null,
+    "og_article_section": null,
+    "og_article_tags": "[]",
+    "twitter_use_og": false,
+    "twitter_card": "default",
+    "twitter_image_type": "default",
+    "twitter_image_url": null,
+    "twitter_image_custom_url": null,
+    "twitter_image_custom_fields": null,
+    "twitter_title": null,
+    "twitter_description": null,
+    "schema": {
+      "blockGraphs": [],
+      "customGraphs": [],
+      "default": {
+        "data": {
+          "Article": [],
+          "Course": [],
+          "Dataset": [],
+          "FAQPage": [],
+          "Movie": [],
+          "Person": [],
+          "Product": [],
+          "Recipe": [],
+          "Service": [],
+          "SoftwareApplication": [],
+          "WebPage": []
+        },
+        "graphName": "WebPage",
+        "isEnabled": true
+      },
+      "graphs": []
+    },
+    "schema_type": "default",
+    "schema_type_options": null,
+    "pillar_content": false,
+    "robots_default": true,
+    "robots_noindex": false,
+    "robots_noarchive": false,
+    "robots_nosnippet": false,
+    "robots_nofollow": false,
+    "robots_noimageindex": false,
+    "robots_noodp": false,
+    "robots_notranslate": false,
+    "robots_max_snippet": "-1",
+    "robots_max_videopreview": "-1",
+    "robots_max_imagepreview": "large",
+    "priority": null,
+    "frequency": "default",
+    "local_seo": null,
+    "limit_modified_date": false,
+    "created": "2023-08-07 09:18:23",
+    "updated": "2024-11-14 11:19:32"
+  },
+  "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t<a href=\"http://api.magemonkeys.loc\" title=\"Home\">Home</a>\n</span><span class=\"aioseo-breadcrumb-separator\">&raquo;</span><span class=\"aioseo-breadcrumb\">\n\t&lt;a href=&quot;http://api.magemonkeys.loc/magento-marketplace/&quot; title=&quot;Magento <span>Marketplace</span>\"&gt;Magento <span>Marketplace</span>\n</span></div>",
+  "aioseo_breadcrumb_json": [
+    {
+      "label": "Home",
+      "link": "http://api.magemonkeys.loc"
+    },
+    {
+      "label": "Magento <span>Marketplace</span>",
+      "link": "http://api.magemonkeys.loc/magento-marketplace/"
+    }
+  ]
+}

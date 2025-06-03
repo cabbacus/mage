@@ -1,0 +1,11 @@
+.custom-service-style {padding-bottom: 100px;}
+.custom-service-style .container {max-width: 1394px;}
+.custom-service-style .title h4 {font-size: 40px;line-height: 60px;font-weight: 900;text-align: center;margin-top: 60px;margin-bottom: 60px;letter-spacing: 0.1px;}
+.custom-service-style .title h4:empty {display: none;}
+.custom-service-style .grid-services {display: grid;grid-column-gap: 16px;grid-row-gap: 20px;padding-left: 0px;padding-right: 0px;}
+.custom-service-style .grid-services .service-list {background-color: #FAFAFA;padding: 50px 40px 47px;}
+.custom-service-style .grid-services .service-list h4 {font-size: 40px;line-height: 60px;font-weight: 900;color: #ff6600;margin-bottom: 30px;letter-spacing: 0.1px;}
+.custom-service-style .grid-services .service-list p {font-size: 24px;line-height: 50px;color: #000;margin-bottom: 16px;}
+.custom-service-style .grid-services .service-list p:last-child {margin-bottom: 0px;}
+.custom-service-style .grid-services .service-list ul {padding-left: 20px;margin-bottom: 20px;}
+.custom-service-style .grid-services .service-list ul li {list-style: none;font-family: 'Fira Sans';line-height: 36px;font-size: 20px;color: #666;margin-bottom: 10px;}

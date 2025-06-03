@@ -1,0 +1,6 @@
+.special-note {padding: 76px 0px;background-color: #FAFAFA;}
+.special-note h4 {font-size: 40px;line-height: 60px;font-weight: 700;text-align: center;margin-bottom: 30px;color: #FF6600;}
+.special-note p {font-family: 'Merriweather';font-size: 30px;line-height: 50px;letter-spacing: 0.6px;text-align: center;color: #000;}
+.special-note .cnt-us-now {padding: 40px 0px 0px 0px;display: flex;justify-content: center;}
+.special-note .cnt-us-now .custom_btn {display: inline-block;max-width: 257px;width: 100%;border-radius: 4px;font-size: 18px;letter-spacing: .4px;text-align: center;background: #f60;color: #fff;transition: .3s;padding: 19.2px 10px;border: none;}
+.special-note .cnt-us-now .custom_btn:hover {background-color: #000;color: #fff;}

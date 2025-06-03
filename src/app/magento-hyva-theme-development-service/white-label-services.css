@@ -1,0 +1,14 @@
+.about-us {padding-bottom: 0px;}
+.magento-services-include {padding: 65px 0 70px;background-color: #FAFAFA;max-width: 1640px;width: 100%;margin: 0 auto;position: relative;}
+.magento-services-include .container {max-width: 1394px;}
+.magento-services-include .white-label-sr-desc {margin-bottom: 30px;}
+.magento-services-include .white-label-sr-desc p {font-size: 24px;line-height: 50px;color: #000000;text-align: center;}
+.magento-services-include .b2c {margin-bottom: 45px;font-size: 40px;line-height: 60px;text-align: center;font-weight: 700;color: #000000;}
+.magento-services-include .list-style ul li {font-family: 'Fira Sans';font-size: 24px;line-height: 50px;color: #000000;position: relative;padding-left: 30px;flex-wrap: wrap;align-items: baseline;background: transparent;}
+.magento-services-include .list-style ul li:before {content: "";border: 3px solid #f60;width: 11px;height: 11px;position: absolute;z-index: 9;transform: rotate(45deg);border-left: none;border-bottom: none;left: -5px;top: 20px;}
+
+.white-label-partner {}
+.white-label-partner .b2c {font-size: 40px;line-height: 60px;text-align: center;font-weight: 900;color: #000000;}
+.white-label-partner .list-style {margin-top: 60px;padding-left: 80px;}
+.white-label-partner .list-style ul li {font-family: 'Fira Sans';font-size: 24px;line-height: 50px;color: #000000;position: relative;padding-left: 30px;flex-wrap: wrap;align-items: baseline;background: transparent;}
+.white-label-partner .list-style ul li:before {content: "";border: 3px solid #f60;width: 11px;height: 11px;position: absolute;z-index: 9;transform: rotate(45deg);border-left: none;border-bottom: none;left: -5px;top: 20px;}

@@ -1,0 +1,10 @@
+.mobile-app-middle-sec {padding: 110px 0 116px;background-color: #FAFAFA;}
+.mobile-app-middle-sec .container {max-width: 1394px;}
+.mobile-app-middle-sec .mobile-app-inner {display: grid;grid-template-columns: 58% 42%;}
+.mobile-app-middle-sec .mobile-app-left {z-index: 9;}
+.mobile-app-middle-sec .mobile-app-left h4 {font-size: 40px;line-height: 60px;font-weight: 700;margin-bottom: 40px;color: #000000;}
+.mobile-app-middle-sec .mobile-app-left h4 span {color: #FF8A00;}
+.mobile-app-middle-sec .mobile-app-left p {font-size: 24px;line-height: 50px;color: #000000;margin-bottom: 40px;}
+.mobile-app-middle-sec .mobile-app-img img {max-width: 760px;margin-left: -20px;display: block;width: auto;}
+.mobile-app-left .info-button {max-width: fit-content;padding: 15px 20px;display: flex;align-items: center;margin-left: auto;height: 59px;border: none;}
+.mobile-app-left .info-button:hover {background-color: #000000;}

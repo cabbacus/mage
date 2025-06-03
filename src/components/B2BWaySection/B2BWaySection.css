@@ -1,0 +1,6 @@
+.b2b-way {padding-bottom: 70px;}
+.b2b-way .b2b-way-content {display: grid;grid-template-columns: 50% 50%;align-items: center;}
+.b2b-way .b2b-way-content .way-img img {width: 100%;}
+.b2b-way .way-content {max-width: 697px;}
+.b2b-way .way-content h4 {font-size: 40px;line-height: 60px;font-weight: 900;color: #000000;margin-bottom: 50px;letter-spacing: 0.1px;}
+.b2b-way .way-content p {font-family: 'Fira Sans';font-size: 24px;line-height: 50px;color: #000000;}

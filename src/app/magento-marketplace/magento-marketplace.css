@@ -1,0 +1,10 @@
+.new-store-service {padding: 110px 0 120px;background-color: #FAFAFA;}
+.new-store-service .head-title {max-width: 1025px;margin: 0px auto;}
+.new-store-service .head-title p {font-family: 'Merriweather';letter-spacing: 0.1px;font-size: 24px;line-height: 50px;text-align: center;color: #000000;margin-bottom: 30px;}
+.new-store-service .title {max-width: 1025px;margin: 0 auto 55px auto;}
+.new-store-service .title h4 {font-size: 40px;line-height: 60px;text-align: center;letter-spacing: 0.1px;font-weight: 900;margin-bottom: 15px;margin-top: 0px;}
+.new-store-service .title h4 span {color: #FF8A00;}
+.new-store-service .grid-services .service-list {background-color: #FFFFFF;}
+
+.custom-service-style .grid-services .service-list p {margin-bottom: 40px;}
+.custom-service-style .grid-services .service-list p:last-child {margin-bottom: 0px;}

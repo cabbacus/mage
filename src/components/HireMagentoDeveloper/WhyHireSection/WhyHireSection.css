@@ -1,0 +1,10 @@
+.why-hire {position: relative;padding-top: 150px;padding-bottom: 124px;}
+.why-hire .container {position: relative;z-index: 1;max-width: 1394px;}
+.why-hire .background-image {width: 100%;height: auto;padding-bottom: 74.12%;position: absolute;top: 0;left: 0;}
+.why-hire .background-image img {object-fit: cover;object-position: top;width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
+.why-hire .ecommerce-box-content {background-color: #fff;box-shadow: 0 30px 40px #00000029;border-radius: 4px;padding: 70px 36px 67px 50px;margin-bottom: -50px;}
+.why-hire .ecommerce-box-content > h4 {font-size: 40px;line-height: 60px;font-weight: 700;margin-bottom: 51px;}
+.why-hire .ecommerce-box-content > h4 span {color: #ff8a00;}
+.why-hire .ecommerce-box-content .list-style {max-width: 1140px;margin: 0 auto;}
+.why-hire .ecommerce-box-content ul li {font-family: 'Merriweather';font-size: 30px;line-height: 50px;letter-spacing: 0.6px;position: relative;margin-bottom: 30px;padding-left: 30px;color: #000000;}
+.why-hire .ecommerce-box-content ul li:before {content: "";position: absolute;top: 20px;z-index: 9;border: none;width: 26px;height: 19px;left: -20px;background: url(/images/icons/right-check.svg) no-repeat center;}
