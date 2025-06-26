@@ -10,18 +10,21 @@ import ServicesSection from '@/components/white-label-services/ServicesSection';
 import TopBannerSection from '@/components/white-label-services/TopBannerSection';
 import FAQ from '@/components/white-label-services/FAQ';
 import './white-label-services.css'
-export const metadata = {
-  title: 'Mage Monkeys – White Label Services',
-};
+import SEOHead from '@/components/SEOHead';
+import { getPageData } from '@/utils/pageData';
+import { getSeoMetadata } from '@/utils/seoHelper';
+
+export async function generateMetadata() {
+  const data = getPageData('/white-label-services');
+  return getSeoMetadata(data);
+}
 
 export default async function Page() {
-  const filePath = path.join(process.cwd(), 'public/data/json/white-label-services.json');
-  const raw = fs.readFileSync(filePath, 'utf-8');
-  const data = JSON.parse(raw);
+  const data = getPageData('/white-label-services');
   const acf = data.acf || {};
-
   return (
     <>
+      <SEOHead jsonLd={data?.aioseo_head_json?.schema} />
       <Header />
       <main>
         {/* <pre>{JSON.stringify(acf, null, 2)}</pre> */}

@@ -12,3 +12,49 @@
 .time-line-process .process-num span.num-count {font-size: 40px;line-height: 44px;}
 .time-line-process .service-list-content h4 {font-size: 40px;line-height: 60px;font-weight: 900;letter-spacing: 0.1px;color: #FF6600;margin-bottom: 30px;}
 .time-line-process .service-list-content p {font-family: 'Fira Sans';font-size: 24px;line-height: 50px;letter-spacing: 0.6px;color: #000000;}
+
+@media screen and (max-width: 1399px) {
+    .migrate-to-magento {padding: 80px 0 150px;}
+    .migrate-to-magento .head-title h4 {font-size: 36px;line-height: 50px;}
+    .migrate-to-magento .time-line {margin-top: 90px;}
+    .time-line-process:not(:last-child) {padding-bottom: 70px;}
+    .time-line-process .process-num {width: 80px;height: 80px;font-size: 16px;}
+    .time-line-process .process-num span.num-count {font-size: 30px;line-height: 30px;}
+    .time-line-process .service-list-content h4 {font-size: 36px;line-height: 50px;}
+    .time-line-process .service-list-content p {font-size: 20px;line-height: 32px;}
+}
+
+@media screen and (max-width: 1199px) {
+    .migrate-to-magento .head-title h4 {font-size: 30px;line-height: 40px;}
+    .time-line-process .service-list-content h4 {font-size: 30px;line-height: 40px;}
+}
+
+@media screen and (max-width: 991px) {
+    .migrate-to-magento {padding: 65px 0 120px;}
+    .migrate-to-magento .time-line {margin-top: 65px;}
+    .time-line-process .service-list-content p {font-size: 18px;line-height: 28px;}
+}
+
+@media screen and (max-width: 767px) {
+    .migrate-to-magento {padding: 40px 0 70px;}
+    .migrate-to-magento .container {max-width: 97%;}
+    .migrate-to-magento .head-title {margin: 0 auto 40px;}
+    .migrate-to-magento .head-title h4 {font-size: 24px;line-height: 36px;}
+    .migrate-to-magento .head-title h4 br {display: none;}
+    .migrate-to-magento .time-line {margin-top: 45px;}
+    .time-line-process {grid-template-columns: auto;}
+    .time-line-process:not(:last-child) {padding-bottom: 45px;}
+    .time-line-process:not(:last-child):before {display: none;}
+    .time-line-process .process-num {display: none;}
+    .time-line-process .service-list-content h4 {font-size: 24px;line-height: 36px;margin-bottom: 15px;}
+    .time-line-process .service-list-content p {font-size: 16px;line-height: 24px;}
+
+    .b2b-power .background-image img {max-height: 100%;}
+    .b2b-power .background-image {padding-bottom: 165%;}
+    .b2b-power .b2b-power-content p br {display: none;}
+}
+
+@media screen and (max-width: 576px) {
+    .migrate-to-magento {padding: 35px 0px;}
+    .time-line-process:not(:last-child) {padding-bottom: 20px;}
+}

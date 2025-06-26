@@ -1,10 +1,48 @@
 .why-hire {position: relative;padding-top: 150px;padding-bottom: 124px;}
 .why-hire .container {position: relative;z-index: 1;max-width: 1394px;}
-.why-hire .background-image {width: 100%;height: auto;padding-bottom: 74.12%;position: absolute;top: 0;left: 0;}
+.why-hire .background-image {width: 100%;height: auto;padding-bottom: 71.5%;position: absolute;top: 0;left: 0;}
 .why-hire .background-image img {object-fit: cover;object-position: top;width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
 .why-hire .ecommerce-box-content {background-color: #fff;box-shadow: 0 30px 40px #00000029;border-radius: 4px;padding: 70px 36px 67px 50px;margin-bottom: -50px;}
-.why-hire .ecommerce-box-content > h4 {font-size: 40px;line-height: 60px;font-weight: 700;margin-bottom: 51px;}
+.why-hire .ecommerce-box-content > h4 {font-size: 40px;line-height: 60px;font-weight: 900;margin-bottom: 51px;}
 .why-hire .ecommerce-box-content > h4 span {color: #ff8a00;}
 .why-hire .ecommerce-box-content .list-style {max-width: 1140px;margin: 0 auto;}
-.why-hire .ecommerce-box-content ul li {font-family: 'Merriweather';font-size: 30px;line-height: 50px;letter-spacing: 0.6px;position: relative;margin-bottom: 30px;padding-left: 30px;color: #000000;}
+.why-hire .ecommerce-box-content ul {margin-bottom: 0px;}
+.why-hire .ecommerce-box-content ul li {font-family: 'Merriweather';font-size: 30px;line-height: 50px;letter-spacing: 0.7px;position: relative;margin-bottom: 30px;padding-left: 30px;color: #000000;}
+.why-hire .ecommerce-box-content ul li strong {font-weight: 900;}
 .why-hire .ecommerce-box-content ul li:before {content: "";position: absolute;top: 20px;z-index: 9;border: none;width: 26px;height: 19px;left: -20px;background: url(/images/icons/right-check.svg) no-repeat center;}
+
+@media screen and (max-width: 1699px) {
+    .why-hire .container {max-width: 92%;}
+}
+
+@media screen and (max-width: 1399px) {
+    .why-hire {padding: 120px 0 100px;}
+    .why-hire .ecommerce-box-content {padding: 60px 30px 55px 70px;}
+    .why-hire .ecommerce-box-content > h4 {font-size: 36px;line-height: 50px;}
+    .why-hire .ecommerce-box-content ul li {margin-bottom: 15px;font-size: 24px;line-height: 38px;}
+    .why-hire .ecommerce-box-content ul li::before {width: 20px;background-size: 20px;left: -10px;top: 13px;}
+}
+
+@media screen and (max-width: 1280px) {
+    .why-hire .container {max-width: 95%;}
+}
+
+@media screen and (max-width: 1199px) {
+    .why-hire {padding: 100px 0 80px;}
+    .why-hire .ecommerce-box-content > h4 {font-size: 30px;line-height: 40px;margin-bottom: 40px;}
+    .why-hire .ecommerce-box-content ul li {margin-bottom: 15px;font-size: 22px;line-height: 36px;}
+}
+
+@media screen and (max-width: 991px) {
+    .why-hire .ecommerce-box-content ul li {font-size: 18px;line-height: 28px;}
+}
+
+@media screen and (max-width: 767px) {
+    .why-hire {padding: 50px 0 30px;}
+    .why-hire .container {max-width: 97%;}
+    .why-hire .background-image {height: 100%;}
+    .why-hire .ecommerce-box-content {padding: 30px 20px 25px 25px;margin-bottom: 0px;}
+    .why-hire .ecommerce-box-content > h4 {font-size: 24px;line-height: 36px;text-align: center;margin-bottom: 30px;}
+    .why-hire .ecommerce-box-content ul li {font-size: 16px;line-height: 24px;margin-bottom: 15px;padding-left: 25px;}
+    .why-hire .ecommerce-box-content ul li::before {width: 15px;background-size: 15px;left: -5px;top: 4px;}
+}

@@ -12,7 +12,7 @@ export default function ServicesSection({ services, sectionClass = 'new-store-se
         {sectionTitle?.trim() && (
           <div className="head-title">
             <div className='white-label-sr-desc'>
-              <p>{content}</p>
+              <div dangerouslySetInnerHTML={{ __html: content }} />
             </div>
           </div>
         )}
@@ -21,7 +21,7 @@ export default function ServicesSection({ services, sectionClass = 'new-store-se
         <div className="container">
           {sectionTitle?.trim() && (
             <div className="title">
-              <h4>{sectionTitle}</h4>
+              <h4 dangerouslySetInnerHTML={{ __html: sectionTitle }} />
             </div>
           )}
           <div className="row">

@@ -1,6 +1,5 @@
 'use client';
 
-import path from 'path';
 import React, { useState, useEffect } from 'react';
 import '../styles/header.css';
 import Image from 'next/image';
@@ -10,8 +9,8 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [siteDetails, setSiteDetails] = useState({ title_india: '', email_address: '', phone: '', flag_tooltip: '' });
   const [menuItems, setMenuItems] = useState([]);
+  const [openSubmenus, setOpenSubmenus] = useState([]);
 
-  // Fetching the file data on client side
   useEffect(() => {
     const fetchData = async () => {
       const res = await fetch('/data/header-data.json');
@@ -26,6 +25,16 @@ const Header = () => {
   const toggleNavbar = () => {
     setMenuOpen(!menuOpen);
   };
+
+  const toggleSubmenu = (id) => {
+    setOpenSubmenus((prev) =>
+      prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id]
+    );
+  };
+
+  // const toggleSubmenu = (id) => {
+  //   setOpenSubmenus((prev) => (prev.includes(id) ? [] : [id]));
+  // };
 
   return (
     <>
@@ -86,7 +95,9 @@ const Header = () => {
             </ul>
 
             <button  className={`navbar-toggler ${menuOpen ? 'active' : ''}`}  type="button" onClick={toggleNavbar}>
-              <span className="navbar-toggler-icon"></span>
+              <span className="navbar-toggler">
+                <Image src={menuOpen ? "/images/icons/toggle-close-icon.svg" : "/images/icons/menu-toggle-icon.svg"} alt={menuOpen ? "close-icon" : "toggle-icon"} width={30} height={30} />
+              </span>
             </button>
 
             <div className={`collapse navbar-collapse ${menuOpen ? 'show' : ''}`} id="navbarSupportedContent">
@@ -95,11 +106,23 @@ const Header = () => {
                   {menuItems.map((item) => (
                     <li
                       key={item.ID}
-                      className={`menu-item menu-item-${item.ID} ${item.child_items?.length > 0 ? 'menu-item-has-children' : ''}`}
+                      className={`menu-item menu-item-${item.ID} ${
+                        item.child_items?.length > 0 ? 'menu-item-has-children' : ''
+                      } ${openSubmenus.includes(item.ID) ? 'submenu-open' : ''}`}
                     >
-                      <a href={item.url}>{item.title}</a>
+                      <a
+                        href={item.url}
+                        onClick={(e) => {
+                          if (item.child_items?.length > 0) {
+                            e.preventDefault(); // prevent navigating
+                            toggleSubmenu(item.ID);
+                          }
+                        }}
+                      >
+                        {item.title}
+                      </a>
                       {item.child_items?.length > 0 && (
-                        <ul className="sub-menu">
+                        <ul className={`sub-menu ${openSubmenus.includes(item.ID) ? 'show' : ''}`}>
                           {item.child_items.map((child) => (
                             <li key={child.ID} className={`menu-item menu-item-${child.ID}`}>
                               <a href={child.url} dangerouslySetInnerHTML={{ __html: child.title }} />

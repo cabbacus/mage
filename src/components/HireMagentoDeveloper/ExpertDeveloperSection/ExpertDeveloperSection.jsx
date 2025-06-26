@@ -4,7 +4,7 @@ import './ExpertDeveloperSection.css';
 export default function ExpertDeveloperSection({ title, items = [] }) {
   return (
     <section className="are-expert">
-      <div className="container-sm">
+      <div className="container">
         <div className="row">
           <div className="col-md-12">
             <div className="magento-ecommerce-box-content">

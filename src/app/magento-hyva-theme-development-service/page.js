@@ -11,18 +11,21 @@ import TopBannerSection from '@/components/white-label-services/TopBannerSection
 import FAQ from '@/components/white-label-services/FAQ';
 import './white-label-services.css';
 
-export const metadata = {
-  title: 'What is Hyvä Theme? - magemonkeys',
-};
+import SEOHead from '@/components/SEOHead';
+import { getPageData } from '@/utils/pageData';
+import { getSeoMetadata } from '@/utils/seoHelper';
+
+export async function generateMetadata() {
+  const data = getPageData('magento-hyva-theme-development-service');
+  return getSeoMetadata(data);
+}
 
 export default async function Page() {
-  const filePath = path.join(process.cwd(), 'public/data/json/magento-hyva-theme-development-service.json');
-  const raw = fs.readFileSync(filePath, 'utf-8');
-  const data = JSON.parse(raw);
+  const data = getPageData('magento-hyva-theme-development-service');
   const acf = data.acf || {};
-
   return (
     <>
+      <SEOHead jsonLd={data?.aioseo_head_json?.schema} />
       <Header />
       <main>
         {/* <pre>{JSON.stringify(acf, null, 2)}</pre> */}

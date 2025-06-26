@@ -1,28 +1,29 @@
-import fs from 'fs';
-import path from 'path';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Form from '@/components/Form';
 import Image from 'next/image';
 import './website-audit.css';
 
-export const metadata = {
-  title: 'Website Audit - magemonkeys',
-};
+import SEOHead from '@/components/SEOHead';
+import { getPageData } from '@/utils/pageData';
+import { getSeoMetadata } from '@/utils/seoHelper';
+
+export async function generateMetadata() {
+  const data = getPageData('/website-audit');
+  return getSeoMetadata(data);
+}
 
 export default async function Page() {
-  const filePath = path.join(process.cwd(), 'public/data/json/website-audit.json');
-  const raw = fs.readFileSync(filePath, 'utf-8');
-  const data = JSON.parse(raw);
+  const data = getPageData('/website-audit');
   const acf = data.acf || {};
-
   return (
     <>
+      <SEOHead jsonLd={data?.aioseo_head_json?.schema} />
       <Header />
 
       <section className="main-banner">
         <Image
-          src="/wp-images/why-hire.jpg"
+          src="/data/images/website-audit/why-hire.jpg"
           alt="Why Hire"
           width={500}
           height={500}

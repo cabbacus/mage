@@ -2,15 +2,18 @@
 
 .optimization-services {padding: 65px 0 70px;background-color: #FAFAFA;}
 .optimization-services .optimization-services-desc {max-width: 1334px;width: 100%;margin: 0 auto;}
-.optimization-services .optimization-services-desc p {margin-block: 50px 0px;font-family: 'Merriweather';font-size: 24px;line-height: 50px;color: #000000;}
-.optimization-services .b2c {margin: 60px 0px;font-size: 40px;line-height: 60px;text-align: center;font-weight: 700;}
+.optimization-services .optimization-services-desc p {margin-block: 50px 0px;font-family: 'Merriweather';font-size: 24px;line-height: 50px;color: #000000;letter-spacing: 0.1px;}
+.optimization-services .b2c {margin: 60px 0px;font-size: 40px;line-height: 60px;text-align: center;font-weight: 900;letter-spacing: 0.1px;}
+.optimization-services .list-style ul {margin-bottom: 0px;}
 .optimization-services .list-style ul li {font-size: 24px;font-family: 'Fira Sans'; line-height: 50px;color: #000000;position: relative;padding-left: 30px;flex-wrap: wrap;align-items: baseline;background: transparent;}
 .optimization-services .list-style ul li:before {content: "";border: 3px solid #FF6600;width: 11px;height: 11px;position: absolute;z-index: 9;transform: rotate(45deg);border-left: none;border-bottom: none;left: -5px;top: 20px;}
 
 .services-sec {padding: 60px 0px 50px 0px;}
 .services-sec .container {max-width: 1394px;width: 100%;margin: 0 auto;}
+.services-sec .partition-column {padding-left: 0px;padding-right: 0px;}
+.services-sec .partition-column > .managed_upgrade_content {margin-bottom: 0px;}
 .services-sec .partition-column .managed_upgrade_content {background-color: #FAFAFA;padding: 50px 40px 47px;margin-bottom: 20px;}
-.services-sec .partition-column .managed_upgrade_content h4 {color: #FF6600;margin-bottom: 30px;font-size: 40px;line-height: 60px;font-weight: 700;}
+.services-sec .partition-column .managed_upgrade_content h4 {color: #FF6600;margin-bottom: 30px;font-size: 40px;line-height: 60px;font-weight: 900;letter-spacing: 0.1px;}
 .services-sec .partition-column .managed_upgrade_content ul {padding-left: 20px;margin-bottom: 20px;}
 .services-sec .partition-column .managed_upgrade_content ul li {position: relative;display: flex;align-items: center;}
 .services-sec .partition-column .managed_upgrade_content ul li {list-style: none;font-family: 'Fira Sans';line-height: 36px;font-size: 20px;color: #666;margin-bottom: 10px;}
@@ -18,4 +21,61 @@
 
 .tag-line {max-width: 1118px;margin: 0 auto;padding: 20px 0 30px;}
 .tag-content {background-color: #313131;padding: 33px 50px;}
-.tag-content p {max-width: 890px;margin: 0 auto;font-family: 'Merriweather';font-weight: 700;text-align: center;line-height: 30px;font-size: 20px;color: #FFFFFF;}
+.tag-content p {max-width: 890px;margin: 0 auto;font-family: 'Merriweather';font-weight: 900;text-align: center;line-height: 30px;font-size: 20px;color: #FFFFFF;letter-spacing: 0.1px;}
+
+@media screen and (max-width: 1699px) {
+    .services-sec .partition-column .managed_upgrade_content {max-width: 92%;width: 100%;margin-left: auto;margin-right: auto;}
+}
+
+@media screen and (max-width: 1399px) {
+    .optimization-services {padding: 50px 0 60px;}
+    .optimization-services .optimization-services-desc p {font-size: 20px;line-height: 32px;margin-block: 35px 0px;letter-spacing: 0.05px;}
+    .optimization-services .b2c {font-size: 36px;line-height: 50px;margin-block: 30px 45px;}
+    .optimization-services .list-style ul li {font-size: 20px;line-height: 32px;margin-bottom: 10px;}
+    .optimization-services .list-style ul li::before {transform: translate(-50%, -70%) rotate(45deg);}
+    .services-sec {padding: 40px 0px;}
+    .services-sec .partition-column .managed_upgrade_content {padding: 40px 30px;}
+    .services-sec .partition-column > .managed_upgrade_content {margin-bottom: 0px;}
+    .services-sec .partition-column .managed_upgrade_content h4 {font-size: 36px;line-height: 50px;margin-bottom: 20px;}
+}
+
+@media screen and (max-width: 1280px) {
+    .services-sec .partition-column .managed_upgrade_content {max-width: 95%;}
+    .services-sec .partition-column .managed_upgrade_content ul li {font-size: 18px;line-height: 30px;}
+}
+
+@media screen and (max-width: 1199px) {
+    .optimization-services .b2c {font-size: 30px;line-height: 40px;}
+    .services-sec {padding-bottom: 80px;}
+    .services-sec .partition-column .managed_upgrade_content {padding: 20px 25px;}
+    .services-sec .partition-column .managed_upgrade_content h4 {font-size: 30px;line-height: 40px;}
+    .tag-content {padding: 25px 40px;}
+    .tag-content p {font-size: 18px;line-height: 30px;}
+}
+
+@media screen and (max-width: 991px) {
+    .about-us {padding-bottom: 50px;}
+    .optimization-services {padding: 30px 0 50px;}
+    .optimization-services .optimization-services-desc p {font-size: 18px;line-height: 28px;margin-block: 25px 0px;}
+    .optimization-services .b2c {margin-block: 30px 35px;}
+    .optimization-services .list-style ul li {font-size: 18px;line-height: 28px;}
+    .tag-line {padding: 0px 0px;}
+}
+
+@media screen and (max-width: 767px) {
+    .about-us {padding: 50px 0px 25px;}
+    .optimization-services {padding: 35px 0 25px;}
+    .optimization-services .optimization-services-desc p {font-size: 16px;line-height: 24px;margin-block: 20px 0px;}
+    .optimization-services .b2c {font-size: 24px;line-height: 36px;margin-block: 30px 30px;}
+    .optimization-services .b2c br {display: none;}
+    .optimization-services .list-style ul li {font-size: 16px;line-height: 24px;padding-left: 25px;margin-bottom: 10px;}
+    .optimization-services .list-style ul li::before {top: 15px;left: 5px;border: 2px solid #f60;width: 8px;height: 8px;border-left: none;border-bottom: none;}
+    .services-sec {padding: 20px 0 30px;}
+    .services-sec .partition-column .managed_upgrade_content {max-width: 97%;padding: 15px;}
+    .services-sec .partition-column .managed_upgrade_content h4 {font-size: 24px;line-height: 36px;text-align: center;}
+    .services-sec .partition-column .managed_upgrade_content ul {margin-bottom: 0px;}
+    .services-sec .partition-column .managed_upgrade_content ul li {font-size: 16px;line-height: 24px;}
+    .services-sec .partition-column .managed_upgrade_content ul li:before {top: 10px;}
+    .tag-content {padding: 20px 15px;}
+    .tag-content p {font-size: 16px;line-height: 24px;}
+}

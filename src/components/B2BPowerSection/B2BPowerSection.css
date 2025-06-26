@@ -5,5 +5,42 @@
 .b2b-power .b2b-power-content {background-color: #fff;padding: 70px 36px 67px 50px;box-shadow: 0 30px 40px #00000029;border-radius: 4px;margin-bottom: -70px;position: relative;z-index: 1;}
 .b2b-power .b2b-power-content h4 {text-align: center;margin-bottom: 51px;font-size: 40px;line-height: 60px;font-weight: 900;letter-spacing: 0.1px;}
 .b2b-power .b2b-power-content p {font-family: 'Fira Sans';text-align: center;font-size: 24px;line-height: 50px;color: #000;}
+.b2b-power .b2b-power-content ul {margin-bottom: 0px;}
 .b2b-power .b2b-power-content ul li {font-family: 'Fira Sans';font-size: 24px;line-height: 50px;position: relative;padding-left: 30px;align-items: baseline;background: transparent;color: #000000;}
 .b2b-power .b2b-power-content ul li:before {content: "";border: 3px solid #f60;width: 11px;height: 11px;position: absolute;z-index: 9;transform: rotate(45deg);border-left: none;border-bottom: none;left: -5px;top: 20px;}
+
+@media screen and (max-width: 1399px) {
+    .b2b-power {padding-top: 150px;margin-bottom: 150px;}
+    .b2b-power .b2b-power-content {padding: 60px 63px 70px 85px;}
+    .b2b-power .b2b-power-content h4 {font-size: 36px;line-height: 50px;margin-bottom: 30px;}
+    .b2b-power .b2b-power-content p {font-size: 20px;line-height: 32px;}
+    .b2b-power .b2b-power-content ul li {font-size: 20px;line-height: 32px;margin-bottom: 10px;}
+    .b2b-power .b2b-power-content ul li::before {transform: translate(-50%, -70%) rotate(45deg);}
+}
+
+@media screen and (max-width: 1199px) {
+    .b2b-power .b2b-power-content h4 {font-size: 30px;line-height: 40px;}
+}
+
+@media screen and (max-width: 991px) {
+    .b2b-power {padding-top: 100px;margin-bottom: 120px;}
+    .b2b-power .b2b-power-content p {font-size: 18px;line-height: 28px;}
+    .b2b-power .b2b-power-content ul li {font-size: 18px;line-height: 28px;}
+}
+
+@media screen and (max-width: 767px) {
+    .b2b-power {padding-top: 50px;margin-bottom: 100px;}
+    .b2b-power .container {max-width: 97%;}
+    .b2b-power .background-image {padding-bottom: 105%;}
+    .b2b-power .background-image img {object-position: top left;}
+    .b2b-power .b2b-power-content {padding: 40px 30px;margin-bottom: -50px;}
+    .b2b-power .b2b-power-content h4 {font-size: 24px;line-height: 36px;margin-bottom: 30px;}
+    .b2b-power .b2b-power-content h4 br {display: none;}
+    .b2b-power .b2b-power-content p {font-size: 16px;line-height: 24px;}
+    .b2b-power .b2b-power-content ul li {font-size: 16px;line-height: 24px;padding-left: 25px;margin-bottom: 10px;}
+    .b2b-power .b2b-power-content ul li:before {top: 15px;left: 5px;border: 2px solid #f60;width: 8px;height: 8px;border-left: none;border-bottom: none;}
+}
+
+@media screen and (max-width: 576px) {
+    .b2b-power .b2b-power-content {padding: 35px 20px;}
+}

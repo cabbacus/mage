@@ -32,13 +32,14 @@ header #menu-top-menu .menu-item-350 a {background-color: #000;border-radius: 5p
 header a.custom_btn.businessemeet {max-width: 210px;font-size: 16px;letter-spacing: 0.5px;text-transform: capitalize;padding: 12px 15px;margin-left: 15px;background-color: #ff8a00;border-color: #ff8a00;line-height: 150%;}
 body .custom_btn {display: inline-block;max-width: 257px;width: 100%;border: 1px solid #f60;border-radius: 4px;font-size: 18px;letter-spacing: .4px;text-align: center;background: #f60;color: #fff;transition: .3s;padding: 15px 10px;}
 
-header #menu-top-menu li a:hover, header .sub-menu .menu-item:hover, header .sub-menu .menu-item:hover a {background: #000000;color: #FFFFFF;}
 header .sub-menu {position: absolute;z-index: 1000;display: none;min-width: 10rem;font-size: 1rem;color: #212529;text-align: left;list-style: none;background-color: #FFFFFF;background-clip: padding-box;border: 1px solid rgba(0,0,0,.15);border-radius: .25rem;margin-left: 0;}
 
 .top-header .container p {font-size: 16px;line-height: 1;color: #fff;margin-bottom: 0;display: inline;}
 ul.mobile-view-only li a span { border: 1px solid #00000057; background-color: transparent; }
-ul.mobile-view-only li a span  img{max-width: 15px;}
-.collapse.in, .leftpart .get_started .col-xs-12:not(.text-center) p:first-child, body .intl-tel-input, header .menu-item-has-children:hover .sub-menu, header .nav-item:hover .sub-menu {display: block;}
+ul.mobile-view-only li a span img {max-width: 15px;}
+ul.mobile-view-only li:last-child a span img {max-width: 18px;}
+
+.collapse.in, .leftpart .get_started .col-xs-12:not(.text-center) p:first-child, body .intl-tel-input {display: block;}
 .navbar-light .navbar-toggler { color: rgba(0, 0, 0, .55); border: none;outline: none!important;padding: 0; box-shadow: none;}
 .navbar-light .navbar-toggler.active span{
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' width='512' height='512' x='0' y='0' viewBox='0 0 64 64' style='enable-background:new 0 0 512 512' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M4.59 59.41a2 2 0 0 0 2.83 0L32 34.83l24.59 24.58a2 2 0 0 0 2.83-2.83L34.83 32 59.41 7.41a2 2 0 0 0-2.83-2.83L32 29.17 7.41 4.59a2 2 0 0 0-2.82 2.82L29.17 32 4.59 56.59a2 2 0 0 0 0 2.82z' fill='%23000000' opacity='1' data-original='%23000000'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
@@ -82,17 +83,19 @@ ul.mobile-view-only li a span  img{max-width: 15px;}
   .top-header ul li a span:first-child {width: 30px;height: 30px;}
 }
 @media (max-width: 1199px) {
+  header { padding: 20px 0 50px;z-index: 999;}
   .top-header ul li:not(:last-child) { margin-right: 10px; }
   header #menu-top-menu li a { font-size: 13px; padding: 10px; }
-  header { padding: 20px 0 50px; }
-  .logo { max-width: 90px; }
-  .flg_img{width: auto;margin: 14px 0 0 100px;}
+  .logo {max-width: 90px;z-index: 99999;}
+  .flg_img{width: auto;margin: 14px 0 0 100px;z-index: 99999;}
   .flg_img img{height: 38px; width: 38px;}
   header a.custom_btn.businessemeet{font-size: 13px;}
 
 }
 @media (min-width: 992px) {
   .navbar_expand_lg {flex-wrap: nowrap;position: relative;display: flex;align-items: center;justify-content: flex-start;padding: 0;}
+  header .menu-item-has-children:hover .sub-menu, header .nav-item:hover .sub-menu {display: block;}
+  header #menu-top-menu li a:hover, header .sub-menu .menu-item:hover, header .sub-menu .menu-item:hover a {background: #000000;color: #FFFFFF;}
 }
 
 /* responsive menu start */
@@ -105,16 +108,25 @@ ul.mobile-view-only li a span  img{max-width: 15px;}
   header #menu-top-menu>li:last-child, header #menu-top-menu>li.schedule_us_btn:not(.menu-item) { margin-left: 0; margin-top: 10px; }
   .btn-cartificate { gap: 20px; }
 
+  header {position: sticky;top: 0px;z-index: 999;}
+  header .sub-menu {position: static;width: 100%;display: none;}
+  header #menu-top-menu li.submenu-open > a {background: #000000;color: #FFFFFF;}
+  header .sub-menu.show {display: block;}
+
 }
 @media (max-width: 767px) {
+  .top-header {padding: 5px 0px;}
   .top-header .container{grid-template-columns: 1fr;}
   .top-header .desktop-view-only { display: none; }
   .top-header .container p{font-size: 13px; line-height: 19px; text-align: center;}
- 
+  
+  header {padding: 12px 0 14px;position: sticky;top: 0;box-shadow: 0 0 3px rgba(0,0,0,.15);background-color: #fff;z-index: 99;}
+  .top-header {position: static;}
   header p.logo-tagline { display: none; font-size: 11px; display: flex; align-items: center; justify-content: center; column-gap: 10px; padding: 5px 0; background-color: #f5f5f5; margin-bottom: 0; font-size: 14px; font-weight: 600; width: 100%; left: 0; top: unset; bottom: -48px; height: 34px; }
-  .flg_img { margin: 10px 0 0 100px; }
   header p.logo-tagline:before { content: '';  background-image: url(/images/icons/magento-seeklogo-com.png) !important; width: 21px; height: 24px;display: inline-block; }
+  .flg_img { margin: 10px 0 0 100px; }
   .flg_img .tooltip .tooltiptext {display: none !important;}
+  body .container {max-width: 97%;}
 
 
 }
@@ -124,8 +136,5 @@ ul.mobile-view-only li a span  img{max-width: 15px;}
   ul.mobile-view-only li a span{margin-right: 0;}
   .site-header ul.mobile-view-only{display: grid ; grid-auto-flow: column; grid-gap: 10px;}
   .site-header ul.mobile-view-only { display: flex; }
-  
-
-
 }
 /* responsive menu end */

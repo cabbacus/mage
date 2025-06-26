@@ -2,9 +2,43 @@
 .mobile-app-middle-sec .container {max-width: 1394px;}
 .mobile-app-middle-sec .mobile-app-inner {display: grid;grid-template-columns: 58% 42%;}
 .mobile-app-middle-sec .mobile-app-left {z-index: 9;}
-.mobile-app-middle-sec .mobile-app-left h4 {font-size: 40px;line-height: 60px;font-weight: 700;margin-bottom: 40px;color: #000000;}
+.mobile-app-middle-sec .mobile-app-left h4 {font-size: 40px;line-height: 60px;font-weight: 900;margin-bottom: 40px;color: #000000;letter-spacing: 0.1px;margin-bottom: 40px;}
 .mobile-app-middle-sec .mobile-app-left h4 span {color: #FF8A00;}
 .mobile-app-middle-sec .mobile-app-left p {font-size: 24px;line-height: 50px;color: #000000;margin-bottom: 40px;}
 .mobile-app-middle-sec .mobile-app-img img {max-width: 760px;margin-left: -20px;display: block;width: auto;}
 .mobile-app-left .info-button {max-width: fit-content;padding: 15px 20px;display: flex;align-items: center;margin-left: auto;height: 59px;border: none;}
 .mobile-app-left .info-button:hover {background-color: #000000;}
+.mobile-app-middle-sec .mobile-app-left .custom_btn {line-height: 1.5;}
+
+@media screen and (max-width: 1699px) {
+    .mobile-app-middle-sec .mobile-app-img img {max-width: 100%;}
+    .mobile-app-middle-sec .container {max-width: 92%;}
+}
+@media screen and (max-width: 1399px) {
+    .mobile-app-middle-sec {padding: 90px 0px;}
+    .mobile-app-middle-sec .mobile-app-left h4 {font-size: 36px;line-height: 50px;margin-bottom: 30px;}
+    .mobile-app-middle-sec .mobile-app-left p {font-size: 20px;line-height: 32px;}
+    .mobile-app-middle-sec .mobile-app-left .custom_btn {padding: 11px 10px;}
+}
+
+@media screen and (max-width: 1280px) {
+    .mobile-app-left .info-button {font-size: 16px;}
+    .mobile-app-middle-sec .container {max-width: 95%;}
+    .mobile-app-middle-sec .mobile-app-left .custom_btn {padding: 10px 15px;font-size: 16px;max-width: fit-content;}
+}
+
+@media screen and (max-width: 1199px) {
+    .mobile-app-middle-sec {padding: 70px 0px;}
+    .mobile-app-middle-sec .mobile-app-left h4 {font-size: 30px;line-height: 40px;margin-bottom: 30px;}
+    .mobile-app-middle-sec .mobile-app-left p {font-size: 18px;line-height: 28px;}
+}
+
+@media screen and (max-width: 767px) {
+    .mobile-app-middle-sec {padding: 35px 0px;}
+    .mobile-app-middle-sec .container {max-width: 97%;}
+    .mobile-app-middle-sec .mobile-app-inner {display: block;}
+    .mobile-app-middle-sec .mobile-app-left h4 {font-size: 24px;line-height: 36px;margin-bottom: 20px;}
+    .mobile-app-middle-sec .mobile-app-left p {font-size: 16px;line-height: 24px;}
+    .mobile-app-left .info-button {max-width: 100%;justify-content: center;}
+    .mobile-app-middle-sec .mobile-app-img img {margin: 50px 0px 0px 0px;}
+}

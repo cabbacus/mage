@@ -1,7 +1,7 @@
 .about-us {padding-top: 35px;padding-bottom: 0px;}
 .about-us h2 {text-align: center;font-weight: 900;line-height: 80px;letter-spacing: 0.1px;}
 .about-us h2 span {background-color: #ff8a00;padding: 2px 6px;display: inline-block;color: #fff;}
-.about-us p {margin-top: 40px;text-align: center;font-family: 'Merriweather';font-size: 24px;line-height: 50px;color: #000;}
+.about-us p {margin-top: 40px;text-align: center;font-family: 'Merriweather';font-size: 24px;line-height: 50px;color: #000;letter-spacing: 0.1px;}
 .banner-img {margin-top: 68px;text-align: right;}
 .banner-img img {max-height: 106px;max-width: 202px;display: block;margin-left: auto;}
 /* .about-us .banner-img {margin-bottom: 30px;} */
@@ -9,6 +9,17 @@
 .white-label-sr {padding: 65px 0 70px;background: #FAFAFA;}
 .white-label-sr p {font-size: 24px;line-height: 50px;color: #000;}
 
+@media screen and (max-width: 1399px) {
+    .about-us {padding-top: 0px;}
+}
+
+@media screen and (max-width: 991px) {
+    .about-us {padding-bottom: 50px;}
+    .about-us h2 {font-size: 36px;line-height: 50px;margin-bottom: 0px;}
+}
+
 @media screen and (max-width: 767px) {
     .banner-img {display: none;}
+    .about-us {padding: 50px 0px 25px;}
+    .about-us h2 {font-size: 27px;line-height: 36px;}
 }

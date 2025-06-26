@@ -4,8 +4,10 @@ import React, { useState, useEffect } from 'react';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
 import { getUserGeoData } from '@/utils/getUserCountry';
+import { useRouter } from 'next/navigation';
 
 const FooterForm = ({ formTitle = "Let’s initiate a discussion!!" }) => {
+  const router = useRouter();
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
@@ -15,6 +17,7 @@ const FooterForm = ({ formTitle = "Let’s initiate a discussion!!" }) => {
   });
 
   const [userCountry, setUserCountry] = useState('us');
+  const [submitting, setSubmitting] = useState(false);
 
   useEffect(() => {
     const loadCountry = async () => {
@@ -44,14 +47,16 @@ const FooterForm = ({ formTitle = "Let’s initiate a discussion!!" }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Honeypot spam protection
-    if (formData.company) {
-      console.warn('Bot detected - honeypot field filled.');
+    // Anti-bot honeypot check
+    if (formData.company?.trim()) {
+      console.warn('Bot detected via honeypot field.');
       return;
     }
 
+    setSubmitting(true); // Show Loader
+
     try {
-      const res = await fetch('http://api.magemonkeys.loc/wp-json/custom/v1/save-footer-form/', {
+      const response = await fetch('https://demo.magemonkeys.com/wp-json/custom/v1/save-footer-form/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -59,14 +64,16 @@ const FooterForm = ({ formTitle = "Let’s initiate a discussion!!" }) => {
         body: JSON.stringify(formData),
       });
 
-      const result = await res.json();
-
-      if (!res.ok) {
-        throw new Error(result.message || 'Something went wrong');
+      const result = await response.json();
+      console.log(result);
+      if (!response.ok) {
+        throw new Error(result.message || 'Form submission failed.');
       }
 
-      alert('Form submitted successfully!');
+      // Save data to localStorage for thank-you page calendar (optional)
+      localStorage.setItem('footerFormData', JSON.stringify(formData));
 
+      // Reset the form
       setFormData({
         fullName: '',
         email: '',
@@ -74,11 +81,18 @@ const FooterForm = ({ formTitle = "Let’s initiate a discussion!!" }) => {
         requirement: '',
         company: '',
       });
+
+      // Redirect to thank-you page (optional)
+      router.push('/thank-you');
+
     } catch (error) {
-      console.error('Error submitting form:', error);
+      console.error('Form submission error:', error);
       alert('Submission failed. Please try again later.');
+    } finally {
+      setSubmitting(false); // Hide loader
     }
   };
+
 
   return (
     <section className="footer-form-wrp text-center">
@@ -89,6 +103,11 @@ const FooterForm = ({ formTitle = "Let’s initiate a discussion!!" }) => {
             <span>With</span> Only Agency that provides a 24/7 emergency support.
           </p>
         </div>
+        {submitting && (
+          <div className="loader-overlay">
+            <div className="loader"></div>
+          </div>
+        )}
         <form onSubmit={handleSubmit} className="footer-form">
           <div className="row">
             <div className="col-xs-12 col-sm-4 input-box">

@@ -79,16 +79,15 @@ export default function WorkTabs({ workSections, middleCenterTitle }) {
  
 function TabContent({ item }) {
   return (
-    <div className="container">
-      <div className="row">
+      <div>
         {item.image && (
-          <div className="col-md-6 tab_content_left">
+          <div className="tab_content_left">
             <a className="tab-img">
               <Image src={item.image} width={686} height={610} alt={item.title} />
             </a>
           </div>
         )}
-        <div className={`tab_content_right ${item.image ? 'col-md-6' : 'col-md-12'}`}>
+        <div className="tab-content-right">
           <h5><a>{item.title}</a></h5>
           <div dangerouslySetInnerHTML={{ __html: item.description }} />
           <div className="action_btn">
@@ -103,6 +102,5 @@ function TabContent({ item }) {
           </div>
         </div>
       </div>
-    </div>
   );
 }

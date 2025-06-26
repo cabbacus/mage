@@ -22,7 +22,7 @@ export default function Testimonial({ testimonials, title }) {
         </div>
 
         <Swiper
-          modules={[Pagination, Autoplay]}
+          modules={[Pagination,]}
           slidesPerView={1}         // = “items: 1”
           pagination={{ clickable: true }}
           autoplay={{ delay: 5000, disableOnInteraction: false }}

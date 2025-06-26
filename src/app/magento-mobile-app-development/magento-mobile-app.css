@@ -1,2 +1,36 @@
 .new-store-service {padding: 60px 0 78px;background: #FAFAFA;}
 .new-store-service .grid-services .service-list {background-color: #FFFFFF;}
+
+@media (max-width: 1699px) {
+    .new-store-service .container {max-width: 92%;}
+}
+
+@media screen and (max-width: 1399px) {
+    .new-store-service {padding: 40px 0px;}
+    .new-store-service .grid-services .service-list {padding: 40px 30px;}
+    .new-store-service .grid-services .service-list h4 {font-size: 36px;line-height: 50px;margin-bottom: 20px;}
+    .new-store-service .grid-services .service-list p {font-size: 20px;line-height: 32px;}
+    .b2b-power .b2b-power-content {padding: 60px 30px 55px 70px;}
+}
+
+@media screen and (max-width: 1280px) {
+    .new-store-service .container {max-width: 95%;}
+}
+
+@media screen and (max-width: 1199px) {
+    .new-store-service .grid-services .service-list h4 {font-size: 32px;line-height: 44px;}
+}
+
+@media screen and (max-width: 991px) {
+    .new-store-service .grid-services .service-list {padding: 20px 25px;}
+    .new-store-service .grid-services .service-list p {font-size: 18px;line-height: 28px;}
+}
+
+@media screen and (max-width: 767px) {
+    .new-store-service {padding: 40px 0px;}
+    .new-store-service .container {max-width: 97%;}
+    .new-store-service .grid-services .service-list {padding: 15px;}
+    .new-store-service .grid-services .service-list h4 {font-size: 24px;line-height: 36px;margin-bottom: 15px;}
+    .new-store-service .grid-services .service-list p {font-size: 16px;line-height: 24px;}
+    .b2b-power .b2b-power-content {padding: 30px 20px 25px 25px;}
+}

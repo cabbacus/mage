@@ -4,3 +4,40 @@
 .new-store-service {background-color: #FAFAFA;padding: 60px 0px 78px 0px;}
 .new-store-service .grid-services .service-list {background-color: #FFFFFF;}
 .new-store-service .title {display: none;}
+
+@media screen and (max-width: 1399px) {
+    .about-us {padding-top: 0;}
+    
+    .new-store-service {padding: 40px 0px;}
+    .new-store-service .service-list {padding: 40px 30px;}
+    .new-store-service .grid-services .service-list h4 {font-size: 36px;line-height: 50px;margin-bottom: 20px;}
+    .new-store-service .grid-services .service-list p {font-size: 20px;line-height: 32px;}
+
+    .b2b-power {padding-top: 150px;margin-bottom: 150px;}
+}
+
+@media screen and (max-width: 1199px) {
+    .new-store-service .grid-services .service-list h4 {font-size: 30px;line-height: 40px;}
+    .new-store-service .grid-services .grid-services .service-list p {font-size: 18px;line-height: 28px;}
+}
+
+@media screen and (max-width: 991px) {
+    .about-us {padding-bottom: 50px;}
+    
+    .new-store-service .grid-services .service-list {padding: 20px 25px;}
+
+    .b2b-power {padding-top: 100px;margin-bottom: 120px;}
+}
+
+@media screen and (max-width: 767px) {
+    .about-us {padding: 50px 0px 25px;}
+    
+    .new-store-service {padding: 35px 0px;}
+    .new-store-service .container {max-width: 97%;}
+    .new-store-service .grid-services {grid-row-gap: 15px;}
+    .new-store-service .grid-services .service-list {padding: 15px;}
+    .new-store-service .grid-services .service-list h4 {font-size: 24px;line-height: 36px;margin-bottom: 15px;}
+    .new-store-service .grid-services .service-list p {font-size: 16px;line-height: 24px;margin-bottom: 0px;}
+
+    .b2b-power {padding-top: 50px;margin-bottom: 100px;}
+}

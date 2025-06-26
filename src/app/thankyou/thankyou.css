@@ -1,0 +1,27 @@
+footer {position: fixed;width: 100%;bottom: 0;}
+.thankyou-wraper {height: calc(100vh - 350px);display: flex;flex-direction: column;justify-content: center;}
+.inner_banner_text h1 {font-weight: 700;margin-bottom: 15px;text-align: center;}
+.managed-services-about p {font-size: 24px;line-height: 50px;color: #000;text-align: center;}
+
+
+@media screen and (max-width: 1699px) {
+    .inner_banner_text h1 {font-size: 60px;line-height: 70px;}
+}
+
+@media screen and (max-width: 1399px) {
+    .managed-services-about p {font-size: 20px;line-height: 32px;}
+}
+
+@media screen and (max-width: 1199px) {
+    .inner_banner_text h1 {font-size: 45px;line-height: 55px;}
+}
+
+@media screen and (max-width: 991px) {
+    .managed-services-about p {font-size: 18px;line-height: 28px;}
+}
+
+@media screen and (max-width: 767px) {
+    .thankyou-wraper {height: calc(100vh - 220px);}
+    .inner_banner_text h1 {font-size: 30px;line-height: 40px;}
+    .managed-services-about p {font-size: 16px;line-height: 24px;text-align: center;}
+}

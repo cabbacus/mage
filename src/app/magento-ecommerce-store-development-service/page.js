@@ -1,5 +1,3 @@
-import fs from 'fs';
-import path from 'path';
 import React from 'react';
 import Image from 'next/image';
 import Header from '@/components/Header';
@@ -8,18 +6,17 @@ import Footer from '@/components/Footer';
 import ManagedServiceContent from '@/components/ManagedServiceContent';
 import TopBannerSection from '@/components/white-label-services/TopBannerSection';
 import './development-service.css';
+import SEOHead from '@/components/SEOHead';
+import { getPageData } from '@/utils/pageData';
+import { getSeoMetadata } from '@/utils/seoHelper';
 
-export const metadata = {
-  title: 'Magento eCommerce Store Development Service - Mage Monkeys',
-};
+export async function generateMetadata() {
+  const data = getPageData('magento-ecommerce-store-development-service');
+  return getSeoMetadata(data);
+}
 
 export default async function Page() {
-  const filePath = path.join(
-    process.cwd(),
-    'public/data/json/magento-ecommerce-store-development-service.json'
-  );
-  const raw = fs.readFileSync(filePath, 'utf-8');
-  const data = JSON.parse(raw);
+  const data = getPageData('magento-ecommerce-store-development-service');
   const acf = data.acf || {};
   const {
     top_image,
@@ -31,6 +28,7 @@ export default async function Page() {
 
   return (
     <>
+      <SEOHead jsonLd={data?.aioseo_head_json?.schema} />
       <Header />
       <main>
         {/* Banner Section */}

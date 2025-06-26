@@ -1,6 +1,36 @@
 .are-expert {padding: 120px 0;}
-.are-expert .magento-ecommerce-box-content {max-width: 984px;margin: 0 auto;box-shadow: none;border: 10px solid #0000000d;padding: 50px 36px 60px 50px;}
-.are-expert .magento-ecommerce-box-content h4 {margin-bottom: 30px;font-size: 40px;line-height: 60px;font-weight: 700;}
+.are-expert .magento-ecommerce-box-content {max-width: 984px;margin: 0 auto;box-shadow: none;border: 10px solid #0000000d;padding: 50px 36px 60px 50px;border-radius: 4px;}
+.are-expert .magento-ecommerce-box-content h4 {margin-bottom: 30px;font-size: 40px;line-height: 60px;font-weight: 900;letter-spacing: 0.1px;}
 .are-expert .magento-ecommerce-box-content .list-style {padding-left: 90px;}
+.are-expert .magento-ecommerce-box-content ul {margin-bottom: 0px;}
 .are-expert .magento-ecommerce-box-content ul li {font-size: 30px;line-height: 60px;letter-spacing: 0.6px;font-family: 'Merriweather';position: relative;padding-left: 30px;}
 .are-expert .magento-ecommerce-box-content ul li:before {content: "";position: absolute;z-index: 9;top: 50%;transform: translateY(-50%);background: url(/images/icons/expert-icon.svg) no-repeat center;width: 27px;height: 32px;;left: -20px;}
+
+@media screen and (max-width: 1399px) {
+    .are-expert {padding: 70px 0px;}
+    .are-expert .magento-ecommerce-box-content h4 {font-size: 36px;line-height: 50px;margin-bottom: 40px;}
+    .are-expert .magento-ecommerce-box-content .list-style {padding-left: 80px;}
+    .are-expert .magento-ecommerce-box-content .list-style ul li {margin-bottom: 15px;font-size: 24px;line-height: 38px;}
+    .are-expert .magento-ecommerce-box-content .list-style ul li::before {width: 20px;background-size: 20px;left: -10px;top: 24px;}
+}
+
+@media screen and (max-width: 1199px) {
+    .are-expert .magento-ecommerce-box-content {padding: 40px 36px 40px 50px;}
+    .are-expert .magento-ecommerce-box-content h4 {font-size: 30px;line-height: 40px;}
+    .are-expert .magento-ecommerce-box-content .list-style {padding-left: 60px;}
+}
+
+@media screen and (max-width: 991px) {
+    .are-expert {padding: 80px 0px;}
+    .are-expert .magento-ecommerce-box-content .list-style ul li {font-size: 18px;line-height: 28px;}
+    .are-expert .magento-ecommerce-box-content .list-style ul li::before {top: 20px;}
+}
+
+@media screen and (max-width: 767px) {
+    .are-expert {padding: 35px 0px;}
+    .are-expert .magento-ecommerce-box-content {padding: 30px 20px;border: 5px solid #0000000d;}
+    .are-expert .magento-ecommerce-box-content h4 {font-size: 24px;line-height: 36px;margin-bottom: 20px;text-align: center;}
+    .are-expert .magento-ecommerce-box-content .list-style {padding-left: 20px;}
+    .are-expert .magento-ecommerce-box-content .list-style ul li {font-size: 16px;line-height: 24px;margin-bottom: 15px;padding-left: 25px;}
+    .are-expert .magento-ecommerce-box-content .list-style ul li::before {width: 15px;background-size: 15px;left: -5px;top: -1px;transform: none;}
+}

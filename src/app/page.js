@@ -1,5 +1,3 @@
-import fs from 'fs';
-import path from 'path';
 import React from 'react';
 
 import Header from '../components/Header';
@@ -8,20 +6,24 @@ import WorkTabs from '../components/home/WorkTabs';
 import TestimonialsCarousel from '../components/home/TestimonialsCarousel';
 import FooterForm from '../components/FooterForm';
 import Footer from '../components/Footer';
-import HeroBanner from '../styles/hero-banner.css';
+import '../styles/hero-banner.css';
 import Image from 'next/image';
-export const metadata = {
-  title: 'Mage Monkeys – Home',
-};
+import SEOHead from '@/components/SEOHead';
+import { getPageData } from '@/utils/pageData';
+import { getSeoMetadata } from '@/utils/seoHelper';
+
+export async function generateMetadata() {
+  const data = getPageData('home');
+  return getSeoMetadata(data);
+}
 
 export default async function Page() {
   // 1. read the static JSON produced by the fetch script
-  const filePath = path.join(process.cwd(), 'public/data/json/home.json');
-  const raw = fs.readFileSync(filePath, 'utf-8');
-  const data = JSON.parse(raw);        // <- all fields live here
+  const data = getPageData('home');
   const acf = data.acf || {};
   return (
     <>
+      <SEOHead jsonLd={data?.aioseo_head_json?.schema} />
       <Header />
 
       <main>
@@ -30,12 +32,13 @@ export default async function Page() {
           <div className="home-banner">
             <div className='mobile-banner-bg'>
               <Image
-                src="/wp-images/banner-mage-monkeys.jpg"
+                src="/data/images/home/banner-mage-monkeys.jpg"
                 alt="Mobile Banner"
                 width={390}
                 height={260}
-                className="mobile-banner-img"
                 priority
+                loading="eager"
+                className="mobile-banner-img"
               />
             </div>
             <div className="container home-banner-wrap">
@@ -48,7 +51,7 @@ export default async function Page() {
                       <Image
                         width={300}
                         height={118}
-                        src='/wp-images/certificate.png'
+                        src={acf.left_image}
                         alt='Magento Certificate'
                       />
                       <button className='custom_btn banner-btn schedule'>{acf.cta_button}</button>

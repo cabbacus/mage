@@ -9,18 +9,22 @@ import B2BPowerSection from '@/components/B2BPowerSection/B2BPowerSection';
 import Steps from '@/components/Steps/Steps';
 import './magento-upgrade-service.css';
 import MobileAppSection from '@/components/MobileAppSection/MobileAppSection';
-export const metadata = {
-  title: 'Mage Monkeys – White Label Services',
-};
+import SEOHead from '@/components/SEOHead';
+import { getPageData } from '@/utils/pageData';
+import { getSeoMetadata } from '@/utils/seoHelper';
+
+export async function generateMetadata() {
+  const data = getPageData('/magento-upgrade-service');
+  return getSeoMetadata(data);
+}
 
 export default async function Page() {
-  const filePath = path.join(process.cwd(), 'public/data/json/magento-upgrade-service.json');
-  const raw = fs.readFileSync(filePath, 'utf-8');
-  const data = JSON.parse(raw);
+  const data = getPageData('/magento-upgrade-service');
   const acf = data.acf || {};
   
   return (
     <>
+      <SEOHead jsonLd={data?.aioseo_head_json?.schema} />
       <Header />
       <main>
         {/* <pre>{JSON.stringify(data.acf, null, 2)}</pre> */}

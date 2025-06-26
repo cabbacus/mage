@@ -11,21 +11,24 @@ import B2BPowerSection from '@/components/B2BPowerSection/B2BPowerSection';
 import MobileAppSection from '@/components/MobileAppSection/MobileAppSection';
 import './magento-mobile-app.css'; // import this page css file on last line
 
-export const metadata = {
-  title: 'Mage Monkeys – White Label Services',
-};
+import SEOHead from '@/components/SEOHead';
+import { getPageData } from '@/utils/pageData';
+import { getSeoMetadata } from '@/utils/seoHelper';
+
+export async function generateMetadata() {
+  const data = getPageData('/magento-mobile-app-development');
+  return getSeoMetadata(data);
+}
 
 export default async function Page() {
-  const filePath = path.join(process.cwd(), 'public/data/json/magento-mobile-app-development.json');
-  const raw = fs.readFileSync(filePath, 'utf-8');
-  const data = JSON.parse(raw);
+  const data = getPageData('/magento-mobile-app-development');
   const acf = data.acf || {};
   const magentoList = acf.magento_mobile_application_block.map(item => `<li>${item.title}</li>`).join('');
 
   const content = `<div class="list-style"><ul>${magentoList}</ul></div>`;
   return (
     <>
-
+      <SEOHead jsonLd={data?.aioseo_head_json?.schema} />
       <Header />
       <main>
         <TopBannerSection title={data.title.rendered || 'White Label Services'} topImage={acf.top_image || '/placeholder.png'} />

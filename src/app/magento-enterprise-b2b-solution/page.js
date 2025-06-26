@@ -1,27 +1,28 @@
-import fs from 'fs';
-import path from 'path';
 import React from 'react';
-import Image from 'next/image';
 import Header from '@/components/Header';
 import FooterForm from '@/components/FooterForm';
 import Footer from '@/components/Footer';
 import ServicesSection from '@/components/white-label-services/ServicesSection';
 import TopBannerSection from '@/components/white-label-services/TopBannerSection';
-import './enterprise-b2b.css';
 import B2BPowerSection from '@/components/B2BPowerSection/B2BPowerSection';
 import B2BWaySection from '@/components/B2BWaySection/B2BWaySection';
+import './enterprise-b2b.css';
 
-export const metadata = {
-  title: 'Mage Monkeys – White Label Services',
-};
+import SEOHead from '@/components/SEOHead';
+import { getPageData } from '@/utils/pageData';
+import { getSeoMetadata } from '@/utils/seoHelper';
+
+export async function generateMetadata() {
+  const data = getPageData('magento-enterprise-b2b-solution');
+  return getSeoMetadata(data);
+}
 
 export default async function Page() {
-  const filePath = path.join(process.cwd(), 'public/data/json/magento-enterprise-b2b-solution.json');
-  const raw = fs.readFileSync(filePath, 'utf-8');
-  const data = JSON.parse(raw);
+  const data = getPageData('magento-enterprise-b2b-solution');
   const acf = data.acf || {};
   return (
     <>
+      <SEOHead jsonLd={data?.aioseo_head_json?.schema} />
       <Header />
       <main>
         <TopBannerSection title={data.title.rendered || 'White Label Services'} topImage={acf.top_image || '/placeholder.png'} />

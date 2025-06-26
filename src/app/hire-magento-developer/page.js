@@ -1,7 +1,4 @@
-import fs from 'fs';
-import path from 'path';
 import React from 'react';
-import Image from 'next/image';
 import Header from '@/components/Header';
 import FooterForm from '@/components/FooterForm';
 import Footer from '@/components/Footer';
@@ -13,18 +10,21 @@ import SpecialNoteSection from '@/components/HireMagentoDeveloper/SpecialNoteSec
 import StillThinkingSection from '@/components/HireMagentoDeveloper/StillThinkingSection/StillThinkingSection';
 import './hire-magento-developer.css';
 
-export const metadata = {
-  title: 'Hire Magento Developer | Hire Certified Magento2 Developers',
-};
+import SEOHead from '@/components/SEOHead';
+import { getPageData } from '@/utils/pageData';
+import { getSeoMetadata } from '@/utils/seoHelper';
+
+export async function generateMetadata() {
+  const data = getPageData('hire-magento-developer');
+  return getSeoMetadata(data);
+}
 
 export default async function Page() {
-  const filePath = path.join(process.cwd(), 'public/data/json/hire-magento-developer.json');
-  const raw = fs.readFileSync(filePath, 'utf-8');
-  const data = JSON.parse(raw);
+  const data = getPageData('hire-magento-developer');
   const acf = data.acf || {};
-
   return (
     <>
+      <SEOHead jsonLd={data?.aioseo_head_json?.schema} />
       <Header />
       <main>
         <TopBannerSection title={data.title.rendered} topImage={acf.banner_image} />

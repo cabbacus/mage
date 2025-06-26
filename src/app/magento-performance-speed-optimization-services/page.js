@@ -11,18 +11,17 @@ import FAQ from '@/components/white-label-services/FAQ';
 import TopBannerSection from '@/components/white-label-services/TopBannerSection';
 import './optimization-services.css';
 
-export const metadata = {
-  title:
-    'Magento 2 Performance & Speed Optimization Service | Magento Speed Optimization Service',
-};
+import SEOHead from '@/components/SEOHead';
+import { getPageData } from '@/utils/pageData';
+import { getSeoMetadata } from '@/utils/seoHelper';
+
+export async function generateMetadata() {
+  const data = getPageData('/magento-performance-speed-optimization-services');
+  return getSeoMetadata(data);
+}
 
 export default async function Page() {
-  const filePath = path.join(
-    process.cwd(),
-    'public/data/json/magento-performance-speed-optimization-services.json'
-  );
-  const raw = fs.readFileSync(filePath, 'utf-8');
-  const data = JSON.parse(raw);
+  const data = getPageData('/magento-performance-speed-optimization-services');
   const acf = data.acf ?? {};
 
   const {
@@ -41,6 +40,7 @@ export default async function Page() {
 
   return (
     <>
+      <SEOHead jsonLd={data?.aioseo_head_json?.schema} />
       <Header />
 
       <main>

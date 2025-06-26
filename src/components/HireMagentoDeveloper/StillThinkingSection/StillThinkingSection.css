@@ -1,8 +1,40 @@
 .stile-thinking {padding: 90px 0px 80px 0px;}
 .stile-think-content {margin-bottom: 72px;}
-.stile-think-content h4 {font-size: 40px;line-height: 60px;font-weight: 700;text-align: center;}
-.stile-think-content h5 {font-size: 30px;line-height: 45px;font-weight: 700;text-align: center;margin-bottom: 15px;}
+.stile-think-content h4 {font-size: 40px;line-height: 60px;font-weight: 700;text-align: center;letter-spacing: 0.2px;}
+.stile-think-content h5 {font-size: 30px;line-height: 45px;font-weight: 700;text-align: center;margin-bottom: 15px;letter-spacing: 0.2px;}
 .stile-think-content img {max-width: 44px;margin-left: 20px;display: inline-block;}
 .stile-thinking .guarantee-content {max-width: 1500px;margin: 0 auto;}
 .stile-thinking .guarantee-content h4 {font-size: 40px;line-height: 60px;font-weight: 700;text-align: center;margin-bottom: 15px;color: #FF6600;}
 .stile-thinking .guarantee-content p {font-family: 'Merriweather';font-size: 30px;line-height: 50px;letter-spacing: 0.5px;text-align: center;color: #000;}
+
+@media screen and (max-width: 1399px) {
+    .stile-thinking {padding: 60px 0 50px;}
+    .stile-think-content {margin-bottom: 60px;}
+    .stile-think-content h4 {font-size: 36px;line-height: 50px;}
+    .stile-thinking .guarantee-content h4 {font-size: 36px;line-height: 50px;}
+    .stile-thinking .guarantee-content p {font-size: 24px;line-height: 38px;margin-bottom: 15px;letter-spacing: 0.7px;}
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1199px) {
+    .stile-thinking {padding: 60px 0 50px;}
+    .stile-think-content {margin-bottom: 50px;}
+    .stile-think-content h4 {font-size: 30px;line-height: 40px;}
+    .stile-thinking .guarantee-content h4 {font-size: 30px;line-height: 40px;}
+}
+
+@media screen and (max-width: 991px) {
+    .stile-think-content img {max-width: 30px;margin-left: 10px;}
+    .stile-thinking .guarantee-content p {font-size: 18px;line-height: 28px;}
+}
+
+@media screen and (max-width: 767px) {
+    .stile-thinking {padding: 35px 0px;}
+    .stile-think-content {margin-bottom: 40px;}
+    .stile-think-content h4 {font-size: 24px;line-height: 36px;margin-bottom: 0px;}
+    .stile-think-content h5 {font-size: 20px;line-height: 24px;}
+    .stile-thinking .guarantee-content h4 {font-size: 24px;line-height: 36px;}
+    .stile-thinking .guarantee-content p {font-size: 16px;line-height: 24px;}
+}

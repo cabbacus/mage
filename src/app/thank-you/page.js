@@ -1,23 +1,21 @@
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import TopBannerSection from '@/components/white-label-services/TopBannerSection';
-import TimezoneBookingForm from '@/components/TimezoneBookingForm/TimezoneBookingForm';
+import BookingForm from '@/components/TimezoneBookingForm/TimezoneBookingForm';
+import './thank-you.css';
 
-export const metadata = {
-  title: 'Thank You - magemonkeys',
-};
+import SEOHead from '@/components/SEOHead';
+import { getPageData } from '@/utils/pageData';
+import { getSeoMetadata } from '@/utils/seoHelper';
 
-export default function BookingPage() {
+export async function generateMetadata() {
+  const data = getPageData('/thank-you');
+  return getSeoMetadata(data);
+}
+
+export default function ThankYouPage() {
+  const data = getPageData('/thank-you');
   return (
     <>
-      <Header />
-      <TopBannerSection title="Thank You" />
-
-      <div className="max-w-4xl mx-auto px-4 py-10">
-        <TimezoneBookingForm />
-      </div>
-
-      <Footer />
-    </>
+    <SEOHead jsonLd={data?.aioseo_head_json?.schema} />
+    <BookingForm />
+  </>
   );
 }

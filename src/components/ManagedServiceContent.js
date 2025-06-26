@@ -5,9 +5,11 @@ import { Scrollbar } from 'react-scrollbars-custom';
 
 export default function ManagedServiceContent({ description }) {
   return (
-    <Scrollbar>
-        <div dangerouslySetInnerHTML={{ __html: description }} />
-    </Scrollbar>
+    <div className="managed-content">
+      <Scrollbar>
+          <div dangerouslySetInnerHTML={{ __html: description }} />
+      </Scrollbar>
+    </div>
     // 
   );
 }

@@ -1,6 +1,6 @@
 .general-support-get-start {padding: 90px 0 104px;background-color: #FAFAFA;}
 .general-support-get-start .get-start-title {margin-bottom: 30px;}
-.general-support-get-start .get-start-title h4 {font-size: 40px;line-height: 60px;font-weight: 700;text-align: center;color: #000;max-width: 850px;margin-left: auto;margin-right: auto;}
+.general-support-get-start .get-start-title h4 {font-size: 40px;line-height: 60px;font-weight: 900;text-align: center;color: #000;max-width: 850px;margin-left: auto;margin-right: auto;letter-spacing: 0.1px;margin-bottom: 0px;}
 .general-support-get-start .get-start-title p {font-family: 'Fira Sans';font-size: 24px;line-height: 50px;text-align: center;margin-bottom: 0;color: #000;}
 .general-support-get-start .get-start-title p a {padding-left: 10px;color: #FF8A00;}
 .general-support-get-start .footer-form {max-width: 1088px;margin: 0 auto;}
@@ -16,4 +16,63 @@
 
 .tag-line-box .tag-line {padding: 0 0 100px;max-width: 1118px;margin: 0 auto;}
 .tag-line-box .tag-content {padding: 61px 0;background-color: #313131;}
-.tag-line-box .tag-content p {text-align: center;color: #fff;max-width: 890px;margin: 0 auto;font-family: 'Merriweather';font-size: 20px;font-weight: 400;line-height: 30px;letter-spacing: -0.4px;}
+.tag-line-box .tag-content p {text-align: center;color: #fff;max-width: 890px;margin: 0 auto;font-family: 'Merriweather';font-size: 20px;font-weight: 400;line-height: 30px;letter-spacing: 0px;}
+
+@media screen and (max-width: 1399px) {
+    .about-us p {font-size: 20px;line-height: 32px;}
+    .general-support-get-start {padding: 80px 0 90px;}
+    .general-support-get-start .get-start-title h4 {max-width: 780px;margin-left: auto;margin-right: auto;font-size: 36px;line-height: 50px;}
+    .general-support-get-start .get-start-title p {font-size: 20px;line-height: 32px;}
+    .general-support-get-start .footer-form .form-control {height: 48px;font-size: 16px;padding: 8px 15px;}
+    .general-support-get-start .footer-form .common-btn {margin-top: 35px;max-width: 257px;padding: 11px 10px;font-size: 16px;height: 48px;}
+    .for-general-support {margin: 80px 0;}
+    .for-general-support .general-support-wrp h4 {font-size: 36px;line-height: 50px;}
+    .for-general-support .box-grid-wrp {grid-column-gap: 40px;grid-row-gap: 40px;max-width: 85%;}
+    .for-general-support .box-grid-wrp .support-box {padding: 35px 15px 12px;}
+    .for-general-support .box-grid-wrp .support-box img {max-width: 85px;}
+    .for-general-support .box-grid-wrp .support-box h6 {font-size: 20px;line-height: 26px;}
+    .tag-line-box .tag-content p {font-size: 20px;line-height: 32px;}
+}
+
+@media screen and (max-width: 1280px) {
+    .general-support-get-start .footer-form .common-btn {padding: 10px 15px;font-size: 16px;max-width: fit-content;}
+    .tag-line-box .tag-content p {font-size: 18px;line-height: 28px;}
+}
+
+@media screen and (max-width: 1199px) {
+    .general-support-get-start .get-start-title h4 {font-size: 30px;line-height: 40px;}
+    .for-general-support .general-support-wrp h4 {font-size: 30px;line-height: 40px;}
+}
+
+@media screen and (max-width: 991px) {
+    .about-us p {font-size: 20px;line-height: 32px;}
+    .general-support-get-start {padding: 50px 0 60px;}
+    .general-support-get-start .get-start-title p {font-size: 18px;line-height: 28px;}
+    .for-general-support {margin: 50px 0;}
+    .for-general-support .general-support-wrp {padding: 40px 0px;}
+    .for-general-support .general-support-wrp h4 {margin-bottom: 50px;}
+    .for-general-support .box-grid-wrp {grid-column-gap: 30px;grid-row-gap: 30px;max-width: 90%;}
+    .for-general-support .box-grid-wrp .support-box {padding: 30px 15px 12px;}
+    .for-general-support .box-grid-wrp .support-box h6 {font-size: 18px;line-height: 24px;}
+    .tag-line-box .tag-line {padding: 0px 0px 50px;}
+    .tag-line-box .tag-content {padding: 40px 20px;}
+}
+
+@media screen and (max-width: 767px) {
+    .about-us p {font-size: 16px;line-height: 24px;margin-top: 20px;}
+    .general-support-get-start {padding: 30px 0 40px;}
+    .general-support-get-start .get-start-title h4 {font-size: 20px;line-height: 27px;color: #424242;}
+    .general-support-get-start .get-start-title p {font-size: 16px;line-height: 24px;}
+    .general-support-get-start .footer-form .input-box {margin-bottom: 22px;}
+    .general-support-get-start .footer-form .form-control {height: 40px;font-size: 16px;border: 1px solid #00000046;color: #2b2b2b;border-radius: 0px;margin-bottom: 0px;}
+    .general-support-get-start .footer-form .common-btn {max-width: 100%;font-size: 17px;height: 50px;margin-top: 10px;}
+    .for-general-support {margin: 30px 0;}
+    .for-general-support .general-support-wrp {padding: 30px 0px;}
+    .for-general-support .general-support-wrp h4 {font-size: 24px;line-height: 36px;margin-bottom: 40px;}
+    .for-general-support .box-grid-wrp {grid-column-gap: 15px;grid-row-gap: 15px;max-width: 100%;grid-template-columns: repeat(2,1fr);}
+    .for-general-support .box-grid-wrp .support-box {padding: 20px 10px 15px;}
+    .for-general-support .box-grid-wrp .support-box img {max-width: 60px;margin-bottom: 20px;}
+    .for-general-support .box-grid-wrp .support-box h6 {font-size: 16px;line-height: 24px;}
+    .tag-line-box .tag-content p {font-size: 16px;line-height: 24px;}
+    .tag-line-box .tag-line {padding: 0px 0px 30px;}
+}

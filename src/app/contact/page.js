@@ -1,24 +1,26 @@
-import fs from 'fs';
-import path from 'path';
-import Header from '@/components/Header';
+import OnContactHeader from '@/components/OnContactHeader';
 import Footer from '@/components/Footer';
 import Form from '@/components/Form';
 import TopBannerSection from '@/components/white-label-services/TopBannerSection';
 import Image from 'next/image';
 import './contact.css';
 
-export const metadata = {
-  title: 'Mage Monkeys – Home',
-};
+import SEOHead from '@/components/SEOHead';
+import { getPageData } from '@/utils/pageData';
+import { getSeoMetadata } from '@/utils/seoHelper';
+
+export async function generateMetadata() {
+  const data = getPageData('contact');
+  return getSeoMetadata(data);
+}
 
 export default async function Page() {
-  const filePath = path.join(process.cwd(), 'public/data/json/contact.json');
-  const raw = fs.readFileSync(filePath, 'utf-8');
-  const data = JSON.parse(raw);
+  const data = getPageData('contact');
   const acf = data.acf || {};
   return (
     <>
-      <Header />
+      <SEOHead jsonLd={data?.aioseo_head_json?.schema} />
+      <OnContactHeader />
       <TopBannerSection title={data.title?.rendered} topImage={acf.top_image} />
 
       <main>
@@ -50,7 +52,7 @@ export default async function Page() {
                 <div className="get-start-title">
                   <h4 dangerouslySetInnerHTML={{ __html: acf.lets_connect_title }} />
                   <p className="form-tagline">
-                    <span>With</span> Only Agency that provides 24/7 emergency support.
+                    <span>With</span> Only Agency that provides a 24/7 emergency support.
                   </p>
                   <h6 dangerouslySetInnerHTML={{ __html: acf.heading_title }} />
                   <div className='mail-link'>

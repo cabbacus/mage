@@ -8,3 +8,50 @@
 
 .custom-service-style .grid-services .service-list p {margin-bottom: 40px;}
 .custom-service-style .grid-services .service-list p:last-child {margin-bottom: 0px;}
+
+@media screen and (max-width: 1699px) {
+    .new-store-service .container {max-width: 92%;}
+}
+
+@media screen and (max-width: 1399px) {
+    .new-store-service {padding: 90px 0;}
+    .new-store-service .head-title p {font-size: 20px;line-height: 32px;}
+    .custom-service-style .title h4 {font-size: 36px;line-height: 50px;}
+
+    .custom-service-style .grid-services .service-list {padding: 40px 30px;}
+    .custom-service-style .grid-services .service-list h4 {font-size: 36px;line-height: 50px;}
+    .custom-service-style .grid-services .service-list p {font-size: 20px;line-height: 32px;}
+}
+
+@media screen and (max-width: 1280px) {
+    .new-store-service .container {max-width: 95%;}
+}
+
+@media screen and (max-width: 1199px) {
+    .new-store-service {padding: 70px 0;}
+    .custom-service-style .title h4 {font-size: 30px;line-height: 40px;}
+    
+    .custom-service-style .grid-services .service-list h4 {font-size: 30px;line-height: 40px;margin-bottom: 20px;}
+}
+
+@media screen and (max-width: 991px) {
+    .new-store-service {padding: 70px 0;}
+    .new-store-service .head-title p {font-size: 18px;line-height: 28px;}
+
+    .custom-service-style .grid-services .service-list {padding: 20px 25px;}
+    .custom-service-style .grid-services .service-list p {font-size: 18px;line-height: 28px;}
+}
+
+@media screen and (max-width: 767px) {
+    .new-store-service {padding: 35px 0;}
+    .new-store-service .container {max-width: 97%;}
+    .new-store-service .head-title p {font-size: 16px;line-height: 24px;}
+    .new-store-service .title {margin: 0 auto 40px;}
+    .custom-service-style .title h4 {font-size: 24px;line-height: 36px;}
+    .custom-service-style .title h4 br {display: none;}
+
+    .custom-service-style .grid-services {grid-row-gap: 15px;}
+    .custom-service-style .grid-services .service-list {padding: 15px;}
+    .custom-service-style .grid-services .service-list h4 {font-size: 24px;line-height: 36px;margin-bottom: 15px;}
+    .custom-service-style .grid-services .service-list p {font-size: 16px;line-height: 24px;}
+}

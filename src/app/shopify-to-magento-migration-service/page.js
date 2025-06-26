@@ -10,19 +10,22 @@ import ServicesSection from '@/components/white-label-services/ServicesSection';
 import TopBannerSection from '@/components/white-label-services/TopBannerSection';
 import FAQ from '@/components/white-label-services/FAQ';
 import './white-label-services.css';
+import SEOHead from '@/components/SEOHead';
+import { getPageData } from '@/utils/pageData';
+import { getSeoMetadata } from '@/utils/seoHelper';
 
-export const metadata = {
-  title: 'What is Hyvä Theme? - magemonkeys',
-};
+export async function generateMetadata() {
+  const data = getPageData('/shopify-to-magento-migration-service');
+  return getSeoMetadata(data);
+}
 
 export default async function Page() {
-  const filePath = path.join(process.cwd(), 'public/data/json/shopify-to-magento-migration-service.json');
-  const raw = fs.readFileSync(filePath, 'utf-8');
-  const data = JSON.parse(raw);
+  const data = getPageData('/shopify-to-magento-migration-service');
   const acf = data.acf || {};
-
+  
   return (
     <>
+      <SEOHead jsonLd={data?.aioseo_head_json?.schema} />
       <Header />
       <main>
         {/* <pre>{JSON.stringify(acf, null, 2)}</pre> */}

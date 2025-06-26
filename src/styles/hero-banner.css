@@ -42,26 +42,24 @@
    .home-banner .banner-left-content p { margin-bottom: 30px; font-size: 17px; }
 }
 @media (max-width:767px) {
-   .home-banner {padding: 25px 0;}
+   .home-banner {position: relative;padding: 50px 0 25px;}
    .home-banner .new-home-slider{display: none;}
    .home-banner .banner-left-content, .why_mage_cell { text-align: center; }
    .home-banner .banner-left-content .banner-btn-box img{display: none;}
-   .home-banner .heading-title {  font-size: 20px; } 
+   .home-banner .heading-title {font-size: 20px;line-height: 27px;color: #fff;}
+   .home-banner .heading-title span {background-color: transparent;font-size: 63px;line-height: 74px;display: block;}
    .home-banner .heading-title br{display: none;}
+   .home-banner .banner-left-content {margin-bottom: 0px;}
    .home-banner .banner-left-content .banner-btn-box{justify-content: center;}
-   .home-banner .banner-left-content p { font-size: 16px; margin: 15px 0; }
+   .home-banner .banner-left-content p {font-size: 16px;margin: 15px 0;font-weight: 600;padding-top: 8px;color: #fff;display: inline-block;border-top: 1px solid rgba(255,255,255,.3);font-family: "Open Sans",sans-serif;line-height: 24px;}
+   .home-banner .mobile-banner-bg img.mobile-banner-img {height: 100%; display: block; object-fit: cover;width: 100%;object-position: left;}
 }
 @media (min-width:576px) {
    .mobile-banner-bg {display: none;}
 }
 @media (max-width:576px) {
-   .home-banner{position: relative;}
-   .heading-title { color: #fff; margin-bottom: 0; }
-   .home-banner .banner-left-content span { background-color: transparent; font-size: 63px; line-height: 74px; display: block; }
-   .home-banner .banner-left-content p { padding-top: 8px; color: #fff; display: inline-block; border-top: 1px solid rgba(255,255,255,.3); font-family: "Open Sans",sans-serif; }
-   .home-banner .banner-left-content .banner-btn { padding: 12px 10px; font-size: 17px; background-color: #f60; max-width: 180px; display: block; margin-inline: auto; }
-   .home-banner .mobile-banner-bg img { display: block; }
-   .home-banner .mobile-banner-bg { position: absolute; top: 0; z-index: 9; bottom: 0; height: 100%;width: 100%; }
-   .home-banner .home-banner-wrap { position: relative; z-index: 9; }
-   .home-banner .mobile-banner-bg img.mobile-banner-img { height: 100%; display: block; object-fit: cover;width: 100%;}
+   .home-banner .banner-left-content .banner-btn {padding: 12px 10px; font-size: 17px; background-color: #f60; max-width: 180px; display: block; margin-inline: auto; }
+   .home-banner .mobile-banner-bg img {display: block;}
+   .home-banner .mobile-banner-bg {position: absolute; top: 0; z-index: 9; bottom: 0; height: 100%;width: 100%; }
+   .home-banner .home-banner-wrap {position: relative; z-index: 9; }
 }

@@ -10,20 +10,11 @@ import 'swiper/css/pagination';
 
 export default function OwlSlider({ images }) {
   const [isPageLoaded, setIsPageLoaded] = useState(false);
-  const [isDesktop, setIsDesktop] = useState(false);
 
   useEffect(() => {
     const handleLoad = () => setIsPageLoaded(true);
 
-    // Check screen size
-    const checkIsDesktop = () => {
-      if (typeof window !== 'undefined') {
-        setIsDesktop(window.innerWidth >= 1024); // adjust breakpoint as needed
-      }
-    };
-
-    checkIsDesktop();
-
+    // Add event listener for full page load
     if (document.readyState === 'complete') {
       setIsPageLoaded(true);
     } else {
@@ -35,13 +26,8 @@ export default function OwlSlider({ images }) {
     };
   }, []);
 
-  if (!isDesktop) {
-    // Don’t show anything on mobile
-    return null;
-  }
-
   if (!isPageLoaded) {
-    // Show only first image before full load
+    // Render only the first image before page is fully loaded
     return (
       <Image
         src={images[0].image}
@@ -54,12 +40,12 @@ export default function OwlSlider({ images }) {
     );
   }
 
-  // Desktop + page loaded → show Swiper slider
+  // After page load, show the full slider
   return (
     <Swiper
       modules={[Autoplay, Navigation, Pagination]}
-      loop
-      navigation
+      loop={true}
+      navigation={true}
       pagination={{ clickable: true }}
       autoplay={{ delay: 3000, disableOnInteraction: false }}
       speed={450}

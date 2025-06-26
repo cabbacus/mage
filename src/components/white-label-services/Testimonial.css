@@ -11,3 +11,42 @@
 .client_testimonial .swiper-pagination {position: static;margin-top: 50px;}
 .client_testimonial .swiper-pagination .swiper-pagination-bullet {background: #E2E1E1;width: 50px;height: 4px;margin: 0 10px;border-top: 1px solid #FFFFFF;border-bottom: 1px solid #FFFFFF;border-radius: 0px;opacity: 1;transition: 0.3s ease;}
 .client_testimonial .swiper-pagination .swiper-pagination-bullet:hover, .client_testimonial .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {background: #FF6600;border-color: #FF6600;}
+
+@media screen and (max-width: 1699px) {
+    .client_testimonial .container {max-width: 92%;}
+}
+
+@media screen and (max-width: 1399px) {
+    .client_testimonial {padding-bottom: 80px;padding-top: 80px;}
+    .client_testimonial .title h4 {font-size: 36px;line-height: 50px;}
+    .client_testimonial .item {padding-left: 50px;}
+    .client_testimonial .item p {font-size: 20px;line-height: 32px;}
+}
+
+@media screen and (max-width: 1280px) {
+    .client_testimonial .container {max-width: 95%;}
+}
+
+@media screen and (max-width: 1199px) {
+    .client_testimonial .title h4 {font-size: 30px;line-height: 40px;}
+}
+
+@media screen and (max-width: 1024px) {
+    .client_testimonial .swiper-pagination {margin-top: 35px;}
+    .client_testimonial .swiper-pagination .swiper-pagination-bullet {width: 30px;margin: 0 5px;}
+}
+
+@media screen and (max-width: 991px) {
+    .client_testimonial .item p {margin-left: -45px;margin-top: 70px;font-size: 18px;line-height: 28px;}
+    .client_testimonial .item .testimonial_profile {margin-left: -45px;}
+}
+
+@media screen and (max-width: 767px) {
+    .client_testimonial {padding-bottom: 30px;padding-top: 30px;}
+    .client_testimonial .container {max-width: 97%;}
+    .client_testimonial .title h4 {padding-bottom: 20px;font-size: 24px;line-height: 36px;}
+    .client_testimonial .item p {margin-block: 80px 28px;padding-bottom: 35px;padding-left: 45px;font-size: 16px;line-height: 24px;}
+    .client_testimonial .item p:before {width: 40px;height: 40px;top: -40px;}
+    .client_testimonial .item p:after {width: 100px;}
+    .client_testimonial .swiper-pagination {margin-top: 26px;}
+}

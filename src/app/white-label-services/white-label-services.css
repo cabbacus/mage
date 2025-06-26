@@ -13,3 +13,75 @@
 .white-label-partner .list-style {margin-top: 60px;padding-left: 80px;max-width: 1616px;margin-left: auto;margin-right: auto;}
 .white-label-partner .list-style ul li {font-family: 'Fira Sans';font-size: 24px;line-height: 50px;color: #000000;position: relative;padding-left: 30px;flex-wrap: wrap;align-items: baseline;background: transparent;}
 .white-label-partner .list-style ul li:before {content: "";border: 3px solid #f60;width: 11px;height: 11px;position: absolute;z-index: 9;transform: rotate(45deg);border-left: none;border-bottom: none;left: -5px;top: 20px;}
+
+.custom-service-style .grid-services .service-list p {margin-bottom: 16px;}
+.custom-service-style .grid-services .service-list p:last-child {margin-bottom: 16px;}
+
+@media screen and (max-width: 1699px) {
+    .magento-services-include {max-width: calc(92% - 24px);}
+    .custom-service-style .container {max-width: 92%;}
+}
+
+@media screen and (max-width: 1399px) {
+    .magento-services-include .white-label-sr-desc p {font-size: 20px;line-height: 32px;}
+    .magento-services-include .b2c {font-size: 36px;line-height: 50px;}
+    .magento-services-include .list-style ul li {font-size: 20px;line-height: 32px;margin-bottom: 10px;}
+    .magento-services-include .list-style ul li:before {transform: translate(-50%, -70%) rotate(45deg);}
+    .white-label-partner .b2c {font-size: 36px;line-height: 50px;margin-bottom: 0px;}
+    .white-label-partner .list-style ul li {font-size: 20px;line-height: 32px;margin-bottom: 10px;}
+    .white-label-partner .list-style ul li:before {transform: translate(-50%, -70%) rotate(45deg);}
+    .custom-service-style .title h4 {font-size: 36px;line-height: 50px;margin: 30px 0px;}
+    .custom-service-style .grid-services .service-list {padding: 40px 30px;}
+    .custom-service-style .grid-services .service-list h4 {font-size: 36px;line-height: 50px;margin-bottom: 20px;}
+    .custom-service-style .grid-services .service-list p {font-size: 20px;line-height: 32px;}
+}
+
+@media screen and (max-width: 1280px) {
+    .magento-services-include {max-width: calc(95% - 24px);}
+    .custom-service-style .container {max-width: 95%;}
+}
+
+@media screen and (max-width: 1199px) {
+    .magento-services-include .b2c {font-size: 30px;line-height: 40px;}
+    .white-label-partner .b2c {font-size: 30px;line-height: 40px;}
+    .custom-service-style {padding-bottom: 80px;}
+    .custom-service-style .title h4 {font-size: 30px;line-height: 40px;}
+    .custom-service-style .grid-services .service-list h4 {font-size: 26px;line-height: 40px;}
+}
+
+@media screen and (max-width: 991px) {
+    .magento-services-include {padding: 65px 0 40px;}
+    .magento-services-include .white-label-sr-desc p {font-size: 18px;line-height: 28px;}
+    .magento-services-include .list-style ul li {font-size: 18px;line-height: 28px;}
+    .white-label-partner .list-style {padding-left: 30px;}
+    .white-label-partner .list-style ul li {font-size: 18px;line-height: 28px;}
+    .custom-service-style .grid-services .service-list {padding: 20px 25px;}
+    .custom-service-style .grid-services .service-list h4 {font-size: 23px;line-height: 30px;}
+    .custom-service-style .grid-services .service-list p {font-size: 16px;line-height: 24px;}
+}
+
+@media screen and (max-width: 767px) {
+    .magento-services-include {padding: 40px 0 30px;margin-top: 30px;}
+    .magento-services-include {max-width: calc(97% - 24px);}
+    .magento-services-include .white-label-sr-desc p {font-size: 16px;line-height: 24px;max-width: 97%;margin-left: auto;margin-right: auto;}
+    .magento-services-include .white-label-sr-desc p br {display: none;}
+    .magento-services-include .b2c {font-size: 24px;line-height: 36px;margin-bottom: 20px;}
+    .magento-services-include .list-style ul {max-width: 97%;width: 100%;margin-left: auto;margin-right: auto;}
+    .magento-services-include .list-style ul li {font-size: 16px;line-height: 24px;padding-left: 25px;margin-bottom: 10px;}
+    .magento-services-include .list-style ul li:before {top: 15px;left: 5px;border: 2px solid #f60;width: 8px;height: 8px;border-left: none;border-bottom: none;}
+    .white-label-partner {padding-bottom: 50px;}
+    .white-label-partner .b2c {font-size: 24px;line-height: 36px;}
+    .white-label-partner .row {margin: 0px 0px;}
+    .white-label-partner .b2c br {display: none;}
+    .white-label-partner .list-style {margin-top: 50px;padding-left: 0;}
+    .white-label-partner .list-style ul {max-width: 97%;width: 100%;margin-left: auto;margin-right: auto;margin-bottom: 0px;}
+    .white-label-partner .list-style ul li {font-size: 16px;line-height: 24px;padding-left: 25px;margin-bottom: 10px;}
+    .white-label-partner .list-style ul li:before {top: 15px;left: 5px;border: 2px solid #f60;width: 8px;height: 8px;border-left: none;border-bottom: none;}
+    .custom-service-style {padding-bottom: 40px;}
+    .custom-service-style .container {max-width: 97%;}
+    .custom-service-style .row {margin: 0px 0px;}
+    .custom-service-style .title h4 {font-size: 24px;line-height: 36px;}
+    .custom-service-style .grid-services .service-list {padding: 15px;}
+    .custom-service-style .grid-services .service-list h4 {font-size: 18px;line-height: 23px;text-align: center;}
+    .custom-service-style .grid-services .service-list p {text-align: center;}
+}

@@ -1,7 +1,7 @@
 .migrate-to-magento {margin: 174px 0px 130px 0px;padding: 0px 0px;}
-.highlights-steps h4 {font-size: 40px;font-weight: 700;text-align: center;line-height: 60px;margin-bottom: 30px;}
-.upgrade_process {padding-left: 25px;margin-bottom: 75px;}
-.upgrade_process li {font-family: 'Fira Sans';font-size: 24px;list-style: disc;text-align: left;margin-bottom: 10px;display: list-item;padding-left: 0;}
+.highlights-steps h4 {font-size: 40px;font-weight: 900;text-align: center;line-height: 60px;margin-bottom: 30px;letter-spacing: 0.1px;}
+.upgrade_process {margin-bottom: 80px;padding-left: 25px;}
+.upgrade_process li {font-family: 'Fira Sans';font-size: 24px;list-style: disc;text-align: left;margin-bottom: 10px;display: list-item;padding-left: 0px;line-height: 1.5;}
 
 .head-title p {font-family: 'Fira Sans';font-size: 24px;line-height: 50px;text-align: center;color: #000;}
 .migrate-to-magento .head-title {max-width: 1370px;margin-bottom: 84px;}
@@ -13,9 +13,73 @@
 .banner-sect {background-color: #313131;padding: 45px 50px;display: grid;grid-template-columns: 90px auto;margin-bottom: 120px;}
 .banner-sect p {font-family: 'Merriweather';font-size: 20px;line-height: 30px;color: #FFFFFF;margin-bottom: 0px;}
 
-.perform-it-head h4 {font-size: 40px;line-height: 60px;font-weight: 700;text-align: center;margin-bottom: 30px;}
+.perform-it-head h4 {font-size: 40px;line-height: 60px;font-weight: 900;text-align: center;margin-bottom: 30px;letter-spacing: 0.1px;}
 .perform-it-head p {font-family: 'Fira Sans';font-size: 24px;line-height: 50px;color: #000000;text-align: center;}
-
-.perform-it-inner {}
 .perform-it-left-right {display: grid;grid-template-columns: 102px auto;grid-column-gap: 50px;margin-top: 98px;}
 .perform-it-left-right p {font-family: 'Fira Sans';font-size: 24px;line-height: 50px;color: #000000;}
+
+.b2b-power {padding-top: 160px;}
+.b2b-power .background-image {padding-bottom: 45.6%;}
+.b2b-power .background-image img {object-fit: cover;max-height: 100%;object-position: left;}
+.b2b-power .b2b-power-content ul {margin-bottom: 0px;}
+
+.migrate-to-magento .head-title h4 {margin-bottom: 30px;}
+
+.time-line .time-line-process .service-list-content {padding-right: 60px;}
+
+@media screen and (max-width: 1399px) {
+    .b2b-power {padding-top: 120px;}
+    .migrate-to-magento {margin: 120px 0 90px;}
+    .highlights-steps h4 {font-size: 36px;line-height: 50px;margin-bottom: 20px;}
+    .upgrade_process li {font-size: 20px;line-height: 32px;}
+    .migrate-to-magento .head-title h4 {margin-bottom: 20px;}
+    .head-title p {font-size: 20px;line-height: 32px;}
+    .time-line .time-line-process {padding-bottom: 75px;}
+    .banner-sect p {font-size: 18px;letter-spacing: 0.1px;}
+    .perform-it-head h4 {font-size: 36px;line-height: 50px;margin-bottom: 20px;}
+    .perform-it-head p {font-size: 20px;line-height: 32px;}
+    .perform-it-left-right {margin-top: 70px;}
+    .perform-it-left-right p {font-size: 20px;line-height: 32px;}
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1199px) {
+    .migrate-to-magento {margin: 90px 0 70px;}
+    .highlights-steps h4 {font-size: 30px;line-height: 40px;}
+    .banner-sect {margin-bottom: 80px;padding: 40px;}
+    .perform-it-head h4 {font-size: 30px;line-height: 40px;}
+}
+
+@media screen and (max-width: 991px) {
+    .b2b-power {padding-top: 80px;}
+    .upgrade_process li {font-size: 18px;line-height: 28px;}
+    .head-title p {font-size: 18px;line-height: 28px;}
+    .time-line .time-line-process {grid-column-gap: 20px;}
+    .time-line .time-line-process .service-list-content {padding-right: 0;}
+    .banner-sect {margin-bottom: 70px;}
+    .perform-it-head p {font-size: 18px;line-height: 28px;}
+    .perform-it-left-right p {font-size: 18px;line-height: 28px;}
+}
+
+@media screen and (max-width: 767px) {
+    .b2b-power {padding-top: 50px;margin-bottom: 50px;}
+    .b2b-power .background-image {padding-bottom: 160%;}
+    .b2b-power .b2b-power-content {margin-bottom: 0px;}
+    .migrate-to-magento {margin: 40px 0 30px;}
+    .highlights-steps h4 {font-size: 24px;line-height: 36px;margin-bottom: 15px;}
+    .upgrade_process li {font-size: 16px;line-height: 24px;}
+    .upgrade_process {margin-bottom: 35px;}
+    .migrate-to-magento .head-title h4 {margin-bottom: 15px;}
+    .head-title p {font-size: 16px;line-height: 24px;}
+    .head-title p br {display: none;}
+
+    .time-line .time-line-process {grid-template-columns: auto;padding-bottom: 20px;}
+    .time-line .time-line-process:last-child {padding-bottom: 45px;}
+    .banner-sect {grid-template-columns: auto;grid-row-gap: 20px;padding: 20px;margin-bottom: 40px;}
+    .perform-it-head h4 {font-size: 24px;line-height: 36px;margin-bottom: 15px;}
+    .perform-it-head p {font-size: 16px;line-height: 24px;}
+    .perform-it-left-right {display: flex;flex-direction: column;justify-content: center;grid-row-gap: 30px;align-items: center;text-align: center;margin-top: 25px;}
+    .perform-it-left-right p {font-size: 16px;line-height: 24px;}
+}

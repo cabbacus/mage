@@ -20,14 +20,7 @@ export default function TopBannerSection({ title = '', topImage = '', sub_title 
 
         {topImage && (
           <div className="banner-img">
-            <Image
-              src={topImage}
-              alt="Magento eCommerce Store Banner"
-              width={438}
-              height={230}
-              className="rounded"
-              priority
-            />
+            <Image src={topImage} alt="Magento eCommerce Store Banner" width={438} height={230} priority />
           </div>
         )}
 

@@ -8,18 +8,22 @@ import SupportRequired from '@/components/SupportRequired/SupportRequired';
 import FooterForm from '@/components/FooterForm';
 import './critical-general-support.css';
 
-export const metadata = {
-  title: 'Mage Monkeys – Home',
-};
+import SEOHead from '@/components/SEOHead';
+import { getPageData } from '@/utils/pageData';
+import { getSeoMetadata } from '@/utils/seoHelper';
+
+export async function generateMetadata() {
+  const data = getPageData('home');
+  return getSeoMetadata(data);
+}
 
 export default async function Page() {
-  const filePath = path.join(process.cwd(), 'public/data/json/24-7-magento-critical-general-support.json');
-  const raw = fs.readFileSync(filePath, 'utf-8');
-  const data = JSON.parse(raw);
+  const data = getPageData('24-7-magento-critical-general-support');
   const acf = data.acf || {};
  
   return (
     <>
+      <SEOHead jsonLd={data?.aioseo_head_json?.schema} />
       <Header />
       <TopBannerSection title={data.title?.rendered} topImage="/data/images/24-7-magento-critical-general-support/certificate_new.png" sub_title={acf.gs_description} />
 

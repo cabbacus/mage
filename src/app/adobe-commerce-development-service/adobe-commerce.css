@@ -1,6 +1,53 @@
-.adobe-commerce-solutions .main-title h5 {font-size: 60px;color: #000;}
+.about-us {padding-bottom: 0px;}
+.about-us .banner-img {margin-bottom: 30px;}
+
+.adobe-commerce-solutions .main-title h5 {font-size: 60px;color: #000;font-weight: 900;letter-spacing: 0.1px;margin-bottom: 70px;line-height: 45px;}
 .adobe-commerce-solutions .solution-sec .nav-tabs li {max-width: 25%;width: 100%;}
-.adobe-commerce-solutions .solution-sec .nav-tabs li button {width: 100%;display: block;}
+.adobe-commerce-solutions .solution-sec .nav-tabs li button {width: 100%;display: block;font-weight: 900;}
+.solution-sec .nav-tabs li .nav-link {font-size: 18px;line-height: 1.5;}
 .adobe-commerce-solutions .tab-content .container {padding: 0px 24px;}
-.adobe-commerce-solutions .solution-sec .tab-content p {font-size: 22px;}
-.adobe-commerce-solutions .solution-sec .tab-content .action_btn {display: flex;justify-content: center;}
+.adobe-commerce-solutions .solution-sec .tab-content p strong {font-size: 22px;}
+.adobe-commerce-solutions .solution-sec .tab-content p {font-size: 20px;}
+.adobe-commerce-solutions .solution-sec .tab-content .action_btn {display: flex;justify-content: center;padding-top: 15px;}
+.adobe-commerce-solutions .solution-sec .tab-content .action_btn a {max-width: 313px;width: 100%;line-height: 1.5;}
+
+.description-section {padding-bottom: 80px;}
+.description-section .container {max-width: 1640px;}
+.description-section .description-wrp {padding: 65px 0px 70px 0px;background-color: #FAFAFA;}
+.description-section .description-wrp .description {max-width: 1394px;padding-left: 12px;padding-right: 12px;width: 100%;margin: 0px auto 30px auto;}
+.description-section .description-wrp .description p {font-family: 'Fira Sans';font-size: 24px;line-height: 50px;color: #000000;text-align: center;}
+
+.solution-sec .tab-content h5 a {font-weight: 900;letter-spacing: 0.1px;}
+
+.custom-service-style .row {margin-left: 0px;margin-right: 0px;}
+
+@media screen and (max-width: 1699px) {
+    .description-section .container {max-width: 92%;}
+    .description-section .description-wrp .description {max-width: 92%;}
+}
+
+@media screen and (max-width: 1399px) {
+    .description-section .description-wrp .description p {font-size: 20px;line-height: 32px;}
+    .adobe-commerce-solutions .main-title h5 {font-size: 45px;margin-bottom: 40px;}
+}
+
+@media screen and (max-width: 1280px) {
+    .description-section .container {max-width: 95%;}
+    .description-section .description-wrp .description {max-width: 95%;}
+}
+
+@media screen and (max-width: 991px) {
+    .description-section .description-wrp {padding: 65px 0 40px;}
+    .description-section .description-wrp .description p {font-size: 18px;line-height: 28px;}
+    .adobe-commerce-solutions .main-title h5 {font-size: 36px;line-height: 36px;margin-bottom: 30px;}
+}
+
+@media screen and (max-width: 767px) {
+    .solution-sec {padding: 30px 0;}
+    .description-section {padding-bottom: 50px;}
+    .description-section .container {max-width: 97%;}
+    .description-section .description-wrp {padding: 40px 0 30px;margin-top: 30px;}
+    .description-section .description-wrp .description {max-width: 97%;}
+    .description-section .description-wrp .description p {font-size: 16px;line-height: 24px;}
+    .adobe-commerce-solutions .main-title h5 {font-size: 27px;margin-bottom: 30px;}
+}
